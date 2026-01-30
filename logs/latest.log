@@ -1,5 +1,5 @@
-[16:02:39] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
-[16:02:40] [main/INFO]: Loading 43 mods:
+[00:47:28] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[00:47:29] [main/INFO]: Loading 43 mods:
 	- distanthorizons 2.4.5-b
 	   |-- fabric-api-base 1.0.5+4ebb5c0853
 	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f53
@@ -53,150 +53,352 @@
 	- java 21
 	- lithium 0.21.2+mc1.21.11
 	- minecraft 1.21.11
-[16:02:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/root/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:02:40] [main/INFO]: Compatibility level set to JAVA_21
-[16:02:41] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[16:02:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[16:03:06] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
-[16:03:06] [main/INFO]: Running library validation...
-[16:03:07] [main/INFO]: Garbage collectors: [G1 Young Generation, G1 Concurrent GC, G1 Old Generation]
-[16:03:07] [main/WARN]: Distant Horizons: G1 Garbage collector detected. 
+[00:47:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/root/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:47:29] [main/INFO]: Compatibility level set to JAVA_21
+[00:47:30] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[00:47:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[00:47:52] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[00:47:52] [main/INFO]: Running library validation...
+[00:47:52] [main/INFO]: Garbage collectors: [G1 Young Generation, G1 Concurrent GC, G1 Old Generation]
+[00:47:52] [main/WARN]: Distant Horizons: G1 Garbage collector detected. 
 This garbage collector can cause FPS stuttering. 
 It's recommended to use a concurrent garbage collector 
 like ZGC (Java 21+) or Shenandoah (Java 8 through 17) for a smoother experience. 
 
-[16:03:07] [main/INFO]: Distant Horizons, Version: 2.4.5-b
-[16:03:07] [main/INFO]: Registering Fabric Server Events
-[16:03:07] [main/INFO]: Skipping mod compatibility accessor for: [starlight]
-[16:03:07] [main/INFO]: Skipping mod compatibility accessor for: [optifine]
-[16:03:07] [main/INFO]: Skipping mod compatibility accessor for: [bclib]
-[16:03:07] [main/INFO]: Skipping mod compatibility accessor for: [c2me]
-[16:03:07] [main/INFO]: Skipping mod compatibility accessor for: [iris]
-[16:03:07] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
-[16:03:07] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[16:03:07] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
-[16:03:12] [main/INFO]: Loaded 1470 recipes
-[16:03:12] [main/INFO]: Loaded 1584 advancements
-[16:03:13] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 9.857 ms
-[16:03:13] [Server thread/INFO]: Initialising config for [DistantHorizons]
-[16:03:13] [Server thread/INFO]: [DistantHorizons] Config initialised
-[16:03:13] [Server thread/WARN]: Multiple potential preset options [LOW_IMPACT, BALANCED], defaulting to the first one.
-[16:03:13] [Server thread/INFO]: Dimension ignoring disabled, DH will render all dimensions.
-[16:03:13] [Server thread/INFO]: Applying config to loggers
-[16:03:13] [Server thread/INFO]: Running Delayed setup...
-[16:03:13] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
-[16:03:13] [Server thread/INFO]: Checking for Distant Horizons update
-[16:03:13] [Server thread/INFO]: Distant Horizons already up to date.
-[16:03:13] [Server thread/INFO]: Distant Horizons server Initialized at 
-[16:03:13] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
-[16:03:14] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[16:03:14] [Server thread/INFO]: Loading properties
-[16:03:14] [Server thread/INFO]: Default game type: SURVIVAL
-[16:03:14] [Server thread/INFO]: Generating keypair
-[16:03:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:03:14] [Server thread/INFO]: Preparing level "world"
-[16:03:15] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [./world/data/DistantHorizons.sqlite]
-[16:03:16] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[16:03:16] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
-[16:03:16] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Batch Chunk Generator initialized
-[16:03:16] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Creating world gen queue
-[16:03:16] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Created world gen queue
-[16:03:16] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Set world gen queue for level [minecraft:overworld].
-[16:03:16] [DH-ApplyConfigPresetTimer/WARN]: Multiple potential preset options [LOW_IMPACT, BALANCED], defaulting to the first one.
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
-[16:03:16] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[16:03:16] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM-1/data)]].
-[16:03:16] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO]: Batch Chunk Generator initialized
-[16:03:16] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO]: Creating world gen queue
-[16:03:16] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO]: Created world gen queue
-[16:03:16] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO]: Set world gen queue for level [minecraft:the_nether].
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [Server thread/INFO]: Running SQL update script: [sqlScripts/0090-sqlite-addAdjacentFullDataColumns.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
-[16:03:16] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[16:03:16] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM-1/data;./world/DIM1/data)]].
-[16:03:16] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO]: Batch Chunk Generator initialized
-[16:03:16] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO]: Creating world gen queue
-[16:03:16] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO]: Created world gen queue
-[16:03:16] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO]: Set world gen queue for level [minecraft:the_end].
-[16:03:16] [Server thread/INFO]: Loading 0 persistent chunks...
-[16:03:16] [Server thread/INFO]: Preparing spawn area: 100%
-[16:03:16] [Server thread/INFO]: Time elapsed: 143 ms
-[16:03:16] [Server thread/INFO]: Done (1.944s)! For help, type "help"
-[16:04:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[17:10:30] [User Authenticator #1/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
-[17:10:54] [Server thread/INFO]: pteren[/68.47.196.154:34818] logged in with entity id 13 at (-37.5, 64.0, 54.5)
-[17:10:54] [Server thread/INFO]: Player [pteren] joined.
-[17:10:54] [Server thread/INFO]: pteren joined the game
-[17:12:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4004ms or 80 ticks behind
-[17:20:39] [Netty Epoll IO #1/INFO]: Player [pteren] disconnected.
-[17:20:39] [Server thread/INFO]: pteren lost connection: Disconnected
-[17:20:39] [Server thread/INFO]: pteren left the game
-[17:20:49] [Server thread/INFO]: Set the time to 1000
-[17:21:00] [Server thread/INFO]: Stopping the server
-[17:21:00] [Server thread/INFO]: Stopping server
-[17:21:00] [Server thread/INFO]: Saving players
-[17:21:00] [Server thread/INFO]: Saving worlds
-[17:21:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:21:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:21:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:21:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:21:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:21:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:21:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:21:01] [Server thread/INFO]: Closing world gen queue
-[17:21:01] [Server thread/INFO]: Closing WorldGenerationQueue...
-[17:21:01] [Server thread/INFO]: Shutting down world generator thread pool...
-[17:21:01] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
-[17:21:01] [Server thread/INFO]: [BatchGenerator] shutting down...
-[17:21:01] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
-[17:21:01] [Server thread/INFO]: Finished closing WorldGenerationQueue
-[17:21:01] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
-[17:21:01] [Server thread/INFO]: Closing world gen queue
-[17:21:01] [Server thread/INFO]: Closing WorldGenerationQueue...
-[17:21:01] [Server thread/INFO]: Shutting down world generator thread pool...
-[17:21:01] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
-[17:21:01] [Server thread/INFO]: [BatchGenerator] shutting down...
-[17:21:01] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
-[17:21:01] [Server thread/INFO]: Finished closing WorldGenerationQueue
-[17:21:01] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
-[17:21:01] [Server thread/INFO]: Closing world gen queue
-[17:21:01] [Server thread/INFO]: Closing WorldGenerationQueue...
-[17:21:01] [Server thread/INFO]: Shutting down world generator thread pool...
-[17:21:01] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
-[17:21:01] [Server thread/INFO]: [BatchGenerator] shutting down...
-[17:21:01] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
-[17:21:01] [Server thread/INFO]: Finished closing WorldGenerationQueue
-[17:21:01] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
-[17:21:01] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
-[17:21:01] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
-[17:21:01] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
-[17:21:01] [Server thread/INFO]: Closing all [3] database connections...
-[17:21:01] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
-[17:21:01] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
-[17:21:01] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[00:47:52] [main/INFO]: Distant Horizons, Version: 2.4.5-b
+[00:47:52] [main/INFO]: Registering Fabric Server Events
+[00:47:52] [main/INFO]: Skipping mod compatibility accessor for: [starlight]
+[00:47:52] [main/INFO]: Skipping mod compatibility accessor for: [optifine]
+[00:47:52] [main/INFO]: Skipping mod compatibility accessor for: [bclib]
+[00:47:52] [main/INFO]: Skipping mod compatibility accessor for: [c2me]
+[00:47:52] [main/INFO]: Skipping mod compatibility accessor for: [iris]
+[00:47:52] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[00:47:52] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:47:57] [main/INFO]: Loaded 1470 recipes
+[00:47:57] [main/INFO]: Loaded 1584 advancements
+[00:47:57] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.852 ms
+[00:47:57] [Server thread/INFO]: Initialising config for [DistantHorizons]
+[00:47:58] [Server thread/INFO]: [DistantHorizons] Config initialised
+[00:47:58] [Server thread/WARN]: Multiple potential preset options [BALANCED, LOW_IMPACT], defaulting to the first one.
+[00:47:58] [Server thread/INFO]: Dimension ignoring disabled, DH will render all dimensions.
+[00:47:58] [Server thread/INFO]: Applying config to loggers
+[00:47:58] [Server thread/INFO]: Running Delayed setup...
+[00:47:58] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[00:47:58] [Server thread/INFO]: Checking for Distant Horizons update
+[00:47:58] [Server thread/INFO]: Distant Horizons already up to date.
+[00:47:58] [Server thread/INFO]: Distant Horizons server Initialized at 
+[00:47:58] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[00:47:58] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[00:47:58] [Server thread/INFO]: Loading properties
+[00:47:58] [Server thread/INFO]: Default game type: SURVIVAL
+[00:47:58] [Server thread/INFO]: Generating keypair
+[00:47:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:47:59] [Server thread/INFO]: Preparing level "world"
+[00:48:00] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[00:48:00] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:48:00] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Batch Chunk Generator initialized
+[00:48:00] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Creating world gen queue
+[00:48:01] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Created world gen queue
+[00:48:01] [DH-Request Module Ticker [minecraft:overworld] Thread[0]/INFO]: Set world gen queue for level [minecraft:overworld].
+[00:48:01] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:48:01] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/DIM-1/data;./world/data)]].
+[00:48:01] [DH-ApplyConfigPresetTimer/WARN]: Multiple potential preset options [BALANCED, LOW_IMPACT], defaulting to the first one.
+[00:48:01] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO]: Batch Chunk Generator initialized
+[00:48:01] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO]: Creating world gen queue
+[00:48:01] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO]: Created world gen queue
+[00:48:01] [DH-Request Module Ticker [minecraft:the_nether] Thread[0]/INFO]: Set world gen queue for level [minecraft:the_nether].
+[00:48:01] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:48:01] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/DIM1/data;./world/DIM-1/data;./world/data)]].
+[00:48:01] [Server thread/INFO]: Loading 0 persistent chunks...
+[00:48:01] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO]: Batch Chunk Generator initialized
+[00:48:01] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO]: Creating world gen queue
+[00:48:01] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO]: Created world gen queue
+[00:48:01] [DH-Request Module Ticker [minecraft:the_end] Thread[0]/INFO]: Set world gen queue for level [minecraft:the_end].
+[00:48:01] [Server thread/INFO]: Preparing spawn area: 100%
+[00:48:01] [Server thread/INFO]: Time elapsed: 88 ms
+[00:48:01] [Server thread/INFO]: Done (1.642s)! For help, type "help"
+[00:49:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:49:06] [User Authenticator #1/INFO]: UUID of player MayhemFirefly is 9cbedc52-cb5a-4399-8a2e-1fdabb1b2320
+[00:49:10] [Server thread/INFO]: MayhemFirefly[/185.252.220.152:2216] logged in with entity id 48 at (-38.5, 68.0, 45.5)
+[00:49:10] [Server thread/INFO]: Player [MayhemFirefly] joined.
+[00:49:10] [Server thread/INFO]: MayhemFirefly joined the game
+[00:49:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[00:50:02] [User Authenticator #2/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
+[00:50:04] [Server thread/INFO]: pteren[/98.240.84.89:46504] logged in with entity id 716 at (-6.53782086265617, 71.0, -28.86211031864997)
+[00:50:04] [Server thread/INFO]: Player [pteren] joined.
+[00:50:04] [Server thread/INFO]: pteren joined the game
+[00:50:14] [Server thread/INFO]: <pteren> huh
+[00:50:19] [Server thread/INFO]: <MayhemFirefly> hey is this resetted
+[00:50:21] [Server thread/INFO]: <pteren> IT DIDNT SAVE
+[00:50:32] [Server thread/INFO]: <MayhemFirefly> eah brown sheep is un-killed
+[00:50:36] [Server thread/INFO]: <pteren> yeah this script is. problematic
+[00:50:36] [Server thread/INFO]: <MayhemFirefly> XD
+[00:51:24] [Server thread/INFO]: pteren has made the advancement [Stone Age]
+[00:51:29] [Server thread/INFO]: pteren has made the advancement [Getting an Upgrade]
+[00:51:52] [DH-World Gen Thread[0]/INFO]: WorldGen requiring [minecraft:structure_starts] is outside the expected range. Returning EMPTY chunk.
+[00:54:35] [Server thread/INFO]: <pteren> COPPER AT SPAWWN
+[00:54:55] [Server thread/INFO]: <MayhemFirefly> epic! getting sheep
+[00:54:59] [Server thread/INFO]: <MayhemFirefly> beds
+[00:55:01] [Server thread/INFO]: pteren has made the advancement [Monster Hunter]
+[00:55:15] [Server thread/INFO]: <MayhemFirefly> and pumpkins apparently
+[00:55:22] [Server thread/INFO]: <pteren> yum
+[00:55:45] [Server thread/INFO]: <MayhemFirefly> horses n plains n pumpkins place
+[00:56:15] [Server thread/INFO]: <MayhemFirefly> ACACIA
+[00:58:50] [Server thread/INFO]: <pteren> help
+[00:58:53] [Server thread/INFO]: <pteren> am hurt
+[01:01:37] [Server thread/INFO]: pteren was slain by Spider
+[01:01:47] [Server thread/INFO]: <pteren> OW
+[01:02:35] [Server thread/INFO]: <MayhemFirefly> almost to where you were
+[01:02:43] [Server thread/INFO]: <MayhemFirefly> dug to hide the rest of the night
+[01:03:47] [Server thread/INFO]: <pteren> dont hide!
+[01:03:51] [Server thread/INFO]: <pteren> come help me build
+[01:05:15] [Server thread/INFO]: MayhemFirefly has made the advancement [Monster Hunter]
+[01:07:26] [Server thread/INFO]: <pteren> OOH!
+[01:07:32] [Server thread/INFO]: <MayhemFirefly> ou earned this darling
+[01:08:27] [Server thread/INFO]: pteren was shot by Skeleton
+[01:08:35] [Server thread/INFO]: MayhemFirefly was shot by Skeleton
+[01:08:36] [Server thread/INFO]: <pteren> i opened the WORKBENCH
+[01:09:45] [Server thread/INFO]: <MayhemFirefly> i miss the free map XD
+[01:09:51] [Server thread/INFO]: <pteren> ?
+[01:09:58] [Server thread/INFO]: <MayhemFirefly> dst spoiled me
+[01:10:18] [Server thread/INFO]: <pteren> oh
+[01:10:24] [Server thread/INFO]: <pteren> get a mod for it
+[01:10:30] [Server thread/INFO]: <pteren> i hear plp like xaeros
+[01:10:46] [Server thread/INFO]: <MayhemFirefly> what does that sentence Mean
+[01:10:58] [Server thread/INFO]: <pteren> xaeros is a map mod
+[01:11:00] [Server thread/INFO]: MayhemFirefly has made the advancement [Getting an Upgrade]
+[01:11:04] [Server thread/INFO]: <pteren> which ppl like
+[01:11:07] [Server thread/INFO]: <MayhemFirefly> ooo ok
+[01:11:18] [Server thread/INFO]: MayhemFirefly has made the advancement [Stone Age]
+[01:11:54] [Server thread/INFO]: <MayhemFirefly> pteren pteren
+[01:12:02] [Server thread/INFO]: <pteren> ?
+[01:12:05] [Server thread/INFO]: <MayhemFirefly> we need to make a pumpkin farm
+[01:12:16] [Server thread/INFO]: <MayhemFirefly> so we can make a floor out of pumpkins
+[01:13:36] [Server thread/INFO]: <MayhemFirefly> AH water down here
+[01:13:46] [Server thread/INFO]: <MayhemFirefly> i got wet
+[01:13:52] [Server thread/INFO]: <MayhemFirefly> i mean wetter
+[01:13:58] [Server thread/INFO]: <MayhemFirefly> kidding
+[01:14:05] [Server thread/INFO]: <pteren> LOL
+[01:14:41] [Server thread/INFO]: <MayhemFirefly> may I make a pumpkin farm captain?
+[01:14:50] [Server thread/INFO]: <pteren> yes ofc?
+[01:16:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
+[01:16:43] [Server thread/INFO]: <pteren> O NO
+[01:16:47] [Server thread/INFO]: <pteren> my jungle saplings :(
+[01:16:57] [Server thread/INFO]: <MayhemFirefly> YAYYY
+[01:18:25] [Server thread/INFO]: <MayhemFirefly> are copper uckets a Thing
+[01:18:29] [Server thread/INFO]: <pteren> nope
+[01:18:31] [Server thread/INFO]: <pteren> too soft
+[01:18:52] [Server thread/INFO]: <MayhemFirefly> like me
+[01:19:03] [Server thread/INFO]: <MayhemFirefly> a handsom bitch with a soft face
+[01:19:10] [Server thread/INFO]: <MayhemFirefly> or somethng
+[01:19:22] [Server thread/INFO]: <pteren> i love you
+[01:19:51] [Server thread/INFO]: <MayhemFirefly> you should kiss my cheek while i hug you
+[01:20:39] [Server thread/INFO]: <pteren> *MWAH*
+[01:20:46] [Server thread/INFO]: <MayhemFirefly> eeeeee
+[01:20:59] [Server thread/INFO]: MayhemFirefly was slain by Spider
+[01:21:11] [Server thread/INFO]: <MayhemFirefly> the sppears don't WHACK
+[01:21:22] [Server thread/INFO]: <pteren> they dont work at close ran
+[01:22:32] [Server thread/INFO]: MayhemFirefly was slain by Spider
+[01:22:53] [Server thread/INFO]: pteren was blown up by Creeper
+[01:23:01] [Server thread/INFO]: <pteren> lol wha
+[01:23:24] [Server thread/INFO]: MayhemFirefly was blown up by Creeper
+[01:23:35] [Server thread/INFO]: <MayhemFirefly> hehehe they look desperate
+[01:23:39] [Server thread/INFO]: <MayhemFirefly> they want me so bad
+[01:24:00] [Server thread/INFO]: <pteren> as they should
+[01:24:22] [Server thread/INFO]: <MayhemFirefly> who doesn't
+[01:24:33] [Server thread/INFO]: <pteren> nobody i know
+[01:25:12] [Server thread/INFO]: MayhemFirefly was slain by Zombie
+[01:25:42] [Server thread/INFO]: <pteren> spears do almost no damage unless you ch
+[01:25:45] [Server thread/INFO]: <pteren> charge
+[01:25:53] [Server thread/INFO]: <MayhemFirefly> well i had it until i fell in a hole LMAO
+[01:25:58] [Server thread/INFO]: <pteren> PFF
+[01:26:59] [Server thread/INFO]: MayhemFirefly was speared by pteren
+[01:27:14] [Server thread/INFO]: <pteren> :3
+[01:27:17] [Server thread/INFO]: <MayhemFirefly> you have better things to impale me with than spears
+[01:27:47] [Server thread/INFO]: <pteren> *blinks*
+[01:28:05] [Server thread/INFO]: <MayhemFirefly> said that to be funny you can kill me for that if you want
+[01:28:58] [Server thread/INFO]: MayhemFirefly suffocated in a wall
+[01:29:00] [Server thread/INFO]: <pteren> lol
+[01:29:04] [Server thread/INFO]: <pteren> get sanded
+[01:29:07] [Server thread/INFO]: <MayhemFirefly> the bathere was a bat
+[01:29:55] [Server thread/INFO]: <pteren> OH im lagging bc not plugged in
+[01:30:27] [Server thread/INFO]: <MayhemFirefly> _i_ am not lagging
+[01:30:29] [Server thread/INFO]: <pteren> pff. you are funny and i wont kill you
+[01:30:48] [Server thread/INFO]: <pteren> well. i did kill you but it wasnt for the inuendo it was to be funny
+[01:30:58] [Server thread/INFO]: <MayhemFirefly> XDD
+[01:31:07] [Server thread/INFO]: <pteren> just didnt expect that from you
+[01:31:23] [Server thread/INFO]: <MayhemFirefly> it's too late to filter
+[01:31:29] [Server thread/INFO]: <pteren> LOL
+[01:31:32] [Server thread/INFO]: <pteren> real
+[01:31:57] [Server thread/INFO]: <MayhemFirefly> and i have to PROVE I WOULDN'T DIE FROM STEPPING IN A SEX STORE like a VAMPIRE ON HOLY GROUNDS
+[01:32:04] [Server thread/INFO]: <pteren> that being said you're welcome to make jokes
+[01:32:13] [Server thread/INFO]: <pteren> darling you have nothing to prove to me :)
+[01:32:23] [Server thread/INFO]: <pteren> i told you it was zuri who thought you wouldn't do it
+[01:32:33] [Server thread/INFO]: <MayhemFirefly> IK! i'm murduring her
+[01:32:39] [Server thread/INFO]: <pteren> (also if you wanna make out just lmk)
+[01:32:55] [Server thread/INFO]: <MayhemFirefly> i wish tbh
+[01:33:04] [Server thread/INFO]: <MayhemFirefly> if i were ther i'd be down for it
+[01:33:11] [Server thread/INFO]: <pteren> COME HERE THEN
+[01:33:45] [Server thread/INFO]: <MayhemFirefly> hey daring your windows are corroding
+[01:33:52] [Server thread/INFO]: <pteren> scrap em off
+[01:34:20] [Server thread/INFO]: <MayhemFirefly> oh
+[01:34:30] [Server thread/INFO]: <MayhemFirefly> was looking for iron
+[01:34:38] [Server thread/INFO]: <MayhemFirefly> punkin farm
+[01:35:10] [Server thread/INFO]: pteren fell from a high place
+[01:35:17] [Server thread/INFO]: <pteren> YOU MOVED THE WATER
+[01:35:36] [Server thread/INFO]: <MayhemFirefly> HAHAHAHAHA
+[01:35:40] [Server thread/INFO]: <pteren> >:(((
+[01:37:40] [Server thread/INFO]: <MayhemFirefly> this song is cool
+[01:37:56] [Server thread/INFO]: <MayhemFirefly> "lemme dance like a bug on a cinema screen"
+[01:38:02] [Server thread/INFO]: <MayhemFirefly> funny
+[01:39:17] [Server thread/INFO]: <pteren> what 2nd floor?
+[01:39:29] [Server thread/INFO]: <MayhemFirefly> WATCHTOWER
+[01:39:38] [Server thread/INFO]: <pteren> no i mean what block floor/ceiling?
+[01:39:54] [Server thread/INFO]: <MayhemFirefly> PUMPKINS
+[01:40:05] [Server thread/INFO]: <pteren> its night now -_-
+[01:40:10] [Server thread/INFO]: <MayhemFirefly> hm ew sandstone
+[01:41:02] [Server thread/INFO]: <MayhemFirefly> i wanna kick butts
+[01:45:34] [Server thread/INFO]: <MayhemFirefly> how deep is iron? was like -11/12?
+[01:45:46] [Server thread/INFO]: <pteren> positive i thought
+[01:46:11] [Server thread/INFO]: <MayhemFirefly> oki
+[01:48:31] [Server thread/INFO]: <MayhemFirefly> btw ily
+[01:48:37] [Server thread/INFO]: <pteren> i love you :)
+[01:50:53] [Server thread/INFO]: <MayhemFirefly> why are positive numbers so far downnn
+[01:51:10] [Server thread/INFO]: <pteren> ?
+[01:51:49] [Server thread/INFO]: <MayhemFirefly> i am weird XD
+[01:52:11] [Server thread/INFO]: <pteren> yeah <3
+[01:52:50] [Server thread/INFO]: <MayhemFirefly> i am in very slight pain that's why i am all forward and wonky
+[01:53:08] [Server thread/INFO]: <pteren> w
+[01:53:11] [Server thread/INFO]: <MayhemFirefly> there is a very specific level where that is the effect
+[01:53:12] [Server thread/INFO]: <pteren> aw im sorry
+[01:53:17] [Server thread/INFO]: <pteren> wwwwwwwwwwwwwwwwwwwwwww
+[01:53:21] [Server thread/INFO]: <MayhemFirefly> don't be sorry it's not bad
+[01:53:25] [Server thread/INFO]: <pteren> idc if you are wonky
+[01:53:55] [Server thread/INFO]: <MayhemFirefly> well it's the level between i wouldn't notice and annoying
+[01:54:05] [Server thread/INFO]: <MayhemFirefly> idk why i like it XD
+[01:57:18] [Server thread/INFO]: <pteren> you're wonderful
+[01:57:30] [Server thread/INFO]: <pteren> it makes me so unbelievably happy
+[01:57:33] [Server thread/INFO]: <MayhemFirefly> you too (:
+[01:57:39] [Server thread/INFO]: <pteren> that you let me see these parts of yourself
+[01:58:07] [Server thread/INFO]: <MayhemFirefly> the kinky bastard pat XD
+[01:58:12] [Server thread/INFO]: <MayhemFirefly> *part
+[01:58:22] [Server thread/INFO]: <pteren> it doesn't matter if you're happy or fed up or manic or horny. i get to see it and see you being yourself
+[01:58:26] [Server thread/INFO]: <pteren> its so comforting
+[01:58:41] [Server thread/INFO]: <pteren> and beautiful
+[01:58:43] [Server thread/INFO]: <MayhemFirefly> (:
+[01:58:54] [Server thread/INFO]: <MayhemFirefly> i love you so much
+[01:59:08] [Server thread/INFO]: <MayhemFirefly> few people can stand in my unfiltered storm
+[02:00:21] [Server thread/INFO]: <pteren> hehe
+[02:00:41] [Server thread/INFO]: <MayhemFirefly> found dripleafs
+[02:01:16] [Server thread/INFO]: <MayhemFirefly> axolotls
+[02:01:18] [Server thread/INFO]: <pteren> :)
+[02:01:22] [Server thread/INFO]: <MayhemFirefly> lava
+[02:01:31] [Server thread/INFO]: <MayhemFirefly> i'll show you where if u want
+[02:01:49] [Server thread/INFO]: <pteren> i can see the lil dot
+[02:02:03] [Server thread/INFO]: <MayhemFirefly> i mean how to get there
+[02:02:24] [Server thread/INFO]: <pteren> theres an azalea right at spawn :)
+[02:02:41] [Server thread/INFO]: <MayhemFirefly> ik
+[02:03:42] [Server thread/INFO]: <MayhemFirefly> i lit the way to it
+[02:03:43] [Server thread/INFO]: <pteren> WELCOME HOME!!
+[02:04:41] [Server thread/INFO]: <MayhemFirefly> beautiful
+[02:04:44] [Server thread/INFO]: <MayhemFirefly> like u
+[02:04:49] [Server thread/INFO]: <pteren> what about a slab floor here?
+[02:04:58] [Server thread/INFO]: <pteren> maybe not bamboo...
+[02:05:05] [Server thread/INFO]: <pteren> polished granite
+[02:06:43] [Server thread/INFO]: <MayhemFirefly> hey
+[02:06:46] [Server thread/INFO]: <MayhemFirefly> hey look
+[02:06:48] [Server thread/INFO]: <pteren> ?
+[02:06:50] [Server thread/INFO]: <MayhemFirefly> sunrise
+[02:07:04] [Server thread/INFO]: <pteren> <3
+[02:08:08] [Server thread/INFO]: <MayhemFirefly> where should my flesh room be >:)
+[02:08:14] [Server thread/INFO]: <pteren> hehehehhehehe
+[02:08:30] [Server thread/INFO]: <pteren> basement
+[02:08:37] [Server thread/INFO]: <MayhemFirefly> aye
+[02:08:44] [Server thread/INFO]: <pteren> secret door
+[02:08:51] [Server thread/INFO]: <pteren> 2 block ceilings
+[02:08:57] [Server thread/INFO]: <pteren> every block different
+[02:09:03] [Server thread/INFO]: <pteren> copper torches
+[02:09:24] [Server thread/INFO]: <pteren> dried kelp
+[02:09:29] [Server thread/INFO]: <pteren> real sicko vibes
+[02:09:30] [Server thread/INFO]: <MayhemFirefly> YES
+[02:10:57] [Server thread/INFO]: <MayhemFirefly> i have found no iron yet ):
+[02:11:02] [Server thread/INFO]: <pteren> damn.
+[02:11:20] [Server thread/INFO]: <pteren> was there none in that ravine?
+[02:12:09] [Server thread/INFO]: <MayhemFirefly> didn't look in ravine
+[02:12:20] [Server thread/INFO]: <MayhemFirefly> u sure it's not y16?
+[02:12:28] [Server thread/INFO]: <pteren> no
+[02:12:44] [Server thread/INFO]: <MayhemFirefly> alr i'm going to try 16
+[02:13:45] [Server thread/INFO]: <pteren> i really need to rewrite the startup script lol
+[02:13:57] [Server thread/INFO]: <pteren> qurat-ul-ain got Claude to write it
+[02:14:05] [Server thread/INFO]: <pteren> it works but. mmmmmmmmmm
+[02:19:23] [Server thread/INFO]: <pteren> friend's mom is trying to name my squid
+[02:19:44] [Server thread/INFO]: <MayhemFirefly> (:
+[02:20:02] [Server thread/INFO]: <pteren> mango?
+[02:20:53] [Server thread/INFO]: <MayhemFirefly> O:
+[02:21:04] [Server thread/INFO]: <MayhemFirefly> i like that
+[02:22:16] [Server thread/INFO]: <pteren> kumquat
+[02:22:37] [Server thread/INFO]: <MayhemFirefly> lol maybe as a middle name
+[02:24:40] [Server thread/INFO]: <pteren> MARIGOLD
+[02:25:05] [Server thread/INFO]: <MayhemFirefly> Mango Marigold Haven?
+[02:25:15] [Server thread/INFO]: <pteren> :)
+[02:25:24] [Server thread/INFO]: <pteren> did you name yours?
+[02:25:53] [Server thread/INFO]: <MayhemFirefly> i don't think so. i call it uqibu sometimes but that's all
+[02:26:13] [Server thread/INFO]: <pteren> :)
+[02:26:17] [Server thread/INFO]: <pteren> i love you so much
+[02:26:23] [Server thread/INFO]: <pteren> call yours mango then!
+[02:26:38] [Server thread/INFO]: <pteren> mine will be kumquat >:)
+[02:27:32] [Server thread/INFO]: <pteren> hey i wanna save the world
+[02:27:47] [Server thread/INFO]: <pteren> before my internet goes out and it gets deleted -_-
+[02:27:50] [Server thread/INFO]: <MayhemFirefly> about Uki Bu Haven
+[02:28:10] [Server thread/INFO]: <MayhemFirefly> Bu is an actual name
+[02:28:28] [Server thread/INFO]: <pteren> ukibu is one word =^=
+[02:28:32] [Server thread/INFO]: <MayhemFirefly> alright darlin' save the world
+[02:28:37] [Server thread/INFO]: <pteren> ok <3
+[02:28:38] [Netty Epoll IO #2/INFO]: Player [pteren] disconnected.
+[02:28:38] [Server thread/INFO]: pteren lost connection: Disconnected
+[02:28:38] [Server thread/INFO]: pteren left the game
+[02:28:44] [Server thread/INFO]: Stopping the server
+[02:28:44] [Server thread/INFO]: Stopping server
+[02:28:44] [Server thread/INFO]: Saving players
+[02:28:44] [Netty Epoll IO #1/INFO]: Player [MayhemFirefly] disconnected.
+[02:28:44] [Server thread/INFO]: MayhemFirefly lost connection: Server closed
+[02:28:44] [Server thread/INFO]: MayhemFirefly left the game
+[02:28:44] [Server thread/INFO]: Saving worlds
+[02:28:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:28:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:28:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:28:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:28:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:28:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:28:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:28:45] [Server thread/INFO]: Closing world gen queue
+[02:28:45] [Server thread/INFO]: Closing WorldGenerationQueue...
+[02:28:45] [Server thread/INFO]: Shutting down world generator thread pool...
+[02:28:45] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
+[02:28:45] [Server thread/INFO]: [BatchGenerator] shutting down...
+[02:28:45] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
+[02:28:45] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[02:28:45] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[02:28:45] [Server thread/INFO]: Closing world gen queue
+[02:28:45] [Server thread/INFO]: Closing WorldGenerationQueue...
+[02:28:45] [Server thread/INFO]: Shutting down world generator thread pool...
+[02:28:45] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
+[02:28:45] [Server thread/INFO]: [BatchGenerator] shutting down...
+[02:28:45] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
+[02:28:45] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[02:28:45] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[02:28:45] [Server thread/INFO]: Closing world gen queue
+[02:28:45] [Server thread/INFO]: Closing WorldGenerationQueue...
+[02:28:45] [Server thread/INFO]: Shutting down world generator thread pool...
+[02:28:45] [Server thread/INFO]: World generator thread pool shutdown with [0] incomplete tasks.
+[02:28:45] [Server thread/INFO]: [BatchGenerator] shutting down...
+[02:28:45] [Server thread/INFO]: Closing [BatchGenerationEnvironment]
+[02:28:45] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[02:28:45] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[02:28:45] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[02:28:45] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[02:28:45] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[02:28:45] [Server thread/INFO]: Closing all [3] database connections...
+[02:28:45] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[02:28:45] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[02:28:45] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
