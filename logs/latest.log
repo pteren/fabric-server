@@ -1,1166 +1,183 @@
-[17:16:27] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
-[17:16:27] [main/INFO]: Loading 42 mods:
-	- fabric-api 0.141.1+1.21.11
-	   |-- fabric-api-base 1.0.5+4ebb5c083e
-	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
-	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
-	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
-	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
-	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
-	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
-	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
-	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
-	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
-	   |-- fabric-data-attachment-api-v1 1.8.46+b6ef3aec3e
-	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
-	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
-	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
-	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
-	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
-	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
-	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
-	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
-	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
-	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
-	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
-	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
-	   |-- fabric-model-loading-api-v1 6.0.14+4fc5413f3e
-	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
-	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
-	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
-	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
-	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
-	   |-- fabric-renderer-api-v1 8.0.2+f4ffd2e53e
-	   |-- fabric-renderer-indigo 5.0.2+f4ffd2e53e
-	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
-	   |-- fabric-rendering-v1 16.2.9+7edacff13e
-	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
-	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
-	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
-	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
-	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
-	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
-	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
-	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
-	   |-- fabric-transfer-api-v1 6.0.24+4fc5413f3e
-	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
-	- fabricloader 0.18.4
-	   \-- mixinextras 0.5.0
-	- java 21
-	- lithium 0.21.2+mc1.21.11
-	- minecraft 1.21.11
-[17:16:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/root/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:16:28] [main/INFO]: Compatibility level set to JAVA_21
-[17:16:28] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[17:16:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[17:16:52] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:16:59] [main/INFO]: Loaded 1470 recipes
-[17:16:59] [main/INFO]: Loaded 1584 advancements
-[17:16:59] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 6.222 ms
-[17:16:59] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[17:16:59] [Server thread/INFO]: Loading properties
-[17:16:59] [Server thread/INFO]: Default game type: SURVIVAL
-[17:16:59] [Server thread/INFO]: Generating keypair
-[17:16:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:16:59] [Server thread/INFO]: Preparing level "world"
-[17:17:01] [Server thread/INFO]: Loading 0 persistent chunks...
-[17:17:01] [Server thread/INFO]: Preparing spawn area: 100%
-[17:17:01] [Server thread/INFO]: Time elapsed: 122 ms
-[17:17:01] [Server thread/INFO]: Done (1.546s)! For help, type "help"
-[17:18:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[17:20:34] [User Authenticator #1/INFO]: UUID of player Vernaron is 59d7420e-c5cd-4c48-bae7-aa3d100d83fe
-[17:20:37] [Server thread/INFO]: Vernaron[/24.149.121.221:57379] logged in with entity id 43 at (-21.5, 67.0, 45.5)
-[17:20:37] [Server thread/INFO]: Vernaron joined the game
-[17:21:23] [Server thread/INFO]: Vernaron has made the advancement [Sweet Dreams]
-[17:23:41] [User Authenticator #2/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
-[17:23:43] [Server thread/INFO]: pteren[/155.117.189.90:39139] logged in with entity id 1025 at (30.051980695193084, 71.0, -25.302556132278145)
-[17:23:43] [Server thread/INFO]: pteren joined the game
-[17:23:49] [Server thread/INFO]: <pteren> !!!
-[17:24:01] [Server thread/INFO]: <pteren> ~!
-[17:24:16] [Server thread/INFO]: <Vernaron> ~!
-[17:24:33] [Server thread/INFO]: <pteren> !!
-[17:25:01] [Server thread/INFO]: <pteren> come in theres chestsss
-[17:25:46] [Server thread/INFO]: <pteren> i made the floor plan too big and im panicking
-[17:25:57] [Server thread/INFO]: <Vernaron> pff
-[17:26:06] [Server thread/INFO]: <pteren> this is what happens when you make the dining room first
-[17:26:33] [Server thread/INFO]: <Vernaron> what is the sorting method on these pillars?
-[17:26:43] [Server thread/INFO]: <pteren> very arbitrary
-[17:26:49] [Server thread/INFO]: <Vernaron> sobs
-[17:26:54] [Server thread/INFO]: <pteren> the shelves only tell you what's in the bottom chests
-[17:27:01] [Server thread/INFO]: <Vernaron> i noticed
-[17:27:01] [Server thread/INFO]: <pteren> was thinking of doing...
-[17:27:22] [Server thread/INFO]: <pteren> like that
-[17:27:25] [Server thread/INFO]: <Vernaron> nods
-[17:27:29] [Server thread/INFO]: <pteren> for the middle chests
-[17:27:32] [Server thread/INFO]: <pteren> then no top chest
-[17:27:36] [Server thread/INFO]: <pteren> but its probably fine?
-[17:27:43] [Server thread/INFO]: <pteren> bulk storage can be later
-[17:27:44] [Server thread/INFO]: <Vernaron> id do something like a hopper sorter but that requires Yes iron
-[17:28:01] [Server thread/INFO]: <pteren> theres a village nearby and we have a dried ghast
-[17:28:11] [Server thread/INFO]: <pteren> so we can airlift an iron farm in anytime
-[17:28:26] [Server thread/INFO]: <Vernaron> yeah but it needs a whole tower construction thing...
-[17:28:35] [Server thread/INFO]: <pteren> no it doesn't
-[17:28:41] [Server thread/INFO]: <pteren> i can make an iron farm in 4 minutes
-[17:29:07] [Server thread/INFO]: <Vernaron> you have to make sure they dont spawn golems on the ground?
-[17:29:18] [Server thread/INFO]: <pteren> its dug *into* the ground
-[17:29:27] [Server thread/INFO]: <Vernaron> oh so you dont make a tower you make a pit
-[17:29:29] [Server thread/INFO]: <pteren> just needs a flat space w/o caves
-[17:29:29] [Server thread/INFO]: <Vernaron> gotya
-[17:29:30] [Server thread/INFO]: <pteren> mhm
-[17:29:34] [Server thread/INFO]: <Vernaron> reverse tower
-[17:29:39] [Server thread/INFO]: Vernaron has made the advancement [A Seedy Place]
-[17:30:30] [Server thread/INFO]: <pteren> idk what rooms to make
-[17:30:42] [Server thread/INFO]: <Vernaron> mmm
-[17:30:47] [Server thread/INFO]: <Vernaron> idk im not a builder
-[17:31:00] [Server thread/INFO]: <pteren> its ok think functional
-[17:31:08] [Server thread/INFO]: <pteren> bottom floor should have all the necessities
-[17:31:16] [Server thread/INFO]: <pteren> pretty stuff can go upstairs
-[17:31:47] [Server thread/INFO]: <pteren> this stone room is going to have enchanting/smithing/smelting
-[17:31:59] [Server thread/INFO]: <Vernaron> i saw the double smelter but you could prolly stand to have a more scaled approach..
-[17:32:06] [Server thread/INFO]: <Vernaron> mmm
-[17:32:20] [Server thread/INFO]: <pteren> definitely
-[17:32:44] [Server thread/INFO]: <Vernaron> i have a minecart-based approach that i like
-[17:32:52] [Server thread/INFO]: <pteren> how much space do you need?
-[17:33:06] [Server thread/INFO]: <Vernaron> depends on the number of furnaces
-[17:33:20] [Server thread/INFO]: <pteren> lets say 16
-[17:34:16] [Server thread/INFO]: <Vernaron> well its (im spitballing here) roughly a 3x6xfurnaces space for the primary smelter array
-[17:34:45] [Server thread/INFO]: <Vernaron> then a relatively small input area at one end and a buffere at the other
-[17:35:16] [Server thread/INFO]: <Vernaron> i have it in a test world i can take a screenshot and show you
-[17:35:50] [Server thread/INFO]: <Vernaron> want me to?
-[17:36:09] [Server thread/INFO]: <pteren> i think we've got enough space under the dining room it shouldn't be an issue
-[17:36:13] [Server thread/INFO]: <pteren> input can go here
-[17:36:24] [Server thread/INFO]: <Vernaron> nods
-[17:36:51] [Server thread/INFO]: <Vernaron> it needs 2 slots for input (fuel, material) and 1 for output
-[17:37:00] [Server thread/INFO]: <pteren> take whatever you need
-[17:37:06] [Server thread/INFO]: <pteren> oh i guess iron
-[17:37:11] [Server thread/INFO]: <Vernaron> yeah
-[17:37:21] [Server thread/INFO]: <Vernaron> thats a bit of the problem
-[17:37:35] [Server thread/INFO]: <pteren> well lets start hydrating that ghast
-[17:37:44] [Server thread/INFO]: <Vernaron> automation things all require metric assloads of iron
-[17:37:50] [Server thread/INFO]: <Vernaron> its really annoying actually
-[17:38:08] [Server thread/INFO]: pteren has made the advancement [Stay Hydrated!]
-[17:38:20] [Server thread/INFO]: <Vernaron> diamonds have like 2 uses meanwhile iron basically has an entire tab
-[17:38:53] [Server thread/INFO]: <pteren> not sure where to *put* the iron pit
-[17:38:56] [Server thread/INFO]: <pteren> perhaps downstairs
-[17:39:19] [Server thread/INFO]: <pteren> thing is. if its nearby at all, any later shafts will need to be spawn-proofed
-[17:39:26] [Server thread/INFO]: <Vernaron> i typically have an industrial zone a bit away from all the "trying to look good" builds
-[17:39:40] [Server thread/INFO]: <Vernaron> reduces headaches
-[17:39:51] [Server thread/INFO]: <Vernaron> also yeah spawnproofing shafts is why i just go Up
-[17:40:07] [Server thread/INFO]: <pteren> its a very simple farm. can always move it
-[17:40:07] [Server thread/INFO]: <Vernaron> its a lot mechanically simpler to build albeit more initially tedious
-[17:40:23] [Server thread/INFO]: <pteren> i do need beds tho
-[17:40:33] [Server thread/INFO]: <Vernaron> we're raiding a village right?
-[17:40:41] [Server thread/INFO]: <pteren> oh yeah
-[17:41:58] [Server thread/INFO]: <pteren> ok lemme show you the farm its wonderful for fast starts
-[17:42:12] [Server thread/INFO]: <pteren> by ianxofour
-[17:42:39] [Server thread/INFO]: <pteren> 3x7
-[17:43:05] [Server thread/INFO]: Vernaron has made the advancement [Stone Age]
-[17:43:12] [Server thread/INFO]: <pteren> beds go here
-[17:43:48] [Server thread/INFO]: <pteren> wait..
-[17:43:49] [Server thread/INFO]: <pteren> grr
-[17:44:30] [Server thread/INFO]: <pteren> boat for zombie
-[17:45:17] [Server thread/INFO]: <pteren> thats literally it we just need a zombie
-[17:45:27] [Server thread/INFO]: <pteren> oh right. the killin spot
-[17:47:20] [Server thread/INFO]: <pteren> farmland keeps them from spawning on the edge and getting pushed into the wall
-[17:47:26] [Server thread/INFO]: <Vernaron> nods
-[17:47:35] [Server thread/INFO]: <pteren> lava source goes there
-[17:48:17] [Server thread/INFO]: <pteren> yeah i think this is right
-[17:48:44] [Server thread/INFO]: <Vernaron> thats the fun part you're either right, nothing happens, or you have to go on a rapidly spawning golem purge
-[17:49:01] [Server thread/INFO]: <pteren> yeah theres probably a 2 block cave somewhere
-[17:49:21] [Server thread/INFO]: <Vernaron> hence my brilliant strategy of "go up"
-[17:50:11] [Server thread/INFO]: <Vernaron> how do you. get the items out of the kill pit?
-[17:50:16] [Server thread/INFO]: <pteren> hopper
-[17:50:29] [Server thread/INFO]: <Vernaron> oh ok so it is just a normal hopper approach got it
-[17:50:31] [Server thread/INFO]: <pteren> which is easy to craft when you have an iron farm
-[17:50:43] [Server thread/INFO]: <Vernaron> tbf if you dont have iron for a hopper wait 2 minutes
-[17:50:46] [Server thread/INFO]: <pteren> mhm
-[17:51:12] [Server thread/INFO]: Vernaron has made the advancement [Monster Hunter]
-[17:51:23] [Server thread/INFO]: <Vernaron> i love axes....
-[17:51:30] [Server thread/INFO]: <pteren> bonk
-[17:51:34] [Server thread/INFO]: Vernaron has made the advancement [Acquire Hardware]
-[17:51:45] [Server thread/INFO]: <pteren> hehe this house is *not* lit
-[17:51:55] [Server thread/INFO]: <pteren> what do we need for ghast saddle
-[17:51:58] [Server thread/INFO]: <pteren> oh god
-[17:52:00] [Server thread/INFO]: <pteren> WOOL
-[17:52:17] [Server thread/INFO]: <Vernaron> wheres the village?
-[17:52:23] [Server thread/INFO]: <pteren> wait its fine we have a stack of string
-[17:52:36] [Server thread/INFO]: <pteren> village is east, in the savannah
-[17:53:57] [Server thread/INFO]: <pteren> did we get 4 saplings?
-[17:54:07] [Server thread/INFO]: <Vernaron> i have 12 oak sps
-[17:54:09] [Server thread/INFO]: <Vernaron> saps
-[17:54:13] [Server thread/INFO]: <pteren> no the pale ones
-[17:54:16] [Server thread/INFO]: <Vernaron> i have 5
-[17:54:21] [Server thread/INFO]: <pteren> oh whew
-[17:54:47] [Server thread/INFO]: <Vernaron> put em in a chest
-[17:54:57] [Server thread/INFO]: <pteren> does the flowing lava drip?
-[17:55:09] [Server thread/INFO]: <pteren> im seeing drips...
-[17:55:17] [Server thread/INFO]: <pteren> but no lava in those 2 yet
-[17:55:33] [Server thread/INFO]: pteren has made the advancement [Ice Bucket Challenge]
-[17:56:51] [Server thread/INFO]: <pteren> ghast saddle needs 3 leather
-[17:56:58] [Server thread/INFO]: <pteren> i never remember to do farm animals..
-[17:58:16] [Server thread/INFO]: Vernaron has made the advancement [Best Friends Forever]
-[17:58:22] [Server thread/INFO]: <Vernaron> hehe gottem
-[17:58:23] [Server thread/INFO]: <pteren> :O
-[17:58:26] [Server thread/INFO]: <pteren> ouppy
-[17:58:36] [Server thread/INFO]: <Vernaron> ouppy
-[17:59:43] [Server thread/INFO]: <pteren> asdgfahsdg'
-[18:00:13] [Server thread/INFO]: <Vernaron> i have wheat
-[18:00:24] [Server thread/INFO]: <pteren> i also have wheat im just dumb
-[18:00:30] [Server thread/INFO]: <Vernaron> lmao
-[18:00:37] [Server thread/INFO]: <Vernaron> wheat in one hand seeds in the other
-[18:00:44] [Server thread/INFO]: <Vernaron> a true animal wrangler
-[18:01:24] [Server thread/INFO]: pteren has made the advancement [The Parrots and the Bats]
-[18:03:57] [Server thread/INFO]: KittyScan (/51.158.189.221:36358) lost connection: Disconnected
-[18:04:06] [Server thread/INFO]: <pteren> close enough
-[18:04:23] [Server thread/INFO]: Vernaron has made the advancement [The Parrots and the Bats]
-[18:07:09] [Server thread/INFO]: <Vernaron> i love 2shotting everything
-[18:07:16] [Server thread/INFO]: <Vernaron> very normal and balanced copper weapon
-[18:07:24] [Server thread/INFO]: <pteren> spear charge in offhand does not reset axe cooldown
-[18:07:59] [Server thread/INFO]: <Vernaron> yeah but i run shield lmao
-[18:08:03] [Server thread/INFO]: <pteren> i love it <3
-[18:08:11] [Server thread/INFO]: <pteren> creepers kill me constantly <#
-[18:08:13] [Server thread/INFO]: <Vernaron> i love having a wall of denial
-[18:08:38] [Server thread/INFO]: <pteren> asdkhfakjs
-[18:08:45] [Server thread/INFO]: <Vernaron> you hit it towards me </3
-[18:08:51] [Server thread/INFO]: Vernaron has made the advancement [Not Today, Thank You]
-[18:09:21] [Server thread/INFO]: <Vernaron> oh ok so this IS easy diff
-[18:09:23] [Server thread/INFO]: <pteren> i should have started server in US
-[18:09:30] [Server thread/INFO]: <pteren> instead of london
-[18:09:45] [Server thread/INFO]: <Vernaron> i could tell by skeles being easy lmao
-[18:10:05] [Server thread/INFO]: <pteren> oh huh yeah i never did go into the config file...
-[18:10:16] [Server thread/INFO]: The difficulty has been set to Hard
-[18:10:38] [Server thread/INFO]: <Vernaron> i got a bow
-[18:10:42] [Server thread/INFO]: <Vernaron> with 1 durability
-[18:10:59] [Server thread/INFO]: <pteren> hehe
-[18:11:56] [Server thread/INFO]: Vernaron was slain by Enderman
-[18:12:01] [Server thread/INFO]: <Vernaron> lagderman
-[18:12:36] [Server thread/INFO]: <pteren> should i restart in a server with lower ping?
-[18:12:52] [Server thread/INFO]: <Vernaron> i have enderman solutions i just didnt do it lmao
-[18:13:41] [Server thread/INFO]: <Vernaron> boat
-[18:13:55] [Server thread/INFO]: <pteren> genius
-[18:14:06] [Server thread/INFO]: <Vernaron> pearl get
-[18:14:38] [Server thread/INFO]: <pteren> what do ghasts eat...
-[18:14:52] [Server thread/INFO]: <Vernaron> idfk i havent used em before
-[18:15:10] [Server thread/INFO]: <pteren> they seem like a watermellon kind of pal...
-[18:15:25] [Server thread/INFO]: <pteren> no?
-[18:18:03] [Server thread/INFO]: <pteren> should set up a villager breeder too
-[18:18:10] [Server thread/INFO]: <Vernaron> yeah thats easy
-[18:18:30] [Server thread/INFO]: <Vernaron> found cows
-[18:18:35] [Server thread/INFO]: <pteren> nice!
-[18:23:46] [Server thread/INFO]: <Vernaron> cows in pen
-[18:23:56] [Server thread/INFO]: <pteren> yayy ty
-[18:27:29] [Server thread/INFO]: pteren was slain by Zombie
-[18:27:32] [Server thread/INFO]: <pteren> SDASHGD
-[18:27:36] [Server thread/INFO]: <Vernaron> whh??
-[18:28:01] [Server thread/INFO]: pteren was shot by Skeleton
-[18:28:20] [Server thread/INFO]: <Vernaron> do you need an escort
-[18:28:51] [Server thread/INFO]: <pteren> the skeletons do SO MUCH MORE DAMAGE
-[18:28:55] [Server thread/INFO]: pteren was slain by Zombie
-[18:29:04] [Server thread/INFO]: Vernaron was blown up by Creeper
-[18:29:10] [Server thread/INFO]: <Vernaron> AAA
-[18:29:17] [Server thread/INFO]: pteren has made the advancement [Take Aim]
-[18:29:33] [Server thread/INFO]: <Vernaron> you changed it to FUCKING HARD
-[18:29:45] [Server thread/INFO]: <Vernaron> THATS WHY THEYRE ACCURATE
-[18:29:55] [Server thread/INFO]: pteren was shot by Skeleton
-[18:29:57] [Server thread/INFO]: <pteren> SAHDGVAHSKGDAKS
-[18:30:03] [Server thread/INFO]: Vernaron was speared by Zombie
-[18:30:07] [Server thread/INFO]: <Vernaron> SPEARED
-[18:30:10] [Server thread/INFO]: <pteren> LOL
-[18:30:12] [Server thread/INFO]: <Vernaron> YOU GAVE IT A SPEAR
-[18:30:27] [Server thread/INFO]: <Vernaron> im sleeping screw this
-[18:30:31] [Server thread/INFO]: <pteren> they ded
-[18:31:03] [Server thread/INFO]: Vernaron has made the advancement [Ice Bucket Challenge]
-[18:31:05] [Server thread/INFO]: Vernaron has made the advancement [Suit Up]
-[18:31:19] [Server thread/INFO]: <Vernaron> cmere
-[18:32:09] [Server thread/INFO]: <pteren> terrifying
-[18:32:26] [Server thread/INFO]: <pteren> need enchantments ;-;
-[18:32:31] [Server thread/INFO]: <Vernaron> i wouldve preferred a HEADS UP
-[18:32:45] [Server thread/INFO]: <pteren> LOL
-[18:33:04] [Server thread/INFO]: <Vernaron> i have to actually PAY ATTENTION on hard ;-;
-[18:33:19] [Server thread/INFO]: <Vernaron> i was like "why are these skeletons getting so lucky"
-[18:33:27] [Server thread/INFO]: <Vernaron> HM
-[18:33:28] [Server thread/INFO]: <pteren> i thought i was just way better at this game than i remembered
-[18:33:31] [Server thread/INFO]: <Vernaron> I WONDER WHY
-[18:33:46] [Server thread/INFO]: <Vernaron> i noticed zombies doing negative damage too lmao
-[18:34:37] [Server thread/INFO]: <pteren> kk lets go kidnap some villagers
-[18:34:47] [Server thread/INFO]: <Vernaron> alrighty
-[18:35:14] [Server thread/INFO]: <pteren> need 3 leather
-[18:37:51] [Server thread/INFO]: <pteren> lol the boat is gone
-[18:39:58] [Server thread/INFO]: <pteren> not sure how the boat works
-[18:40:28] [Server thread/INFO]: <pteren> did you pick up the leads?
-[18:40:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=379, y=64, z=13} class_2338{x=380, y=63, z=12}
-[18:40:38] [Server thread/INFO]: <Vernaron> eugh handling vertical movement with visual aim is yucky
-[18:40:45] [Server thread/INFO]: <pteren> yeah its horrid
-[18:40:46] [Server thread/INFO]: <Vernaron> no space+ctrl....
-[18:40:47] [Server thread/INFO]: <pteren> need a mod
-[18:41:26] [Server thread/INFO]: <Vernaron> whats going on with teh boats
-[18:41:37] [Server thread/INFO]: <pteren> leads can now attach to boats
-[18:41:51] [Server thread/INFO]: <Vernaron> AUGH i keep naturally pressing ctrl
-[18:42:13] [Server thread/INFO]: <Vernaron> why dont you get the villager in the boat
-[18:42:17] [Server thread/INFO]: <Vernaron> and then lead the boat?
-[18:42:20] [Server thread/INFO]: <pteren> they are in the boat
-[18:42:25] [Server thread/INFO]: <pteren> my leads disappeared
-[18:42:30] [Server thread/INFO]: <Vernaron> e
-[18:42:37] [Server thread/INFO]: <Vernaron> i have 2 leads
-[18:43:11] [Server thread/INFO]: <pteren> take em up a few blocks
-[18:43:14] [Server thread/INFO]: <Vernaron> we should sleep
-[18:43:19] [Server thread/INFO]: <Vernaron> zombies are gonna swarm
-[18:43:39] [Server thread/INFO]: <pteren> oops
-[18:43:42] [Server thread/INFO]: <Vernaron> pft
-[18:43:47] [Server thread/INFO]: <pteren> SNOWBALLS
-[18:43:51] [Server thread/INFO]: <pteren> i jst remembered
-[18:43:54] [Server thread/INFO]: <pteren> they eat snowballs
-[18:44:41] [Server thread/INFO]: <pteren> see if that works?
-[18:44:52] [Server thread/INFO]: <pteren> NICE
-[18:45:10] [Server thread/INFO]: <pteren> we could probably bring 4 if you also use a lead
-[18:45:33] [Server thread/INFO]: <pteren> ill stay up here
-[18:45:45] [Server thread/INFO]: <pteren> get 2 in a boat, lead the boat, theen mount the ghast
-[18:46:23] [Server thread/INFO]: <pteren> oh and grab the beds
-[18:46:43] [Server thread/INFO]: <Vernaron> on
-[18:46:52] [Server thread/INFO]: <pteren> HAHAH YESS
-[18:47:56] [Server thread/INFO]: <Vernaron> deportation committee....
-[18:48:13] [Server thread/INFO]: <pteren> explodes
-[18:49:22] [Server thread/INFO]: <pteren> alright!!
-[18:49:35] [Server thread/INFO]: <pteren> farm should have 3 but it will start with 2
-[18:49:48] [Server thread/INFO]: <Vernaron> will it?
-[18:49:52] [Server thread/INFO]: <pteren> mhm!
-[18:49:52] [Server thread/INFO]: <Vernaron> i thought it needed 3
-[18:49:56] [Server thread/INFO]: <pteren> i have one in my survival world
-[18:50:00] [Server thread/INFO]: <pteren> *solo
-[18:50:09] [Server thread/INFO]: <pteren> just not as fast
-[18:50:32] [Server thread/INFO]: <pteren> or maybe the ones outside contribute somehow? idk
-[18:50:53] [Server thread/INFO]: <Vernaron> yeah checking wiki and it needs 3 panicking villagers
-[18:51:21] [Server thread/INFO]: <Vernaron> its a 10 block radius so its a decent zone of influence
-[18:51:29] [Server thread/INFO]: <pteren> gotcha
-[18:52:31] [Server thread/INFO]: <pteren> need more beds before they can breed
-[18:52:36] [Server thread/INFO]: <Vernaron> caught the ghast
-[18:52:39] [Server thread/INFO]: <pteren> nice
-[18:52:51] [Server thread/INFO]: <Vernaron> they can breed with 3
-[18:53:12] [Server thread/INFO]: <pteren> we should make a lil townhouse for them
-[18:53:22] [Server thread/INFO]: <Vernaron> yeah... townhouse...
-[18:53:23] [Server thread/INFO]: <pteren> shoulda stolen the bell
-[18:53:27] [Server thread/INFO]: <pteren> cries
-[18:53:29] [Server thread/INFO]: <Vernaron> thats totally what i.... normally do...
-[18:54:15] [Server thread/INFO]: <Vernaron> i have a villager breeder design where i can just vomit bread into it and then it spits out a baby villager directly into a boat catching area
-[18:55:05] [Server thread/INFO]: <Vernaron> brb im gonna take a screenshot of it cause you need to see the thing
-[18:55:07] [Server thread/INFO]: Vernaron lost connection: Disconnected
-[18:55:07] [Server thread/INFO]: Vernaron left the game
-[18:57:06] [User Authenticator #3/INFO]: UUID of player Vernaron is 59d7420e-c5cd-4c48-bae7-aa3d100d83fe
-[18:57:07] [Server thread/INFO]: Vernaron[/24.149.121.221:63871] logged in with entity id 21927 at (-16.64373271445694, 71.0, 4.5501553065491755)
-[18:57:07] [Server thread/INFO]: Vernaron joined the game
-[18:58:57] [Server thread/INFO]: <pteren> you're pretty!!!
-[18:59:14] [Server thread/INFO]: <Vernaron> wa
-[19:01:09] [Netty Epoll IO #3/ERROR]: Failed to validate message acknowledgements from pteren: Checksum mismatch on last seen update: the client and server must have desynced
-[19:01:09] [Server thread/INFO]: pteren lost connection: Chat message validation failure
-[19:01:09] [Server thread/INFO]: pteren left the game
-[19:01:09] [Server thread/WARN]: handleDisconnection() called twice
-[19:01:17] [User Authenticator #4/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
-[19:01:19] [Server thread/INFO]: pteren[/155.117.189.90:62995] logged in with entity id 22771 at (-7.5887420002673585, 72.0, -23.726943116425296)
-[19:01:19] [Server thread/INFO]: pteren joined the game
-[19:01:30] [Server thread/INFO]: <pteren> "chat message validation failure"?
-[19:02:03] [Server thread/INFO]: <pteren> am i the copper golem
-[19:02:24] [Server thread/INFO]: <Vernaron> mmm....
-[19:02:34] [Server thread/INFO]: <Vernaron> actually this is a suitable number of chests for a copper golem
-[19:02:39] [Server thread/INFO]: <Vernaron> 9 accessible chests
-[19:02:47] [Server thread/INFO]: <Vernaron> thats exactly the max iirc
-[19:02:47] [Server thread/INFO]: <pteren> wait it can reach up there??
-[19:03:02] [Server thread/INFO]: <Vernaron> i think they can hop on top of the frames?
-[19:03:04] [Server thread/INFO]: <Vernaron> idk
-[19:03:07] [Server thread/INFO]: <pteren> lets try it
-[19:03:19] [Server thread/INFO]: <pteren> u need a lightnot rod, yeah?
-[19:03:25] [Server thread/INFO]: <Vernaron> no?
-[19:03:31] [Server thread/INFO]: <Vernaron> pumpkin
-[19:03:46] [Server thread/INFO]: <Vernaron> mmm
-[19:03:57] [Server thread/INFO]: <Vernaron> shrugs
-[19:04:02] [Server thread/INFO]: <pteren> can we move the chest?
-[19:04:04] [Server thread/INFO]: <Vernaron> ye
-[19:05:06] [Server thread/INFO]: <Vernaron> he reaches
-[19:05:12] [Server thread/INFO]: <Vernaron> put something in the empty chests
-[19:05:15] [Server thread/INFO]: <Vernaron> just random other bs
-[19:05:27] [Server thread/INFO]: <Vernaron> he reads empty chests as valid placements otherwise
-[19:05:30] [Server thread/INFO]: <pteren> ahh
-[19:05:31] [Server thread/INFO]: <Vernaron> 1 item=not empty
-[19:05:39] [Server thread/INFO]: <Vernaron> ive done a lot of copper golem experimenting
-[19:05:56] [User Authenticator #5/INFO]: UUID of player LilacPeregrine is 5c5f1fb1-8e1e-4da4-86d1-75f426c5b913
-[19:05:58] [Server thread/INFO]: LilacPeregrine[/192.112.253.19:50370] logged in with entity id 23405 at (-31.5, 67.0, 43.5)
-[19:05:58] [Server thread/INFO]: LilacPeregrine joined the game
-[19:05:58] [Server thread/INFO]: <Vernaron> they also go through chests in a procedural order
-[19:06:00] [Server thread/INFO]: <LilacPeregrine> beep!
-[19:06:02] [Server thread/INFO]: <pteren> lilac!!!
-[19:06:11] [Server thread/INFO]: <Vernaron> you can utilize that to have a "dump" chest where unknown items are placed
-[19:06:16] [Server thread/INFO]: <pteren> shoot we gotta sleep
-[19:06:20] [Server thread/INFO]: <Vernaron> you can then use that + hoppers to make golem chains
-[19:06:39] [Server thread/INFO]: <Vernaron> golem chains are funky to use but cost minimal iron
-[19:06:50] [Server thread/INFO]: LilacPeregrine has made the advancement [Sweet Dreams]
-[19:06:52] [Server thread/INFO]: <LilacPeregrine> it feels so weird being this short
-[19:06:57] [Server thread/INFO]: <pteren> hehe
-[19:07:05] [Server thread/INFO]: <LilacPeregrine> my model is usually 3-4 blocks tall
-[19:07:11] [Server thread/INFO]: <pteren> here
-[19:07:14] [Server thread/INFO]: <pteren> stool
-[19:07:20] [Server thread/INFO]: <LilacPeregrine> nicee
-[19:07:33] [Server thread/INFO]: <Vernaron> pff
-[19:07:36] [Server thread/INFO]: <Vernaron> anyways yeah
-[19:07:41] [Server thread/INFO]: <LilacPeregrine> do we have bamboo?
-[19:07:41] [Server thread/INFO]: <Vernaron> golems have a limited memory
-[19:07:49] [Server thread/INFO]: <Vernaron> about 9 chests (not counting the copper chest0
-[19:07:53] [Server thread/INFO]: <pteren> yea we have most wood types
-[19:07:59] [Server thread/INFO]: <pteren> no dark oak or spruce
-[19:08:07] [Server thread/INFO]: <LilacPeregrine> oh i didnt see the obvious bambooshoots
-[19:08:18] [Server thread/INFO]: <Vernaron> if you give them too many chests they'll start infinitely looping chest checking and never actually sort the item
-[19:08:27] [Server thread/INFO]: <pteren> pff
-[19:08:53] [Server thread/INFO]: <Vernaron> so if you want the golem to work in here either make some of the chests inaccessible or dont add more chests
-[19:09:08] [Server thread/INFO]: <Vernaron> do we have beeswax?
-[19:09:09] [Server thread/INFO]: <LilacPeregrine> this is a very cool chest setup
-[19:09:13] [Server thread/INFO]: <pteren> we can use barrels for other stuff
-[19:09:19] [Server thread/INFO]: <LilacPeregrine> like a chest pillar
-[19:09:19] [Server thread/INFO]: <pteren> ty lilac i love my lil pillars <3
-[19:09:21] [Server thread/INFO]: <pteren> no bees yet
-[19:09:43] [Server thread/INFO]: <pteren> i can make enchants anytime, just haven't bothered to go get obi
-[19:09:58] [Server thread/INFO]: <LilacPeregrine> appears iron is required?
-[19:10:12] [Server thread/INFO]: <pteren> iron farm is built but needs to be loaded with prisoners
-[19:10:27] [Server thread/INFO]: <Vernaron> iron for what?
-[19:10:33] [Server thread/INFO]: <pteren> everything
-[19:10:43] [Server thread/INFO]: <Vernaron> well yeah
-[19:10:54] [Server thread/INFO]: <LilacPeregrine> let's be humane here
-[19:10:55] [Server thread/INFO]: <LilacPeregrine> they're called detainees now, i think
-[19:10:56] [Server thread/INFO]: <Vernaron> iron is arguably the most needed resource in the game
-[19:11:00] [Server thread/INFO]: <pteren> pff
-[19:11:14] [Server thread/INFO]: <Vernaron> there being "detained" in a fear panopticon
-[19:11:15] [Server thread/INFO]: <pteren> they're trapped in an insomnia dungeons while zombies scream at them
-[19:11:31] [Server thread/INFO]: <LilacPeregrine> huh it is a panopticon come to think about it
-[19:11:54] [Server thread/INFO]: <Vernaron> the villagers need to sleep occasionally
-[19:11:59] [Server thread/INFO]: <LilacPeregrine> same
-[19:12:00] [Server thread/INFO]: <Vernaron> otherwise they stop generating golems
-[19:12:02] [Server thread/INFO]: <pteren> they have beds down there
-[19:12:08] [Server thread/INFO]: <Vernaron> they wont sleep while terrified
-[19:12:12] [Server thread/INFO]: <pteren> the trapdoor lets them sleep
-[19:12:14] [Server thread/INFO]: <LilacPeregrine> also same
-[19:12:16] [Server thread/INFO]: <pteren> it blocks line of sight
-[19:12:16] [Server thread/INFO]: <Vernaron> so you will need to manually turn it off
-[19:12:19] [Server thread/INFO]: <pteren> then they instantly wake up again
-[19:12:28] [Server thread/INFO]: <LilacPeregrine> movable stool
-[19:12:31] [Server thread/INFO]: <pteren> hehe
-[19:12:48] [Server thread/INFO]: <pteren> i need to breed only the white ones...
-[19:12:53] [Server thread/INFO]: <pteren> dont need more brown ones
-[19:13:08] [Server thread/INFO]: <LilacPeregrine> classic frozen water
-[19:13:52] [Server thread/INFO]: <LilacPeregrine> mind if i steal some axes for wood (for charcoal purposes)
-[19:14:00] [Server thread/INFO]: <Vernaron> tbf to "fear panopticon" my standard design is typically much more "panopticon"-y
-[19:14:08] [Server thread/INFO]: <Vernaron> not the hole of fear
-[19:14:18] [Server thread/INFO]: <pteren> afk an AMAZING breakfast burrito is happening
-[19:14:24] [Server thread/INFO]: <LilacPeregrine> nicee
-[19:14:37] [Server thread/INFO]: pteren was slain by Zombie
-[19:14:43] [Server thread/INFO]: <Vernaron> OH
-[19:15:12] [Server thread/INFO]: <LilacPeregrine> ohno
-[19:15:19] [Server thread/INFO]: <Vernaron> i got their stuff
-[19:16:22] [Server thread/INFO]: <LilacPeregrine> thank
-[19:16:27] [Server thread/INFO]: <Vernaron> ^-^
-[19:18:24] [Server thread/INFO]: <pteren> ow
-[19:18:33] [Server thread/INFO]: <Vernaron> got jumped by a zomb
-[19:18:42] [Server thread/INFO]: <Vernaron> cmere
-[19:18:50] [Server thread/INFO]: LilacPeregrine has made the advancement [Stone Age]
-[19:18:58] [Server thread/INFO]: LilacPeregrine has made the advancement [Getting an Upgrade]
-[19:20:15] [Server thread/INFO]: <LilacPeregrine> oo the red chickens
-[19:20:54] [Server thread/INFO]: <pteren> wow
-[19:21:00] [Server thread/INFO]: <pteren> i just had a divine experience
-[19:21:09] [Server thread/INFO]: <LilacPeregrine> breakfast burrito
-[19:21:09] [Server thread/INFO]: <pteren> why am i in pumpkin jail
-[19:21:27] [Server thread/INFO]: <pteren> HOW DID YOU EQUIP ARMOR TO ME
-[19:23:30] [Server thread/INFO]: <pteren> ok i dont think the flowing lava works
-[19:23:43] [Server thread/INFO]: <LilacPeregrine> it does not
-[19:23:48] [Server thread/INFO]: <LilacPeregrine> source is required
-[19:24:16] [Server thread/INFO]: <LilacPeregrine> robot is looking for iron for bucket
-[19:28:42] [Server thread/INFO]: <LilacPeregrine> 9 iron located
-[19:29:05] [Server thread/INFO]: <Vernaron> pteren has been rendered safe while afk
-[19:29:13] [Server thread/INFO]: <Vernaron> behold
-[19:29:23] [Server thread/INFO]: <LilacPeregrine> nice
-[19:29:35] [Server thread/INFO]: <LilacPeregrine> oh wait
-[19:29:50] [Server thread/INFO]: <LilacPeregrine> pteren afk so no slep
-[19:29:55] [Server thread/INFO]: <Vernaron> AUGH
-[19:30:07] [Server thread/INFO]: LilacPeregrine has made the advancement [A Seedy Place]
-[19:31:11] [Server thread/INFO]: <Vernaron> zombie proofed the villagers
-[19:31:24] [Server thread/INFO]: <LilacPeregrine> nice
-[19:35:10] [Server thread/INFO]: <Vernaron> smh afkeren
-[19:36:17] [Server thread/INFO]: <Vernaron> augh ive gotta hop off
-[19:36:19] [Server thread/INFO]: <Vernaron> cyaaa
-[19:36:21] [Server thread/INFO]: <LilacPeregrine> ok cya!
-[19:36:23] [Server thread/INFO]: Vernaron lost connection: Disconnected
-[19:36:23] [Server thread/INFO]: Vernaron left the game
-[19:42:17] [Server thread/INFO]: <LilacPeregrine> wandering trader2
-[19:42:26] [Server thread/INFO]: LilacPeregrine has made the advancement [What a Deal!]
-[19:49:35] [Server thread/INFO]: <pteren> askdgfajksd
-[19:49:40] [Server thread/INFO]: <LilacPeregrine> welcone back!!
-[19:49:44] [Server thread/INFO]: <LilacPeregrine> beep
-[19:50:00] [Server thread/INFO]: <pteren> HOW MANY PUMPKINS AM I IN??
-[19:50:05] [Server thread/INFO]: <LilacPeregrine> i do not know
-[19:50:12] [Server thread/INFO]: <LilacPeregrine> it used to be hay bales
-[19:50:26] [Server thread/INFO]: <LilacPeregrine> it's zombie protection
-[19:51:04] [Server thread/INFO]: LilacPeregrine has made the advancement [Monster Hunter]
-[19:51:43] [Server thread/INFO]: <LilacPeregrine> i got 2 emeralds from the wandering trader
-[19:51:48] [Server thread/INFO]: <pteren> theres more on the shelf
-[19:51:54] [Server thread/INFO]: <LilacPeregrine> ::3
-[19:53:50] [Server thread/INFO]: <LilacPeregrine> ooo spear
-[19:53:54] [Server thread/INFO]: <pteren> :3
-[19:54:15] [Server thread/INFO]: <pteren> does 4 whole damage!
-[19:54:20] [Server thread/INFO]: <LilacPeregrine> not bad
-[19:54:26] [Server thread/INFO]: <LilacPeregrine> also scales based off speed
-[19:54:30] [Server thread/INFO]: <LilacPeregrine> i think
-[19:54:33] [Server thread/INFO]: <pteren> yes
-[19:54:38] [Server thread/INFO]: <LilacPeregrine> so imagine an elytra
-[19:54:40] [Server thread/INFO]: <LilacPeregrine> i shudder
-[19:54:47] [Server thread/INFO]: <LilacPeregrine> wait what about tnt cannon
-[19:54:53] [Server thread/INFO]: <LilacPeregrine> >::3
-[19:54:59] [Server thread/INFO]: <pteren> elytra is already broken
-[19:55:05] [Server thread/INFO]: LilacPeregrine was blown up by Creeper
-[19:55:09] [Server thread/INFO]: <LilacPeregrine> ouf
-[19:56:00] [Server thread/INFO]: <pteren> they want more beds i think
-[19:56:30] [Server thread/INFO]: <LilacPeregrine> i think in order for them to have a kid they need one more bed per child
-[19:57:22] [Server thread/INFO]: <LilacPeregrine> also your furnaces now have fuel
-[19:57:26] [Server thread/INFO]: <pteren> :o
-[20:01:21] [Server thread/INFO]: <LilacPeregrine> imagine if saplings grew faster in climates similar to their native ones
-[20:01:25] [Server thread/INFO]: <LilacPeregrine> in minecraft
-[20:01:28] [Server thread/INFO]: <pteren> that would be cool
-[20:04:19] [Server thread/INFO]: <LilacPeregrine> the reverse copper golem, you give it an item and it picks it out from nearby chests
-[20:04:38] [Server thread/INFO]: <LilacPeregrine> the melog reppoc
-[20:04:51] [Server thread/INFO]: LilacPeregrine has made the advancement [Acquire Hardware]
-[20:04:56] [Server thread/INFO]: LilacPeregrine has made the advancement [Diamonds!]
-[20:04:56] [Server thread/INFO]: <pteren> the what?
-[20:05:12] [Server thread/INFO]: <LilacPeregrine> copper golem spelled backwards idk
-[20:05:18] [Server thread/INFO]: <pteren> ohh
-[20:07:18] [Server thread/INFO]: <LilacPeregrine> mind if i get a diamond pick?
-[20:07:23] [Server thread/INFO]: <pteren> nope!
-[20:07:34] [Server thread/INFO]: <LilacPeregrine> thank
-[20:07:46] [Server thread/INFO]: <pteren> we've got a fortune 2 books
-[20:07:48] [Server thread/INFO]: <pteren> ...somewhere
-[20:08:24] [Server thread/INFO]: <pteren> oh well
-[20:10:21] [Server thread/INFO]: <pteren> whoops
-[20:14:49] [Server thread/INFO]: LilacPeregrine was shot by Skeleton
-[20:14:52] [Server thread/INFO]: <LilacPeregrine> A
-[20:14:55] [Server thread/INFO]: <pteren> wuh oh
-[20:15:28] [Server thread/INFO]: LilacPeregrine was shot by Skeleton
-[20:16:51] [Server thread/INFO]: pteren was shot by Skeleton
-[20:16:54] [Server thread/INFO]: <pteren> lol
-[20:16:54] [Server thread/INFO]: LilacPeregrine was shot by Skeleton
-[20:17:26] [Server thread/INFO]: LilacPeregrine has made the advancement [Suit Up]
-[20:18:57] [Server thread/INFO]: <pteren> whew
-[20:19:24] [Server thread/INFO]: <LilacPeregrine> thank
-[20:20:16] [Server thread/INFO]: <LilacPeregrine> looking for lava/obsidian
-[20:20:25] [Server thread/INFO]: <pteren> oh for enchants?
-[20:20:27] [Server thread/INFO]: <LilacPeregrine> ye
-[20:20:30] [Server thread/INFO]: <pteren> we have 3 already
-[20:20:35] [Server thread/INFO]: <LilacPeregrine> ooo
-[20:20:41] [Server thread/INFO]: <pteren> dripstone will probably make 1 more by the time we surface
-[20:20:46] [Server thread/INFO]: <LilacPeregrine> ohhhh
-[20:20:52] [Server thread/INFO]: <LilacPeregrine> thats what it for
-[20:22:39] [Server thread/INFO]: <LilacPeregrine> we out!
-[20:24:41] [Server thread/INFO]: pteren has made the advancement [Enchanter]
-[20:24:47] [Server thread/INFO]: <LilacPeregrine> congrats!
-[20:24:50] [Server thread/INFO]: <LilacPeregrine> is the pumpkin hole a special location or can i build a room there
-[20:25:00] [Server thread/INFO]: LilacPeregrine has made the advancement [Enchanter]
-[20:25:01] [Server thread/INFO]: <pteren> no ~ made it to troll me
-[20:25:16] [Server thread/INFO]: <pteren> this room is the smithy
-[20:25:21] [Server thread/INFO]: <pteren> for all enchanting needs
-[20:26:42] [Server thread/INFO]: <pteren> gotta grind books
-[20:26:48] [Server thread/INFO]: <LilacPeregrine> ye
-[20:26:48] [Server thread/INFO]: <pteren> or ig we can buy em once the villagers get busy
-[20:27:41] [Server thread/INFO]: <LilacPeregrine> i gave them bread
-[20:29:26] [Server thread/INFO]: LilacPeregrine has made the advancement [The Parrots and the Bats]
-[20:29:38] [Server thread/INFO]: <LilacPeregrine> thank
-[20:32:47] [Server thread/INFO]: <LilacPeregrine> another wandering trader?
-[20:33:01] [Server thread/INFO]: <pteren> no saplings
-[20:35:20] [Server thread/INFO]: <LilacPeregrine> baby villager
-[20:35:23] [Server thread/INFO]: <pteren> BABBY
-[20:35:31] [Server thread/INFO]: <LilacPeregrine> yay
-[20:35:40] [Server thread/INFO]: <LilacPeregrine> welcome to the amazon workhouse little one
-[20:35:54] [Server thread/INFO]: <pteren> LMAO
-[20:36:20] [Server thread/INFO]: <LilacPeregrine> i got packed mud
-[20:36:27] [Server thread/INFO]: <pteren> YAY
-[20:36:31] [Server thread/INFO]: <pteren> amazing block
-[20:36:38] [Server thread/INFO]: <LilacPeregrine> yeah!
-[20:36:52] [Server thread/INFO]: <LilacPeregrine> i like the combo of oak + granite + packed mud
-[20:37:04] [Server thread/INFO]: <pteren> maybe throw some on the floor in here?
-[20:37:07] [Server thread/INFO]: <pteren> or trim the walls
-[20:38:00] [Server thread/INFO]: <pteren> dw about the exterior there will be a layer of diorite over this
-[20:39:38] [Server thread/INFO]: <pteren> kinda want a window here...
-[20:40:29] [Server thread/INFO]: <LilacPeregrine> i often use leaves as windows
-[20:40:47] [Server thread/INFO]: <pteren> right you dont have glass in your world do you
-[20:40:50] [Server thread/INFO]: <LilacPeregrine> ye
-[20:40:57] [Server thread/INFO]: <LilacPeregrine> but i like leaves
-[20:43:09] [Server thread/INFO]: <pteren> aww the baby has a jungle suit
-[20:44:07] [Server thread/INFO]: <LilacPeregrine> interesting!
-[20:44:18] [Server thread/INFO]: <LilacPeregrine> i remember the villager rebalance
-[20:44:28] [Server thread/INFO]: <LilacPeregrine> werent jungle the ones with the mending
-[20:44:34] [Server thread/INFO]: <LilacPeregrine> or was that the swamp
-[20:44:45] [Server thread/INFO]: <pteren> not how that works
-[20:44:50] [Server thread/INFO]: <pteren> any villager can have mending
-[20:45:06] [Server thread/INFO]: <LilacPeregrine> it's an optional mechanic that mojang was playing with, hasnt made it to full release
-[20:45:13] [Server thread/INFO]: <pteren> ohhh
-[20:45:43] [Server thread/INFO]: <pteren> help me lure a zombie
-[20:45:53] [Server thread/INFO]: <LilacPeregrine> ok
-[20:46:21] [Server thread/INFO]: <LilacPeregrine> gotone
-[20:46:28] [Server thread/INFO]: <LilacPeregrine> 2
-[20:46:32] [Server thread/INFO]: <LilacPeregrine> 3
-[20:47:11] [Server thread/INFO]: <LilacPeregrine> its on the boat
-[20:47:15] [Server thread/INFO]: <pteren> wonderful
-[20:47:24] [Server thread/INFO]: <LilacPeregrine> ::3
-[20:47:29] [Server thread/INFO]: <pteren> aaaand its working
-[20:47:32] [Server thread/INFO]: <LilacPeregrine> yay
-[20:48:42] [Server thread/INFO]: <pteren> cat!!
-[20:48:47] [Server thread/INFO]: <LilacPeregrine> vita?
-[20:48:50] [Server thread/INFO]: <pteren> no lol
-[20:48:55] [Server thread/INFO]: <LilacPeregrine> iknow
-[20:49:45] [Server thread/INFO]: <LilacPeregrine> we are blameless
-[20:49:51] [Server thread/INFO]: <pteren> OW
-[20:49:58] [Server thread/INFO]: <LilacPeregrine> lava is natural so this is fine
-[20:50:01] [Server thread/INFO]: <pteren> lol
-[20:50:23] [Server thread/INFO]: <LilacPeregrine> siamese!
-[20:50:29] [Server thread/INFO]: <LilacPeregrine> aww
-[20:50:40] [Server thread/INFO]: <pteren> does kinda look like vita...
-[20:50:56] [Server thread/INFO]: <LilacPeregrine> ive never actually seen the vitacat cat
-[20:52:16] [Server thread/INFO]: <pteren> MAGIC LLAMA
-[20:52:27] [Server thread/INFO]: <LilacPeregrine> whoa
-[20:53:03] [Server thread/INFO]: <LilacPeregrine> wait 3 llama?
-[20:53:06] [Server thread/INFO]: <pteren> wait theres 3 llamas
-[20:53:29] [Server thread/INFO]: <LilacPeregrine> 2 traders
-[20:53:46] [Server thread/INFO]: LilacPeregrine has made the advancement [Best Friends Forever]
-[20:53:59] [Server thread/INFO]: <pteren> SPRUCE
-[20:54:01] [Server thread/INFO]: <pteren> GET EREALSD:ASd
-[20:54:15] [Server thread/INFO]: <pteren> YAYYYY
-[20:54:33] [Server thread/INFO]: <LilacPeregrine> i didnt think is was possible to get 2 traders at once
-[20:54:39] [Server thread/INFO]: <pteren> its not supposed to be
-[20:54:48] [Server thread/INFO]: <pteren> but they are famously cursed
-[20:55:13] [Server thread/INFO]: <LilacPeregrine> imagine trading with a wandering trader prevents them from despawning
-[20:55:21] [Server thread/INFO]: <LilacPeregrine> its not supposed to but...
-[20:55:28] [Server thread/INFO]: <LilacPeregrine> huh
-[20:55:31] [Server thread/INFO]: <LilacPeregrine> we got a free golem
-[20:55:39] [Server thread/INFO]: <pteren> uh oh
-[20:55:57] [Server thread/INFO]: <pteren> lemme google the spawning radius
-[20:56:48] [Server thread/INFO]: <pteren> 17x17
-[20:58:33] [Server thread/INFO]: <pteren> i think it was this creeper hole
-[20:58:52] [Server thread/INFO]: <pteren> oh i wasn't actually planning on mirroring that
-[20:58:56] [Server thread/INFO]: <LilacPeregrine> o
-[20:59:16] [Server thread/INFO]: <LilacPeregrine> no worries
-[20:59:18] [Server thread/INFO]: <pteren> this window would be blocked
-[20:59:28] [Server thread/INFO]: <pteren> gon put a kitchen here, maybe a greenhouse/gardening shed
-[20:59:32] [Server thread/INFO]: <pteren> above the smithy
-[21:03:33] [Server thread/INFO]: <pteren> so bad at this game
-[21:05:02] [Server thread/INFO]: <LilacPeregrine> combat llama
-[21:05:09] [Server thread/INFO]: <pteren> hehe
-[21:05:40] [Server thread/INFO]: <pteren> im not sure where the golem leak was...
-[21:06:32] [Server thread/INFO]: <pteren> what should we work towards?
-[21:06:48] [Server thread/INFO]: <LilacPeregrine> im making a small bee setup
-[21:06:53] [Server thread/INFO]: <pteren> ooh yay
-[21:07:27] [Server thread/INFO]: <LilacPeregrine> using birch bc easier than oak
-[21:07:47] [Server thread/INFO]: <LilacPeregrine> zombie incoming
-[21:08:54] [Server thread/INFO]: <LilacPeregrine> crap
-[21:09:27] [Server thread/INFO]: <pteren> :)
-[21:09:32] [Server thread/INFO]: <pteren> ?
-[21:09:34] [Server thread/INFO]: <LilacPeregrine> creeper blew up pumpkin floor
-[21:09:37] [Server thread/INFO]: <pteren> oh lol
-[21:10:32] [Server thread/INFO]: <LilacPeregrine> do you want the floor pumpkin?
-[21:10:44] [Server thread/INFO]: <pteren> i dont think so
-[21:10:51] [Server thread/INFO]: <pteren> mojava did it lol
-[21:11:02] [Server thread/INFO]: <pteren> i think he can save that block for his own room
-[21:11:21] [Server thread/INFO]: <pteren> what do you think has kitchen vibes?
-[21:11:56] [Server thread/INFO]: <LilacPeregrine> andesite, granite, quartz - also wood/barrels for the cabinets
-[21:12:23] [Server thread/INFO]: <pteren> we already did granite for the workshop
-[21:13:06] [Server thread/INFO]: LilacPeregrine has made the advancement [Hot Stuff]
-[21:13:09] [Server thread/INFO]: <pteren> and quartz sounds too sterile to me. i feel like andesite
-[21:13:17] [Server thread/INFO]: LilacPeregrine has made the advancement [Ice Bucket Challenge]
-[21:13:19] [Server thread/INFO]: <pteren> maybe terracotta, birch, honeycomb
-[21:13:28] [Server thread/INFO]: <LilacPeregrine> oooo - beehives for the floors
-[21:13:34] [Server thread/INFO]: <pteren> OOOH
-[21:13:50] [Server thread/INFO]: <LilacPeregrine> we have an orange cat
-[21:15:11] [Server thread/INFO]: <pteren> ooh i need an armadillo farm in here
-[21:15:31] [Server thread/INFO]: <pteren> how small can those be...
-[21:15:43] [Server thread/INFO]: <LilacPeregrine> not sure, i'll try to bring an armadillo
-[21:15:51] [Server thread/INFO]: <pteren> we need two
-[21:15:54] [Server thread/INFO]: <pteren> you can use the ghast
-[21:16:01] [Server thread/INFO]: <pteren> savannah is east
-[21:16:28] [Server thread/INFO]: <LilacPeregrine> thank
-[21:17:12] [Server thread/INFO]: <LilacPeregrine> off on an adventure
-[21:17:13] [Server thread/INFO]: <LilacPeregrine> slowl
-[21:17:15] [Server thread/INFO]: <LilacPeregrine> y
-[21:17:20] [Server thread/INFO]: <pteren> pff
-[21:18:02] [Server thread/INFO]: <pteren> maybe ill use mud bricks in the smithy...
-[21:18:11] [Server thread/INFO]: <pteren> or. stripped bamboo
-[21:19:40] [Server thread/INFO]: <LilacPeregrine> i cant reach the ghast
-[21:19:45] [Server thread/INFO]: <pteren> lol
-[21:19:54] [Server thread/INFO]: <pteren> we dont have snow
-[21:21:47] [Server thread/INFO]: <pteren> YESS
-[21:22:30] [Server thread/INFO]: <pteren> lol
-[21:22:57] [Server thread/INFO]: <pteren> BRUH
-[21:23:03] [Server thread/INFO]: <LilacPeregrine> have an idea where to put em?
-[21:23:04] [Server thread/INFO]: <pteren> HOW ARE YOU SPAWNING
-[21:23:13] [Server thread/INFO]: <LilacPeregrine> yeah they do that...
-[21:23:19] [Server thread/INFO]: <LilacPeregrine> they are so hard to stop spawning
-[21:23:23] [Server thread/INFO]: <pteren> over here maybe?
-[21:23:50] [Server thread/INFO]: <pteren> HUH
-[21:24:18] [Server thread/INFO]: <pteren> its fine we have more string lol
-[21:24:30] [Server thread/INFO]: <LilacPeregrine> oh i forgot those are craftable now
-[21:24:34] [Server thread/INFO]: <pteren> mhm!
-[21:24:39] [Server thread/INFO]: <LilacPeregrine> white cat!
-[21:25:19] [Server thread/INFO]: <LilacPeregrine> and calico!
-[21:27:43] [Server thread/INFO]: <LilacPeregrine> hi
-[21:33:02] [Server thread/INFO]: <LilacPeregrine> guess what
-[21:33:07] [Server thread/INFO]: <pteren> ?
-[21:33:11] [Server thread/INFO]: <LilacPeregrine> wandering trader
-[21:33:17] [Server thread/INFO]: <LilacPeregrine> again
-[21:33:19] [Server thread/INFO]: <pteren> !!!!!
-[21:33:41] [Server thread/INFO]: <pteren> no saplins :(
-[21:33:44] [Server thread/INFO]: <LilacPeregrine> ye
-[21:33:52] [Server thread/INFO]: <pteren> CYAN DYE
-[21:33:57] [Server thread/INFO]: <pteren> buying all of it
-[21:34:39] [Server thread/INFO]: <pteren> YUSSS
-[21:42:14] [Server thread/INFO]: <pteren> you wanna lock in silk touch?
-[21:42:18] [Server thread/INFO]: <LilacPeregrine> sure
-[21:42:30] [Server thread/INFO]: <pteren> we dont have a source of emeralds
-[21:42:33] [Server thread/INFO]: <LilacPeregrine> ah
-[21:42:43] [Server thread/INFO]: <pteren> also theres a golem underground somewhere
-[21:42:48] [Server thread/INFO]: <pteren> ;-;
-[21:43:32] [Server thread/INFO]: <LilacPeregrine> ah
-[21:44:31] [Server thread/INFO]: <LilacPeregrine> ooo
-[21:44:43] [Server thread/INFO]: <LilacPeregrine> the industrial revolution is here
-[21:46:01] [Server thread/INFO]: <pteren> spears are wonderful for phantoms
-[21:46:49] [Server thread/INFO]: <pteren> ooh i love this
-[21:46:55] [Server thread/INFO]: <LilacPeregrine> ::3
-[21:50:23] [Server thread/INFO]: <LilacPeregrine> if only phantom membranes were useful
-[21:50:26] [Server thread/INFO]: <pteren> hehe
-[21:52:39] [Server thread/INFO]: <LilacPeregrine> we may need beds
-[21:52:58] [Server thread/INFO]: <pteren> mhm
-[21:53:12] [Server thread/INFO]: <LilacPeregrine> got one
-[21:53:54] [Server thread/INFO]: <LilacPeregrine> a
-[21:53:57] [Server thread/INFO]: <pteren> a
-[21:54:33] [Server thread/INFO]: <pteren> ok lets geta fletcher
-[22:02:26] [Server thread/INFO]: <pteren> found the golem!
-[22:02:29] [Server thread/INFO]: <LilacPeregrine> yay!
-[22:02:44] [Server thread/INFO]: <pteren> tiny corner of the ravine goes under the hitbox
-[22:09:29] [Server thread/INFO]: <LilacPeregrine> yay!
-[22:09:38] [Server thread/INFO]: <pteren> bee time :D
-[22:09:44] [Server thread/INFO]: <LilacPeregrine> beetime
-[22:10:31] [Server thread/INFO]: <LilacPeregrine> how does one make shelves
-[22:10:36] [Server thread/INFO]: <pteren> 6 stripped logs
-[22:10:43] [Server thread/INFO]: <LilacPeregrine> ah
-[22:10:45] [Server thread/INFO]: <pteren> top and bottom
-[22:10:56] [Server thread/INFO]: <LilacPeregrine> thank
-[22:14:43] [Server thread/INFO]: <LilacPeregrine> is it important for the sheep to stay brown, or can i dye them white?
-[22:14:51] [Server thread/INFO]: <pteren> they can be white
-[22:15:56] [Server thread/INFO]: <pteren> ...smithing table floor?
-[22:15:58] [Netty Epoll IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:58] [Netty Epoll IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:58] [Netty Epoll IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:58] [Netty Epoll IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:58] [Netty Epoll IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:58] [Netty Epoll IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:58] [Netty Epoll IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:58] [Netty Epoll IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:58] [Netty Epoll IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:58] [Netty Epoll IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
-	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
-	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
-	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
-	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
-	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
-	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
-	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
-	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
-	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
-	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:15:59] [Server thread/INFO]: <LilacPeregrine> ooo
-[22:16:08] [Server thread/INFO]: <LilacPeregrine> thats a good texture
-[22:16:14] [Server thread/INFO]: <pteren> smith anywhere...
-[22:16:39] [Server thread/INFO]: <LilacPeregrine> up to 7 obby
-[22:16:43] [Server thread/INFO]: <pteren> woot
-[22:17:10] [Server thread/INFO]: <pteren> love when i grow a tall spruce and get back 3 saplings </3
-[22:17:17] [Server thread/INFO]: <LilacPeregrine> ohno
-[22:17:38] [Server thread/INFO]: <pteren> BRUH
-[22:17:52] [Server thread/INFO]: <LilacPeregrine> ?
-[22:17:55] [Server thread/INFO]: <pteren> where is man spawning
-[22:18:03] [Server thread/INFO]: <pteren> is it the dirt paths??
-[22:18:09] [Server thread/INFO]: <pteren> does that count as 1 block down?
-[22:18:23] [Server thread/INFO]: <LilacPeregrine> they shouldnt be able to spawn on them at all
-[22:18:25] [Server thread/INFO]: <pteren> if they cant spawn on farmland no way can they spawn on dirt paths
-[22:18:47] [Server thread/INFO]: <LilacPeregrine> where is the 17x17 centered?
-[22:19:06] [Server thread/INFO]: <pteren> these 3 blocks
-[22:19:07] [Server thread/INFO]: <LilacPeregrine> ok
-[22:19:16] [Server thread/INFO]: <pteren> its really a 17x19
-[22:19:41] [Server thread/INFO]: <LilacPeregrine> could it be this sand patch over here?
-[22:19:50] [Server thread/INFO]: <LilacPeregrine> should be within range
-[22:19:50] [Server thread/INFO]: <pteren> no bc 17 is the diameter
-[22:20:14] [Server thread/INFO]: <pteren> thats what the path means
-[22:20:21] [Server thread/INFO]: <LilacPeregrine> ahh
-[22:20:26] [Server thread/INFO]: <pteren> ig i will just drop the farm 1 block
-[22:20:36] [Server thread/INFO]: <LilacPeregrine> it may consider these villagers part of the village and spawn it there??
-[22:20:39] [Server thread/INFO]: <LilacPeregrine> idk
-[22:20:41] [Server thread/INFO]: <pteren> maybe?
-[22:22:46] [Server thread/INFO]: Villager class_1646['Villager'/17809, l='ServerLevel[world]', x=26.64, y=63.50, z=-17.49] died, message: 'Villager was slain by Zombie'
-[22:26:00] [Server thread/INFO]: <pteren> brb
-[22:29:32] [Server thread/INFO]: <pteren> yawn
-[22:29:40] [Server thread/INFO]: <LilacPeregrine> beep!
-[22:29:49] [Server thread/INFO]: <pteren> outside the farm again
-[22:29:53] [Server thread/INFO]: <LilacPeregrine> damn
-[22:30:00] [Server thread/INFO]: <pteren> yeah i think you're right. the other villagers must be interfering
-[22:31:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-83, y=61, z=-34} class_2338{x=-83, y=60, z=-34}
-[22:36:06] [Server thread/INFO]: <LilacPeregrine> i need to head out now, sadly
-[22:36:20] [Server thread/INFO]: <LilacPeregrine> tbh i should have left 30 min ago but this is a lot of fun
-[22:36:24] [Server thread/INFO]: <pteren> later lilac <3
-[22:36:27] [Server thread/INFO]: <pteren> thx for the hlpe
-[22:36:29] [Server thread/INFO]: <pteren> see you around
-[22:36:35] [Server thread/INFO]: <LilacPeregrine> ::3
-[22:36:36] [Server thread/INFO]: LilacPeregrine lost connection: Disconnected
-[22:36:36] [Server thread/INFO]: LilacPeregrine left the game
-[23:12:08] [Server thread/INFO]: pteren lost connection: Disconnected
-[23:12:08] [Server thread/INFO]: pteren left the game
-[23:13:08] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[23:14:14] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:14:14] [Server thread/INFO]: stop<--[HERE]
-[23:14:19] [Server thread/INFO]: Stopping the server
-[23:14:19] [Server thread/INFO]: Stopping server
-[23:14:19] [Server thread/INFO]: Saving players
-[23:14:19] [Server thread/INFO]: Saving worlds
-[23:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:01] [Server thread/INFO]: <Wyirm> i foind a golem
+[00:00:05] [Server thread/INFO]: <pteren> !!!
+[00:00:06] [Server thread/INFO]: <Wyirm> ravine
+[00:00:37] [Server thread/INFO]: <Wyirm> meoiw meow come over here
+[00:00:58] [Server thread/INFO]: <pteren> filling in my tunnels
+[00:01:16] [Server thread/INFO]: <Wyirm> ah
+[00:01:44] [Server thread/INFO]: <pteren> ravine, huh?
+[00:01:50] [Server thread/INFO]: <Wyirm> here
+[00:01:52] [Server thread/INFO]: <pteren> oh yeah
+[00:01:54] [Server thread/INFO]: <pteren> its this for sure
+[00:01:55] [Server thread/INFO]: <Wyirm> no
+[00:01:55] [Server thread/INFO]: <Wyirm> no
+[00:01:57] [Server thread/INFO]: <Wyirm> look
+[00:01:59] [Server thread/INFO]: <Wyirm> t
+[00:02:23] [Server thread/INFO]: Wyirm has made the advancement [Acquire Hardware]
+[00:02:26] [Server thread/INFO]: <Wyirm> krom
+[00:02:33] [Server thread/INFO]: <Wyirm> ferrous
+[00:03:06] [Server thread/INFO]: <Wyirm> you know tyhat stupid joke
+[00:03:07] [Server thread/INFO]: <pteren> HEY ITS WORKING
+[00:03:15] [Server thread/INFO]: <Wyirm> YAYY
+[00:03:33] [Server thread/INFO]: <pteren> which joke?
+[00:03:33] [Server thread/INFO]: <Wyirm> wheb something is made of metal, its metallic except for iron which is ironic
+[00:03:37] [Server thread/INFO]: <Wyirm> BUT ITS NOT IRONIC
+[00:03:39] [Server thread/INFO]: <Wyirm> ITS FERROUS
+[00:03:40] [Server thread/INFO]: <Wyirm> TYTRHRGHRHd;
+[00:04:09] [Server thread/INFO]: <pteren> that is ironic
+[00:04:17] [Server thread/INFO]: <Wyirm> onnoionooo
+[00:04:46] [Server thread/INFO]: <Wyirm> worlds fastest flower farm using iron golems
+[00:04:59] [Server thread/INFO]: <Wyirm> are we gonna build big machines later
+[00:05:07] [Server thread/INFO]: <pteren> mhm :)
+[00:05:17] [Server thread/INFO]: <Wyirm> sounds fun
+[00:05:25] [Server thread/INFO]: <Wyirm> bamboo
+[00:05:39] [Server thread/INFO]: <pteren> ok iron is accessible now!
+[00:05:45] [Server thread/INFO]: <Wyirm> yayy
+[00:06:20] [Server thread/INFO]: <pteren> im working on a smol machine rn
+[00:06:52] [Server thread/INFO]: <Wyirm> yeah
+[00:06:54] [Server thread/INFO]: <Wyirm> dillo?
+[00:07:00] [Server thread/INFO]: <pteren> mhm!
+[00:07:03] [Server thread/INFO]: <pteren> need 6 honey blocks
+[00:07:07] [Server thread/INFO]: <Wyirm> oo
+[00:07:07] [Server thread/INFO]: <pteren> well not really. its a luxury
+[00:07:10] [Server thread/INFO]: <Wyirm> beez <3
+[00:07:17] [Server thread/INFO]: <pteren> ik lilac was working on that
+[00:07:23] [Server thread/INFO]: <pteren> but not sure where or how much
+[00:07:35] [Server thread/INFO]: <Wyirm> is lilac gponna be on the server
+[00:07:41] [Server thread/INFO]: <Wyirm> oo i should get vita on too
+[00:07:44] [Server thread/INFO]: <Wyirm> aSAA
+[00:07:45] [Server thread/INFO]: <pteren> do it
+[00:08:58] [Server thread/INFO]: <Wyirm> im gonna build a wheat farm next to the villager chamber so that they breed them selves
+[00:08:58] [Server thread/INFO]: <pteren> do u use litematica?
+[00:09:02] [Server thread/INFO]: <Wyirm> no </3
+[00:09:05] [Server thread/INFO]: <Wyirm> i dont have any mods rn
+[00:09:18] [Server thread/INFO]: <pteren> its amzing
+[00:09:22] [Server thread/INFO]: <Wyirm> i know its like so iuseful
+[00:09:40] [Server thread/INFO]: <pteren> i need some quartz
+[00:09:53] [Server thread/INFO]: <pteren> wait i might have cut the copper bulb actually
+[00:10:00] [Server thread/INFO]: <Wyirm> cujt?
+[00:10:09] [Server thread/INFO]: <pteren> removed from the design
+[00:10:23] [Server thread/INFO]: <pteren> nope </3
+[00:10:30] [Server thread/INFO]: <Wyirm> xomioerds
+[00:11:19] [Server thread/INFO]: <Wyirm> yippee
+[00:11:34] [Server thread/INFO]: <pteren> i also need a baby zombie...
+[00:11:42] [Server thread/INFO]: <pteren> so if you see one bring it over
+[00:11:43] [Server thread/INFO]: <Wyirm> ah
+[00:11:47] [Server thread/INFO]: <Wyirm> what for
+[00:11:52] [Server thread/INFO]: <pteren> scare the armadillos
+[00:11:58] [Server thread/INFO]: <pteren> sos they are invincable
+[00:12:10] [Server thread/INFO]: <pteren> or alternatively we could have you sprint in a circle nonstop
+[00:12:24] [Server thread/INFO]: <Wyirm> ok i was fucking around with the zombies but the skeleton wil destroy me
+[00:12:33] [Server thread/INFO]: <Wyirm> wrod
+[00:12:52] [Server thread/INFO]: <Wyirm> murderd
+[00:13:21] [Server thread/INFO]: <pteren> gpt ont
+[00:13:23] [Server thread/INFO]: <pteren> make bobat
+[00:13:28] [Server thread/INFO]: <Wyirm> bobat
+[00:13:34] [Server thread/INFO]: <pteren> BAOT
+[00:13:55] [Server thread/INFO]: <Wyirm> boat
+[00:13:56] [Server thread/INFO]: <Wyirm> i have
+[00:13:59] [Server thread/INFO]: <Wyirm> down here
+[00:14:10] [Server thread/INFO]: <pteren> AAA
+[00:14:47] [Server thread/INFO]: <pteren> HA
+[00:14:50] [Server thread/INFO]: <Wyirm> stupid freak
+[00:14:52] [Server thread/INFO]: <Wyirm> short
+[00:14:58] [Server thread/INFO]: <pteren> ugly psycho
+[00:15:04] [Server thread/INFO]: <Wyirm> lil baby man
+[00:15:45] [Server thread/INFO]: <pteren> golem
+[00:15:46] [Server thread/INFO]: <pteren> ugh
+[00:15:54] [Server thread/INFO]: <pteren> they need to not see zombies at night
+[00:16:36] [Server thread/INFO]: <pteren> well no. they just need to sense a golem nearby
+[00:17:04] [Server thread/INFO]: <pteren> farm made a stack of ingots :)
+[00:17:06] [Server thread/INFO]: <Wyirm> ice
+[00:21:41] [Server thread/INFO]: <Wyirm> i think they'lll breed themselves given enough time
+[00:22:36] [Server thread/INFO]: <pteren> need quartz </3
+[00:22:58] [Server thread/INFO]: <Wyirm> neter
+[00:23:12] [Server thread/INFO]: <pteren> theres a ruined portal nearby which we completed
+[00:25:58] [Server thread/INFO]: <pteren> ok omw to neather
+[00:26:00] [Server thread/INFO]: <pteren> need anything?
+[00:26:03] [Server thread/INFO]: <Wyirm> nah
+[00:26:09] [Server thread/INFO]: <Wyirm> im sorted out for now
+[00:26:20] [Server thread/INFO]: <pteren> alr take care
+[00:26:23] [Server thread/INFO]: <Wyirm> ty
+[00:26:57] [Server thread/INFO]: <pteren> hey i lied theres totally snow in sight
+[00:27:01] [Server thread/INFO]: <Wyirm> dang
+[00:27:08] [Server thread/INFO]: <pteren> and by insight i mean distant horizons distance
+[00:27:31] [Server thread/INFO]: <Wyirm> far
+[00:29:00] [Server thread/INFO]: <pteren> i dont remember where the portal is
+[00:29:27] [Server thread/INFO]: <Wyirm> hm
+[00:30:23] [Server thread/INFO]: <Wyirm> ur pretty far away
+[00:30:29] [Server thread/INFO]: <Wyirm> are you sure it wasnt closer
+[00:30:34] [Server thread/INFO]: <pteren> it was
+[00:30:36] [Server thread/INFO]: <pteren> i fonud lava
+[00:30:44] [Server thread/INFO]: <pteren> cast the portal
+[00:31:07] [Server thread/INFO]: <Wyirm> yay
+[00:31:21] [Server thread/INFO]: <Wyirm> i thought you said you were gonna lava cast the portal
+[00:31:28] [Server thread/INFO]: <pteren> i did
+[00:31:44] [Server thread/INFO]: <Wyirm> you built a lava cast there?
+[00:31:48] [Server thread/INFO]: <pteren> yeah just now
+[00:31:58] [Server thread/INFO]: <Wyirm> ur messing with me
+[00:32:06] [Server thread/INFO]: <pteren> nuh uh
+[00:32:15] [Server thread/INFO]: <Wyirm> lava casts are rlly ugly
+[00:32:22] [Server thread/INFO]: <pteren> well its far away
+[00:32:30] [Server thread/INFO]: <Wyirm> ook
+[00:32:32] [Server thread/INFO]: <pteren> found a bridge bastion :o
+[00:32:35] [Server thread/INFO]: <Wyirm> nice
+[00:34:03] [Server thread/INFO]: pteren has made the advancement [Those Were the Days]
+[00:36:43] [Server thread/INFO]: <pteren> think that might be a soulsand valley fort too
+[00:38:46] [Server thread/INFO]: <Wyirm> cofr
+[00:38:56] [Server thread/INFO]: <Wyirm> mmm its 6:38
+[00:38:59] [Server thread/INFO]: <Wyirm> i shoiulkd do my homework now
+[00:39:09] [Server thread/INFO]: <Wyirm> i'll be on later thoo
+[00:39:14] [Server thread/INFO]: <pteren> ok!
+[00:39:25] [Server thread/INFO]: <Wyirm> i'll cya
+[00:39:26] [Server thread/INFO]: <pteren> good luck
+[00:39:29] [Server thread/INFO]: <Wyirm> ty
+[00:39:30] [Server thread/INFO]: Wyirm lost connection: Disconnected
+[00:39:30] [Server thread/INFO]: Wyirm left the game
+[00:44:39] [Server thread/INFO]: pteren lost connection: Disconnected
+[00:44:39] [Server thread/INFO]: pteren left the game
+[00:45:39] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:03:59] [Server thread/INFO]: KittyScan (/51.15.80.4:33888) lost connection: Disconnected
+[01:15:19] [User Authenticator #3/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
+[01:15:21] [Server thread/INFO]: pteren[/155.117.189.85:57269] logged in with entity id 27341 at (-126.73047840605072, 67.0, -236.01797276811624)
+[01:15:21] [Server thread/INFO]: pteren joined the game
+[01:15:51] [Server thread/INFO]: pteren lost connection: Disconnected
+[01:15:51] [Server thread/INFO]: pteren left the game
+[01:16:46] [User Authenticator #4/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
+[01:16:48] [Server thread/INFO]: pteren[/155.117.189.85:51410] logged in with entity id 27536 at (-128.47132908899167, 68.0, -237.84131007606774)
+[01:16:48] [Server thread/INFO]: pteren joined the game
+[01:17:44] [Server thread/INFO]: pteren has made the advancement [War Pigs]
+[01:17:55] [Server thread/INFO]: pteren has made the advancement [Who is Cutting Onions?]
+[01:24:43] [Server thread/INFO]: pteren has made the advancement [A Terrible Fortress]
+[01:24:48] [Server thread/INFO]: pteren withered away while fighting Wither Skeleton
+[01:25:57] [Server thread/INFO]: <pteren> 110 -136
+[01:30:23] [Server thread/INFO]: pteren has made the advancement [Cover Me with Diamonds]
+[01:36:52] [Server thread/INFO]: pteren has made the advancement [Not Today, Thank You]
+[01:38:17] [Server thread/INFO]: pteren fell from a high place
+[01:39:27] [Server thread/INFO]: [pteren: Set own game mode to Spectator Mode]
+[01:39:58] [Server thread/INFO]: [pteren: Set own game mode to Survival Mode]
+[01:40:08] [Server thread/INFO]: [pteren: Set own game mode to Spectator Mode]
+[01:40:31] [Server thread/INFO]: [pteren: Set own game mode to Survival Mode]
+[01:47:07] [Server thread/INFO]: pteren was slain by Wither Skeleton
+[01:47:19] [Server thread/INFO]: <pteren> 188 -187
+[01:54:31] [Server thread/INFO]: pteren was doomed to fall
+[01:54:40] [Server thread/INFO]: [pteren: Set own game mode to Spectator Mode]
+[01:55:06] [Server thread/INFO]: [pteren: Set own game mode to Creative Mode]
+[01:55:50] [Server thread/INFO]: [pteren: Set own game mode to Survival Mode]
+[01:56:12] [Server thread/INFO]: [pteren: Teleported 44 entities to pteren]
+[01:58:08] [Server thread/INFO]: pteren has made the advancement [Into Fire]
+[02:07:18] [Server thread/INFO]: pteren has made the advancement [Spooky Scary Skeleton]
+[02:56:04] [Server thread/INFO]: pteren has made the advancement [Glow and Behold!]
+[02:56:28] [Server thread/INFO]: pteren lost connection: Disconnected
+[02:56:28] [Server thread/INFO]: pteren left the game
+[02:56:46] [Server thread/INFO]: Made pteren no longer a server operator
+[02:56:50] [Server thread/INFO]: Stopping the server
+[02:56:50] [Server thread/INFO]: Stopping server
+[02:56:50] [Server thread/INFO]: Saving players
+[02:56:50] [Server thread/INFO]: Saving worlds
+[02:56:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:56:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:56:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:56:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:56:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:56:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:56:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
