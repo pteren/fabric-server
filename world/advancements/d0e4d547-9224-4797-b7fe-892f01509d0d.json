@@ -8,29 +8,38 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-02-11 00:56:26 +0000",
-      "minecraft:beach": "2026-02-06 22:45:41 +0000",
-      "minecraft:dark_forest": "2026-02-07 20:53:09 +0000",
+      "minecraft:snowy_slopes": "2026-02-15 22:12:45 +0000",
       "minecraft:forest": "2026-02-07 20:50:16 +0000",
       "minecraft:taiga": "2026-02-11 00:53:52 +0000",
-      "minecraft:mangrove_swamp": "2026-02-11 01:24:28 +0000",
-      "minecraft:sparse_jungle": "2026-02-06 22:45:23 +0000",
       "minecraft:deep_ocean": "2026-02-09 00:17:52 +0000",
-      "minecraft:river": "2026-02-07 20:11:00 +0000",
-      "minecraft:lukewarm_ocean": "2026-02-07 20:05:05 +0000",
-      "minecraft:stony_shore": "2026-02-06 22:45:44 +0000",
       "minecraft:lush_caves": "2026-02-07 20:09:44 +0000",
-      "minecraft:old_growth_birch_forest": "2026-02-09 00:18:12 +0000",
       "minecraft:jungle": "2026-02-07 20:11:33 +0000",
       "minecraft:ocean": "2026-02-09 00:17:40 +0000",
       "minecraft:cherry_grove": "2026-02-11 00:49:08 +0000",
-      "minecraft:swamp": "2026-02-07 20:53:18 +0000",
+      "minecraft:sunflower_plains": "2026-02-15 22:20:14 +0000",
       "minecraft:birch_forest": "2026-02-11 00:44:49 +0000",
-      "minecraft:windswept_gravelly_hills": "2026-02-11 01:12:31 +0000",
       "minecraft:windswept_hills": "2026-02-11 00:57:06 +0000",
-      "minecraft:savanna": "2026-02-09 00:23:11 +0000",
       "minecraft:bamboo_jungle": "2026-02-09 00:11:59 +0000",
       "minecraft:windswept_savanna": "2026-02-11 01:13:53 +0000",
-      "minecraft:plains": "2026-02-09 00:15:01 +0000"
+      "minecraft:deep_lukewarm_ocean": "2026-02-15 22:36:01 +0000",
+      "minecraft:flower_forest": "2026-02-15 22:19:43 +0000",
+      "minecraft:beach": "2026-02-06 22:45:41 +0000",
+      "minecraft:dark_forest": "2026-02-07 20:53:09 +0000",
+      "minecraft:mangrove_swamp": "2026-02-11 01:24:28 +0000",
+      "minecraft:sparse_jungle": "2026-02-06 22:45:23 +0000",
+      "minecraft:river": "2026-02-07 20:11:00 +0000",
+      "minecraft:lukewarm_ocean": "2026-02-07 20:05:05 +0000",
+      "minecraft:stony_shore": "2026-02-06 22:45:44 +0000",
+      "minecraft:frozen_peaks": "2026-02-15 22:12:49 +0000",
+      "minecraft:old_growth_birch_forest": "2026-02-09 00:18:12 +0000",
+      "minecraft:swamp": "2026-02-07 20:53:18 +0000",
+      "minecraft:grove": "2026-02-15 22:12:35 +0000",
+      "minecraft:meadow": "2026-02-15 22:09:03 +0000",
+      "minecraft:windswept_gravelly_hills": "2026-02-11 01:12:31 +0000",
+      "minecraft:savanna": "2026-02-09 00:23:11 +0000",
+      "minecraft:plains": "2026-02-09 00:15:01 +0000",
+      "minecraft:jagged_peaks": "2026-02-15 22:24:44 +0000",
+      "minecraft:pale_garden": "2026-02-15 21:58:28 +0000"
     },
     "done": false
   },
@@ -3728,6 +3737,18 @@
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_slime_block": "2026-02-14 03:05:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2026-02-15 21:21:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2026-02-15 21:21:39 +0000"
     },
     "done": true
   },
