@@ -1,8 +1,8 @@
-[18:03:53] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
-[18:03:54] [main/WARN]: Warnings were found!
+[01:14:40] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[01:14:40] [main/WARN]: Warnings were found!
  - Mod 'Quick Leaf Decay' (quickleafdecay) 0.4.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[18:03:54] [main/INFO]: Loading 43 mods:
+[01:14:40] [main/INFO]: Loading 42 mods:
 	- fabric-api 0.141.1+1.21.11
 	   |-- fabric-api-base 1.0.5+4ebb5c083e
 	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
@@ -50,70 +50,1142 @@
 	- fabricloader 0.18.4
 	   \-- mixinextras 0.5.0
 	- java 21
-	- lithium 0.21.2+mc1.21.11
 	- minecraft 1.21.11
 	- quickleafdecay 0.4.1
 	   \-- mixinextras 0.5.0
-[18:03:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/root/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[18:03:54] [main/INFO]: Compatibility level set to JAVA_21
-[18:03:54] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[18:03:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[18:04:14] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:04:19] [main/INFO]: Loaded 1470 recipes
-[18:04:19] [main/INFO]: Loaded 1584 advancements
-[18:04:19] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 9.329 ms
-[18:04:19] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[18:04:19] [Server thread/INFO]: Loading properties
-[18:04:19] [Server thread/INFO]: Default game type: SURVIVAL
-[18:04:19] [Server thread/INFO]: Generating keypair
-[18:04:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:04:20] [Server thread/INFO]: Preparing level "world"
-[18:04:21] [Server thread/INFO]: Loading 0 persistent chunks...
-[18:04:21] [Server thread/INFO]: Preparing spawn area: 100%
-[18:04:21] [Server thread/INFO]: Time elapsed: 94 ms
-[18:04:21] [Server thread/INFO]: Done (1.049s)! For help, type "help"
-[18:04:43] [User Authenticator #1/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
-[18:04:47] [Server thread/INFO]: pteren[/68.52.60.17:40584] logged in with entity id 201 at (-12.266337966731653, 72.0, -24.761436488029958)
-[18:04:47] [Server thread/INFO]: pteren joined the game
-[18:04:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
-[18:05:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4699ms or 93 ticks behind
-[18:05:27] [User Authenticator #2/INFO]: UUID of player MayhemFirefly is 9cbedc52-cb5a-4399-8a2e-1fdabb1b2320
-[18:05:28] [Server thread/INFO]: MayhemFirefly[/105.178.32.229:32308] logged in with entity id 347 at (3.4345456002801904, 68.0, -3.337155935756451)
-[18:05:28] [Server thread/INFO]: MayhemFirefly joined the game
-[18:08:17] [Server thread/INFO]: MayhemFirefly hit the ground too hard
-[18:32:29] [Server thread/WARN]: pteren moved too quickly! 1.9830429603851343,0.2247629905309907,9.961530410970369
-[18:34:04] [Server thread/INFO]: The difficulty has been set to Normal
-[18:40:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-17, y=73, z=-14} class_2338{x=2, y=74, z=-15}
-[18:40:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-17, y=73, z=-14} class_2338{x=2, y=74, z=-15}
-[18:43:20] [Server thread/INFO]: <MayhemFirefly> it should be something claylike
-[18:43:30] [Server thread/INFO]: <MayhemFirefly> THE . CIELINGV.
-[18:43:44] [Server thread/INFO]: <MayhemFirefly> THE ONE UOU WERE TALKING ABOUT
-[18:43:53] [Server thread/INFO]: <MayhemFirefly> IN TJHE TRANS WA:L ROOM
-[18:44:21] [Server thread/INFO]: <MayhemFirefly> something that looks clay-y
-[18:44:42] [Server thread/INFO]: MayhemFirefly was poked to death by a sweet berry bush
-[18:47:32] [Server thread/INFO]: <MayhemFirefly> someone poured gas in my dungeon
-[18:47:44] [Server thread/INFO]: <MayhemFirefly> YOU NEVER DO
-[18:48:06] [Server thread/INFO]: <MayhemFirefly> tru ):
-[18:50:22] [Server thread/INFO]: <MayhemFirefly> i dropped some for you come back
-[18:50:38] [Server thread/INFO]: <MayhemFirefly> ok
-[18:51:23] [Server thread/INFO]: <MayhemFirefly> up to u
-[18:52:33] [Server thread/INFO]: <MayhemFirefly> ok
-[18:55:48] [Server thread/INFO]: pteren lost connection: Disconnected
-[18:55:48] [Server thread/INFO]: pteren left the game
-[18:58:00] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.base/java.io.FileInputStream.readBytes(Native Method)
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:287)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
-	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188)
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
-	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370)
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347)
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436)
-	at knot//net.minecraft.class_3176$1.run(class_3176.java:186)
+[01:14:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/root/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:14:40] [main/INFO]: Compatibility level set to JAVA_21
+[01:14:41] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[01:14:55] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:15:00] [main/INFO]: Loaded 1470 recipes
+[01:15:00] [main/INFO]: Loaded 1584 advancements
+[01:15:00] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.286 ms
+[01:15:00] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[01:15:00] [Server thread/INFO]: Loading properties
+[01:15:00] [Server thread/INFO]: Default game type: SURVIVAL
+[01:15:00] [Server thread/INFO]: Generating keypair
+[01:15:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:15:01] [Server thread/INFO]: Preparing level "world"
+[01:15:02] [Server thread/INFO]: Loading 0 persistent chunks...
+[01:15:02] [Server thread/INFO]: Preparing spawn area: 100%
+[01:15:02] [Server thread/INFO]: Time elapsed: 135 ms
+[01:15:02] [Server thread/INFO]: Done (1.192s)! For help, type "help"
+[01:16:02] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:16:45] [User Authenticator #1/INFO]: UUID of player Wyirm is d0e4d547-9224-4797-b7fe-892f01509d0d
+[01:16:47] [Server thread/INFO]: Wyirm[/165.91.10.81:32705] logged in with entity id 164 at (-24.468600443648096, 75.0, -17.801382526892944)
+[01:16:47] [Server thread/INFO]: Wyirm joined the game
+[01:16:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2076ms or 41 ticks behind
+[01:17:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3337ms or 66 ticks behind
+[01:18:16] [Server thread/INFO]: <Wyirm> julie
+[01:28:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-10, y=65, z=-46} class_2338{x=-11, y=64, z=-46}
+[01:28:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-10, y=65, z=-46} class_2338{x=-11, y=64, z=-46}
+[01:41:52] [Server thread/WARN]: Wyirm moved wrongly!
+[01:46:55] [Server thread/INFO]: [Not Secure] [Server] wyrim stop moving wrongly
+[01:47:01] [Server thread/INFO]: <Wyirm> mme
+[01:47:04] [Server thread/INFO]: <Wyirm> what
+[01:48:05] [User Authenticator #2/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
+[01:48:08] [Server thread/INFO]: pteren[/212.8.243.68:20295] logged in with entity id 8250 at (-10.768548330258675, 72.0, -23.698158915592774)
+[01:48:08] [Server thread/INFO]: pteren joined the game
+[01:48:11] [Server thread/INFO]: <Wyirm> hiiii
+[01:48:12] [Server thread/INFO]: <pteren> YAY
+[01:48:19] [Server thread/INFO]: <pteren> i love
+[01:48:22] [Server thread/INFO]: <pteren> i live
+[01:48:36] [Server thread/INFO]: <pteren> i lave
+[01:48:39] [Server thread/INFO]: <Wyirm> i love i live i laugh
+[01:48:40] [Server thread/INFO]: <pteren> some of those r words
+[01:48:45] [Server thread/INFO]: <Wyirm> audio video disco
+[01:49:23] [Server thread/INFO]: <pteren> buzz buzz
+[01:49:27] [Server thread/INFO]: <Wyirm> rain rain
+[01:50:06] [Server thread/INFO]: <pteren> i think im gonna make a tiny bambo farm in the smithy
+[01:50:08] [Server thread/INFO]: <pteren> bc why not
+[01:50:10] [Server thread/INFO]: <Wyirm> yay:#
+[01:52:00] [Server thread/INFO]: <Wyirm> hmm
+[01:56:14] [Server thread/INFO]: <Wyirm> how does quasipowering work again
+[01:56:28] [Server thread/INFO]: <pteren> UHHHH
+[01:56:32] [Server thread/INFO]: <pteren> idunno
+[01:56:56] [Server thread/INFO]: <pteren> im using this ultra-cheap torch burnout detection
+[01:57:00] [Server thread/INFO]: <Wyirm> i tested a thing in a creative world and like it worked but im not sure how or why
+[01:57:03] [Server thread/INFO]: <pteren> for. some reason
+[01:57:13] [Server thread/INFO]: <Wyirm> torches burnout when you turn them on and off too fast right
+[01:57:20] [Server thread/INFO]: <pteren> ye.
+[01:57:31] [Server thread/INFO]: <pteren> and then they will turn back on after a cooldown when they recieve a block update
+[01:57:39] [Server thread/INFO]: <Wyirm> i burount
+[01:57:41] [Server thread/INFO]: <Wyirm> ah
+[01:57:46] [Server thread/INFO]: <Wyirm> so the block update thingy
+[01:58:32] [Server thread/INFO]: <pteren> GOTTA STAB SQUIDS
+[01:58:43] [Server thread/INFO]: <Wyirm> inky
+[01:59:57] [Server thread/INFO]: <Wyirm> hi
+[02:00:31] [Server thread/INFO]: <Wyirm> well
+[02:03:37] [Server thread/INFO]: Wyirm lost connection: Timed out
+[02:03:37] [Server thread/INFO]: Wyirm left the game
+[02:03:37] [Server thread/WARN]: handleDisconnection() called twice
+[02:03:50] [User Authenticator #3/INFO]: UUID of player Wyirm is d0e4d547-9224-4797-b7fe-892f01509d0d
+[02:03:50] [Server thread/INFO]: Wyirm[/165.91.10.81:8871] logged in with entity id 11572 at (-21.30000001192093, 68.0, 11.300000011920929)
+[02:03:51] [Server thread/INFO]: Wyirm joined the game
+[02:03:53] [Server thread/INFO]: <Wyirm> uh
+[02:03:56] [Server thread/INFO]: <Wyirm> laggy
+[02:04:26] [Server thread/INFO]: <pteren> oh no :(
+[02:04:34] [Server thread/INFO]: <Wyirm> uh oh
+[02:05:20] [Server thread/INFO]: <Wyirm> is everything okay?
+[02:06:50] [Server thread/INFO]: <pteren> not sure
+[02:07:23] [Server thread/INFO]: <pteren> your connection seems fine
+[02:07:25] [Server thread/INFO]: <Wyirm> yah
+[02:07:26] [Server thread/INFO]: <pteren> server has enough memory
+[02:07:37] [Server thread/INFO]: <pteren> u aren't moving wrongly anymore so thats good
+[02:07:41] [Server thread/INFO]: <Wyirm> yay!
+[02:11:43] [Server thread/INFO]: <Wyirm> does sugarcane need light
+[02:11:50] [Server thread/INFO]: <pteren> prolly
+[02:11:51] [Server thread/INFO]: <Wyirm> i might be small
+[02:14:47] [Server thread/INFO]: <Wyirm> omg we got calcite yay
+[02:15:32] [Server thread/INFO]: <pteren> mhm!!
+[02:15:41] [Server thread/INFO]: <pteren> wanna help me texture the tower?
+[02:16:07] [Server thread/INFO]: <Wyirm> yes !
+[02:16:30] [Server thread/INFO]: <Wyirm> gradienty or texturey
+[02:16:39] [Server thread/INFO]: <Wyirm> is wool allowed
+[02:16:47] [Server thread/INFO]: <pteren> i think gradienty
+[02:16:53] [Server thread/INFO]: <pteren> AND MAYBE
+[02:16:59] [Server thread/INFO]: <pteren> wool at the top might look real nice
+[02:17:03] [Server thread/INFO]: <Wyirm> yes!
+[02:17:05] [Server thread/INFO]: <pteren> or smooth quartz
+[02:17:10] [Server thread/INFO]: <pteren> the smelty one with no outline
+[02:17:16] [Server thread/INFO]: <Wyirm> quartz is kinda yellowy
+[02:17:21] [Server thread/INFO]: <Wyirm> or was it pink
+[02:17:25] [Server thread/INFO]: <pteren> not sure
+[02:17:30] [Server thread/INFO]: <pteren> we'll have to check
+[02:18:03] [Server thread/INFO]: <Wyirm> i used like diorite->calcite->white_concrete_powder->white_wool
+[02:18:11] [Server thread/INFO]: <pteren> ooh!
+[02:18:18] [Server thread/INFO]: <pteren> conk reet...
+[02:18:24] [Server thread/INFO]: <Wyirm> pull the level
+[02:18:25] [Server thread/INFO]: <pteren> sounds tasty
+[02:18:26] [Server thread/INFO]: <Wyirm> lkever
+[02:18:41] [Server thread/INFO]: <pteren> why do we even HAVE that leverrhasdgsadhfaksdf
+[02:18:53] [Server thread/INFO]: <Wyirm> LKITTY
+[02:18:54] [Server thread/INFO]: <Wyirm> KITTY
+[02:18:59] [Server thread/INFO]: <pteren> YEAG :3
+[02:19:12] [Server thread/INFO]: <pteren> awww he wants to go outside
+[02:19:13] [Server thread/INFO]: <Wyirm> fih
+[02:20:21] [Server thread/INFO]: <Wyirm> did i tell u abt the story i making
+[02:20:29] [Server thread/INFO]: <pteren> no!!
+[02:21:02] [Server thread/INFO]: <Wyirm> i cant tame the kittyy :<
+[02:21:10] [Server thread/INFO]: <pteren> :(((
+[02:21:12] [Server thread/INFO]: <Wyirm> do they not like tropical fish
+[02:21:21] [Server thread/INFO]: <pteren> ig not?
+[02:21:25] [Server thread/INFO]: <Wyirm> damn,,
+[02:24:01] [Server thread/INFO]: <Wyirm> i feel liek im forgeting something
+[02:24:10] [Server thread/INFO]: <pteren> story u making?
+[02:24:18] [Server thread/INFO]: <Wyirm> oh right
+[02:24:31] [Server thread/INFO]: <Wyirm> it has fish people
+[02:24:48] [Server thread/INFO]: <Wyirm> do you care about spoileries
+[02:24:54] [Server thread/INFO]: <Wyirm> its a mystery thingy
+[02:25:03] [Server thread/INFO]: <pteren> fish people mystery???
+[02:25:09] [Server thread/INFO]: <Wyirm> ok so
+[02:25:37] [Server thread/INFO]: <Wyirm> 16 months ago a hole opens up at the bottom of the sea in this super rural area
+[02:25:54] [Server thread/INFO]: <Wyirm> and they dont know how deep it goes
+[02:26:22] [Server thread/INFO]: <Wyirm> and they're all fish people
+[02:27:30] [Server thread/INFO]: <Wyirm> i cant really say anything else cuz its stuff that you learn throughout the story
+[02:27:50] [Server thread/INFO]: <pteren> WOAHHH
+[02:28:48] [Server thread/INFO]: <Wyirm> oo pretty
+[02:29:07] [Server thread/INFO]: <pteren> felt a bit cramped
+[02:29:12] [Server thread/INFO]: <Wyirm> its good
+[02:29:14] [Server thread/INFO]: <Wyirm> AAA
+[02:29:21] [Server thread/INFO]: <Wyirm> i picked up like one billion things
+[02:29:22] [Server thread/INFO]: <pteren> get ambushed
+[02:29:24] [Server thread/INFO]: <Wyirm> hehehe
+[02:29:59] [Server thread/INFO]: <Wyirm> do you mind a minor spoiler that you learn pretty early on
+[02:30:06] [Server thread/INFO]: <pteren> sounds good
+[02:30:22] [Server thread/INFO]: <Wyirm> the story takes place on earth in the future after humans have disappeared
+[02:30:45] [Server thread/INFO]: <pteren> love it
+[02:31:57] [Server thread/INFO]: <Wyirm> i can infite you to the server i have for it if u want
+[02:32:16] [Server thread/INFO]: <Wyirm> i made it cuz i hated dming like 5 people evrey time i made a comic
+[02:33:38] [Server thread/INFO]: <pteren> i might not stick around but ill definitely take a look :)
+[02:33:51] [Server thread/INFO]: <Wyirm> mow
+[02:33:56] [Server thread/INFO]: <Wyirm> okia
+[02:34:08] [Server thread/INFO]: <Wyirm> ikts not finished so maybe
+[02:34:14] [Server thread/INFO]: <Wyirm> i'll hold off on that lol
+[02:34:25] [Server thread/INFO]: <pteren> piston floor!
+[02:34:32] [Server thread/INFO]: <Wyirm> poston
+[02:34:42] [Server thread/INFO]: <Wyirm> gey lois
+[02:35:02] [Server thread/INFO]: <Wyirm> whats making that clicking
+[02:35:08] [Server thread/INFO]: <pteren> the shelves!
+[02:35:16] [Server thread/INFO]: <Wyirm> whatttrfgijfdogk
+[02:35:17] [Server thread/INFO]: <Wyirm> whatt
+[02:35:20] [Server thread/INFO]: <Wyirm> why doi they do that
+[02:35:32] [Server thread/INFO]: <pteren> u can swap a bunch of slots at a time
+[02:35:36] [Server thread/INFO]: <pteren> i dont know exactly how it works
+[02:35:37] [Server thread/INFO]: <Wyirm> woaw
+[02:36:21] [Server thread/INFO]: <Wyirm> extemdy
+[02:36:48] [Server thread/INFO]: <Wyirm> when do fish spawn
+[02:37:04] [Server thread/INFO]: <pteren> constantly
+[02:38:18] [Server thread/INFO]: <Wyirm> wheres the kitty
+[02:38:44] [Server thread/INFO]: <pteren> fuck me
+[02:38:46] [Server thread/INFO]: <Wyirm> WHAT
+[02:38:50] [Server thread/INFO]: <Wyirm> dam
+[02:39:50] [Server thread/WARN]: Wyirm moved wrongly!
+[02:40:03] [Server thread/INFO]: <Wyirm> oh wpow there was a lot
+[02:42:19] [Server thread/INFO]: <pteren> it dropped in from the 2nd story
+[02:42:29] [Server thread/INFO]: <Wyirm> ow
+[02:43:06] [Server thread/INFO]: <Wyirm> WHERS MY KITTY gfiudigdfgk
+[02:43:11] [Server thread/INFO]: <pteren> :((
+[02:43:20] [Server thread/INFO]: <Wyirm> did it drop in the hole
+[02:43:26] [Server thread/INFO]: <pteren> its in the pen with the animals lol
+[02:43:29] [Server thread/INFO]: <Wyirm> oh
+[02:43:30] [Server thread/INFO]: <Wyirm> yay
+[02:44:06] [Server thread/INFO]: <Wyirm> does it not like cooked fish
+[02:44:13] [Server thread/INFO]: <Wyirm> god dangit
+[02:44:16] [Server thread/INFO]: <pteren> hehehehe
+[02:44:18] [Server thread/INFO]: <pteren> so picky
+[02:44:25] [Server thread/INFO]: <Wyirm> im not that picky..
+[02:44:41] [Server thread/INFO]: <pteren> the kitty is i mean
+[02:44:52] [Server thread/INFO]: <Wyirm> i know
+[02:44:56] [Server thread/INFO]: <Wyirm> im not as picky as the kitty
+[02:45:45] [Server thread/INFO]: <Wyirm> KITTY
+[02:45:48] [Server thread/INFO]: <Wyirm> I tamedf it
+[02:45:51] [Server thread/INFO]: <Wyirm> im winning
+[02:46:02] [Server thread/INFO]: <pteren> YAYYYY
+[02:46:16] [Server thread/INFO]: <Wyirm> gato
+[02:47:55] [Server thread/INFO]: <Wyirm> look at my cat
+[02:48:06] [Server thread/INFO]: <pteren> aww
+[02:48:15] [Server thread/INFO]: <Wyirm> yiuj
+[02:48:28] [Server thread/INFO]: <Wyirm> kityg
+[02:49:11] [Server thread/INFO]: <Wyirm> what were we doing
+[02:49:27] [Server thread/INFO]: <pteren> im makin a wool farm for the tower
+[02:49:31] [Server thread/INFO]: <Wyirm> oo yay
+[02:49:47] [Server thread/INFO]: <Wyirm> how many sheep can you pack into a 1x1 hole <3
+[02:50:42] [Server thread/INFO]: <pteren> i think like. 24 or so?
+[02:50:49] [Server thread/INFO]: <Wyirm> entity cramming
+[02:50:58] [Server thread/INFO]: <pteren> but thats not actually relevant bc they need to eat grass to get the wool back
+[02:51:04] [Server thread/INFO]: <pteren> so the limiting factor is grass growth
+[02:51:08] [Server thread/INFO]: <Wyirm> wwell you can push grass with pistons
+[02:51:17] [Server thread/INFO]: <pteren> u can but i am lazy
+[02:51:22] [Server thread/INFO]: <Wyirm> and observer detech when the grass
+[02:51:23] [Server thread/INFO]: <Wyirm> oh
+[02:51:28] [Server thread/INFO]: <Wyirm> yippee
+[02:51:45] [Server thread/INFO]: <pteren> im making ianxofour's Elegance design
+[02:52:01] [Server thread/INFO]: <pteren> it has 12 sheeps and lots of grass nearby so the grass grows as fast as possible
+[02:53:50] [Server thread/INFO]: <Wyirm> gras
+[02:53:54] [Server thread/INFO]: <pteren> gras
+[02:53:57] [Server thread/INFO]: <Wyirm> do you think iuts possible for sheep to overgraze
+[02:54:08] [Server thread/INFO]: <pteren> how so?
+[02:54:16] [Server thread/INFO]: <Wyirm> eat all the grass vefore it can grow back
+[02:54:26] [Server thread/INFO]: <pteren> theres grass in the sides of the farm that they cant reach
+[02:54:32] [Server thread/INFO]: <Wyirm> yipee
+[02:56:15] [Server thread/INFO]: <pteren> i wish i had carryon installed </3
+[02:56:20] [Server thread/INFO]: <Wyirm> like
+[02:56:22] [Server thread/INFO]: <Wyirm> meat?
+[02:56:45] [Server thread/INFO]: <Wyirm> or are you saying crayon
+[02:56:50] [Server thread/INFO]: <pteren> CarryOn
+[02:56:54] [Server thread/INFO]: <Wyirm> oh
+[02:56:56] [Server thread/INFO]: <Wyirm> two words
+[02:57:02] [Server thread/INFO]: <Wyirm> what does that do
+[02:57:06] [Server thread/INFO]: <pteren> its a server mod that lets u pick up animals
+[02:57:12] [Server thread/WARN]: Wyirm moved wrongly!
+[02:57:15] [Server thread/INFO]: <Wyirm> ah
+[02:57:26] [Server thread/INFO]: <pteren> its very silly
+[02:57:35] [Server thread/INFO]: <Wyirm> lets happy ghast them
+[02:58:01] [Server thread/INFO]: <pteren> up up and away!!!
+[02:58:05] [Server thread/INFO]: <Wyirm> get rid of the chicky
+[02:58:15] [Server thread/INFO]: <Wyirm> ok wait wwhat are we doing
+[02:58:25] [Server thread/INFO]: <pteren> um
+[02:58:27] [Server thread/INFO]: <pteren> im not flying
+[02:58:45] [Server thread/INFO]: <Wyirm> maybe get a reg boat
+[03:01:16] [Server thread/INFO]: <Wyirm> can they breed
+[03:02:48] [Server thread/INFO]: <pteren> if u want any colors get dyes
+[03:02:58] [Server thread/INFO]: <Wyirm> what kind of color
+[03:03:08] [Server thread/INFO]: <Wyirm> do we have plan for an y in the future
+[03:03:18] [Server thread/INFO]: <pteren> idk
+[03:03:27] [Server thread/INFO]: <Wyirm> blue,
+[03:04:00] [Server thread/INFO]: <Wyirm> which
+[03:04:04] [Server thread/INFO]: <pteren> any
+[03:04:08] [Server thread/INFO]: <pteren> its all goin to the same place
+[03:04:20] [Server thread/INFO]: <Wyirm> blueep
+[03:04:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5, y=75, z=17} class_2338{x=9, y=76, z=16}
+[03:04:57] [Server thread/INFO]: <pteren> need shears
+[03:05:32] [Server thread/INFO]: <pteren> i mean like
+[03:05:35] [Server thread/INFO]: <pteren> 18 new pairs
+[03:06:24] [Server thread/INFO]: <pteren> ...prob shouldve done this BEFORE putting the sheeps in
+[03:06:36] [Server thread/INFO]: <Wyirm> dispenr
+[03:07:03] [Server thread/INFO]: <pteren> GOT IT
+[03:07:11] [Server thread/INFO]: <Wyirm> tyayyYA
+[03:07:20] [Server thread/INFO]: <pteren> eyyyy
+[03:07:40] [Server thread/INFO]: <pteren> need 1 more sheep
+[03:07:48] [Server thread/INFO]: <pteren> sex themmm
+[03:08:07] [Server thread/INFO]: <Wyirm> dumb shep
+[03:08:33] [Server thread/INFO]: <pteren> lets maybe do 6 colored, 6 white
+[03:08:44] [Server thread/INFO]: <Wyirm> blehh
+[03:08:46] [Server thread/INFO]: <Wyirm> okie
+[03:09:10] [Server thread/INFO]: <Wyirm> what coolors you wanty
+[03:09:24] [Server thread/INFO]: <pteren> im using 1 of my limited edition cyan dye
+[03:09:31] [Server thread/INFO]: <Wyirm> blue light blue red orange yellow cyan
+[03:09:44] [Server thread/INFO]: <Wyirm> or ouple
+[03:10:00] [Server thread/INFO]: <pteren> red for sure...
+[03:10:09] [Server thread/INFO]: <pteren> orange is good
+[03:10:42] [Server thread/INFO]: <pteren> i gotta kitchen clean help
+[03:11:11] [Server thread/INFO]: <pteren> shall return
+[03:11:16] [Server thread/INFO]: <Wyirm> goot luck
+[03:11:19] [Server thread/INFO]: <pteren> sex 2 white sheeps pls
+[03:11:22] [Server thread/INFO]: pteren lost connection: Disconnected
+[03:11:22] [Server thread/INFO]: pteren left the game
+[03:11:23] [Server thread/INFO]: <Wyirm> pla
+[03:11:25] [Server thread/INFO]: <Wyirm> okay
+[03:32:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-7, y=81, z=-11} class_2338{x=-10, y=82, z=-11}
+[03:32:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-7, y=81, z=-11} class_2338{x=-9, y=83, z=-11}
+[03:32:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-7, y=81, z=-11} class_2338{x=-9, y=83, z=-11}
+[03:37:40] [User Authenticator #4/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
+[03:37:43] [Server thread/INFO]: pteren[/212.8.243.68:35280] logged in with entity id 33881 at (-0.058817204132549344, 71.0, 7.273175783928775)
+[03:37:43] [Server thread/INFO]: pteren joined the game
+[03:37:46] [Server thread/INFO]: <pteren> hiii
+[03:37:47] [Server thread/INFO]: <Wyirm> omg!
+[03:37:50] [Server thread/INFO]: <Wyirm> hii
+[03:37:56] [Server thread/INFO]: <pteren> ok!
+[03:38:00] [Server thread/INFO]: <pteren> we got 12 sheeps!
+[03:38:40] [Server thread/INFO]: <Wyirm> do u want a kitty
+[03:38:42] [Server thread/INFO]: <Wyirm> i found one
+[03:39:03] [Server thread/INFO]: <pteren> ooh yay!
+[03:39:19] [Server thread/INFO]: <pteren> i wanna finish the sheeps rq
+[03:39:30] [Server thread/INFO]: <Wyirm> oki
+[03:39:35] [Server thread/INFO]: <Wyirm> i'll ust foloow it around
+[03:40:31] [Server thread/INFO]: <Wyirm> b
+[03:40:34] [Server thread/INFO]: <Wyirm> buh
+[03:40:35] [Server thread/INFO]: <pteren> they r squish
+[03:40:36] [Server thread/INFO]: <Wyirm> box
+[03:40:59] [Server thread/INFO]: <pteren> glass blocks on their head
+[03:41:05] [Server thread/INFO]: <pteren> so they wont suffocate
+[03:41:06] [Server thread/INFO]: <Wyirm> glaz
+[03:41:08] [Server thread/INFO]: <Wyirm> yay
+[03:41:14] [Server thread/INFO]: <pteren> wool appears on their back when shear. so it clip into the glass
+[03:41:17] [Server thread/INFO]: <pteren> and bubbles up!
+[03:41:22] [Server thread/INFO]: <pteren> tada!
+[03:41:31] [Server thread/INFO]: <Wyirm> w0owoahhh
+[03:41:35] [Server thread/INFO]: <Wyirm> thats epic
+[03:41:49] [Server thread/INFO]: <pteren> ianxofour is the goat
+[03:42:18] [Server thread/INFO]: <pteren> lol
+[03:42:22] [Server thread/INFO]: <Wyirm> aaaa
+[03:42:40] [Server thread/INFO]: <Wyirm> need a real chest
+[03:42:46] [Server thread/INFO]: <pteren> aaaH
+[03:42:48] [Server thread/INFO]: <Wyirm> l;mao
+[03:43:59] [Server thread/INFO]: <pteren> gorgeous
+[03:44:11] [Server thread/INFO]: <Wyirm> yay
+[03:44:37] [Server thread/INFO]: <Wyirm> mrp
+[03:44:43] [Server thread/INFO]: <pteren> ok whats now
+[03:44:46] [Server thread/INFO]: <Wyirm> uhh
+[03:44:52] [Server thread/INFO]: <Wyirm> i forgot
+[03:44:54] [Server thread/INFO]: <Wyirm> CAT
+[03:44:55] [Server thread/INFO]: <Wyirm> the cat
+[03:44:56] [Server thread/INFO]: <Wyirm> yes
+[03:44:57] [Server thread/INFO]: <pteren> YES
+[03:45:31] [Server thread/INFO]: <Wyirm> i saw it go in the house
+[03:46:01] [Server thread/INFO]: <Wyirm> aw
+[03:46:18] [Server thread/INFO]: <pteren> itll turn up
+[03:46:22] [Server thread/INFO]: <Wyirm> okie
+[03:46:26] [Server thread/INFO]: <Wyirm> uhh lets do the tower thingy
+[03:46:30] [Server thread/INFO]: <pteren> ok!
+[03:48:17] [Server thread/INFO]: <pteren> okays.
+[03:48:17] [Server thread/INFO]: <Wyirm> wait we have scaffold
+[03:48:28] [Server thread/INFO]: <pteren> im not sure about the polished diorite...
+[03:48:35] [Server thread/INFO]: <pteren> it is smoother than the raw
+[03:48:39] [Server thread/INFO]: <pteren> but the outlines are. mmm
+[03:48:49] [Server thread/INFO]: <Wyirm> yah
+[03:49:00] [Server thread/INFO]: <pteren> so maybe polished dia base
+[03:49:16] [Server thread/INFO]: <Wyirm> wait im confused
+[03:49:23] [Server thread/INFO]: <Wyirm> hmm
+[03:49:41] [Server thread/INFO]: <pteren> im in front of sugar farm
+[03:50:01] [Server thread/INFO]: <Wyirm> ooh
+[03:50:02] [Server thread/INFO]: <Wyirm> uh
+[03:50:15] [Server thread/INFO]: <Wyirm> maybe straight into powder?
+[03:50:21] [Server thread/INFO]: <pteren> the gradient on the right is way smoother...
+[03:50:35] [Server thread/INFO]: <pteren> maybe i will get connected textures for the gridlines
+[03:50:44] [Server thread/INFO]: <Wyirm> fair lol
+[03:50:56] [Server thread/INFO]: <pteren> need some wool too
+[03:50:59] [Server thread/INFO]: <Wyirm> wolp
+[03:51:20] [Server thread/INFO]: <pteren> take
+[03:51:37] [Server thread/INFO]: <Wyirm> AAA
+[03:51:39] [Server thread/INFO]: <Wyirm> I FORGOT
+[03:51:42] [Server thread/INFO]: <pteren> LMAO
+[03:51:55] [Server thread/INFO]: <Wyirm> stupid cat brain
+[03:52:21] [Server thread/INFO]: <pteren> hmmmmm
+[03:52:24] [Server thread/INFO]: <Wyirm> wool is lighter than powder
+[03:52:28] [Server thread/INFO]: <Wyirm> trust me
+[03:52:48] [Server thread/INFO]: <pteren> calcite is lighter than powder too...
+[03:52:55] [Server thread/INFO]: <Wyirm> is it
+[03:52:56] [Server thread/INFO]: <Wyirm> ?
+[03:53:04] [Server thread/INFO]: <Wyirm> noo
+[03:53:06] [Server thread/INFO]: <Wyirm> ur a liar
+[03:53:12] [Server thread/INFO]: <pteren> mmm
+[03:53:54] [Server thread/INFO]: <pteren> im worried the top will look oddly smooth
+[03:54:06] [Server thread/INFO]: <pteren> i like this gradient, but not these ratios
+[03:54:09] [Server thread/INFO]: <Wyirm> uhmm,
+[03:54:19] [Server thread/INFO]: <Wyirm> i think dithering will help
+[03:54:22] [Server thread/INFO]: <Wyirm> FAUCJISahjg md, flk;
+[03:54:23] [Server thread/INFO]: <pteren> yea'
+[03:54:26] [Server thread/INFO]: <Wyirm> fuckass phantoms
+[03:54:32] [Server thread/INFO]: <Wyirm> grahh
+[03:54:35] [Server thread/INFO]: <pteren> ;lets epp
+[03:55:03] [Server thread/INFO]: <pteren> whoops
+[03:55:36] [User Authenticator #5/INFO]: UUID of player LilacPeregrine is 5c5f1fb1-8e1e-4da4-86d1-75f426c5b913
+[03:55:37] [Server thread/INFO]: LilacPeregrine[/192.112.253.20:14492] logged in with entity id 38452 at (-15.58419160401338, 63.0, -32.34504659059984)
+[03:55:37] [Server thread/INFO]: LilacPeregrine joined the game
+[03:55:41] [Server thread/INFO]: <pteren> LILAC!!!
+[03:55:41] [Server thread/INFO]: <Wyirm> LILACK
+[03:55:41] [Server thread/INFO]: <LilacPeregrine> beep!
+[03:55:43] [Server thread/INFO]: <pteren> yayyyy
+[03:55:43] [Server thread/INFO]: <Wyirm> AAA
+[03:56:39] [Server thread/INFO]: <LilacPeregrine> i like the copper
+[03:56:44] [Server thread/INFO]: <pteren> ty
+[03:56:58] [Server thread/INFO]: <LilacPeregrine> hello juli
+[03:57:00] [Server thread/INFO]: <Wyirm> hi
+[03:57:12] [Server thread/INFO]: <LilacPeregrine> ooo the farm looks amazing
+[03:57:19] [Server thread/INFO]: <pteren> <3
+[03:57:34] [Server thread/INFO]: <Wyirm> mrrp
+[03:57:38] [Server thread/INFO]: <LilacPeregrine> beep
+[03:57:51] [Server thread/INFO]: <pteren> thoughts?
+[03:57:55] [Server thread/INFO]: <LilacPeregrine> ooo shading
+[03:57:58] [Server thread/INFO]: <Wyirm> hot
+[03:58:09] [Server thread/INFO]: <LilacPeregrine> ::3
+[03:58:30] [Server thread/INFO]: <pteren> maybe just a bit more raw dio at the bottom
+[03:58:38] [Server thread/INFO]: <LilacPeregrine> ooo honeycomb and pumpkins go so well together
+[03:58:47] [Server thread/INFO]: <pteren> yes
+[03:58:49] [Server thread/INFO]: <pteren> this is perfect
+[03:59:14] [Server thread/INFO]: <Wyirm> it is lovely
+[03:59:29] [Netty Epoll IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
+	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
+	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
+	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
+	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
+	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
+	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
+	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
+	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
+	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
+	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
+	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
+	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
+	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
+	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
+	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:725)
+	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:820)
+	at knot//io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:482)
+	at knot//io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
+	at knot//io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
+	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[03:59:47] [Server thread/INFO]: <LilacPeregrine> it looks like calcite has been achieved
+[03:59:54] [Server thread/INFO]: <pteren> mhm!
+[04:00:00] [Server thread/INFO]: <pteren> we may need some more tho
+[04:00:07] [Server thread/INFO]: <Wyirm> more calcice
+[04:00:22] [Server thread/INFO]: <pteren> so.
+[04:00:30] [Server thread/INFO]: <pteren> do you think the tower should go any higher than this?
+[04:00:39] [Server thread/INFO]: <pteren> or is it good that its kinda stumpy?
+[04:00:49] [Server thread/INFO]: <Wyirm> a little bit tallker
+[04:00:58] [Server thread/INFO]: <LilacPeregrine> taler
+[04:01:00] [Server thread/INFO]: <pteren> maybe like 3-4 more blocks
+[04:01:18] [Server thread/INFO]: <LilacPeregrine> im thinkin like 50% taller
+[04:01:28] [Server thread/INFO]: <Wyirm> ,,,mmmm yes
+[04:01:29] [Server thread/INFO]: <LilacPeregrine> like mini radio tower
+[04:01:39] [Server thread/INFO]: <LilacPeregrine> oh wait it is radio tower
+[04:01:40] [Server thread/INFO]: <Wyirm> radio, radio
+[04:01:55] [Server thread/INFO]: <pteren> we r talking about the calcite tower
+[04:02:02] [Server thread/INFO]: <LilacPeregrine> pain
+[04:02:24] [Server thread/INFO]: <pteren> nooooo im OUT OF CRAFTING TABLES
+[04:02:27] [Server thread/INFO]: <pteren> kill me now
+[04:02:27] [Server thread/INFO]: <LilacPeregrine> depends on the height of everything else - where are you planning the roof
+[04:02:44] [Server thread/INFO]: <pteren> there will be a 2nd story but probably not a 3rd
+[04:02:57] [Server thread/INFO]: <pteren> so yea actually i think we need more height
+[04:03:20] [Server thread/INFO]: <LilacPeregrine> poipleglass
+[04:03:27] [Server thread/INFO]: <Wyirm> poipole
+[04:03:30] [Server thread/INFO]: <Wyirm> pokemon
+[04:03:31] [Server thread/INFO]: <pteren> lets just see how many stairs i can add before we run out of deepslate
+[04:03:53] [Server thread/INFO]: <LilacPeregrine> this place is so good already
+[04:04:01] [Server thread/INFO]: <pteren> <3
+[04:04:12] [Server thread/INFO]: <pteren> PLS claim part of the upstairs and make a bedroom or smt
+[04:04:27] [Server thread/INFO]: <pteren> also the workshop needs a roof
+[04:04:31] [Server thread/INFO]: <pteren> ceiling i mean
+[04:04:33] [Server thread/INFO]: LilacPeregrine was impaled on a stalagmite
+[04:04:33] [Server thread/INFO]: <pteren> idk what to use
+[04:04:34] [Server thread/INFO]: <Wyirm> HAHAHA
+[04:04:36] [Server thread/INFO]: <pteren> L
+[04:04:37] [Server thread/INFO]: <LilacPeregrine> lmaoo
+[04:04:42] [Server thread/INFO]: <LilacPeregrine> haha
+[04:04:46] [Server thread/INFO]: <LilacPeregrine> you got me 100%
+[04:04:49] [Server thread/INFO]: <Wyirm> yuhh
+[04:04:58] [Server thread/INFO]: <LilacPeregrine> how do i get stuff back
+[04:05:03] [Server thread/INFO]: <Wyirm> tuhhh
+[04:05:04] [Server thread/INFO]: <Wyirm> uh
+[04:05:05] [Server thread/INFO]: <pteren> slow falling potion
+[04:05:07] [Server thread/INFO]: <Wyirm> true
+[04:05:22] [Server thread/INFO]: <Wyirm> go in
+[04:05:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-12, y=87, z=-8} class_2338{x=-11, y=90, z=-6}
+[04:05:24] [Server thread/INFO]: <Wyirm> i put water
+[04:05:34] [Server thread/INFO]: <LilacPeregrine> ok i am actually stuck in another wall and i cant break out without destroying a wall
+[04:05:46] [Server thread/INFO]: <Wyirm> oh dear
+[04:05:49] [Server thread/INFO]: <pteren> LOL
+[04:05:53] [Server thread/INFO]: <LilacPeregrine> you have created the backrooms
+[04:06:06] [Server thread/INFO]: <LilacPeregrine> thank
+[04:06:20] [Server thread/INFO]: <Wyirm> i put water
+[04:06:22] [Server thread/INFO]: <Wyirm> go down
+[04:06:43] [Server thread/INFO]: <LilacPeregrine> lmao
+[04:06:57] [Server thread/INFO]: <Wyirm> i begged ms. pteren to keep it in
+[04:07:07] [Server thread/INFO]: <pteren> worth
+[04:07:13] [Server thread/INFO]: <LilacPeregrine> this is a goober of a base
+[04:07:13] [Server thread/INFO]: <Wyirm> so worth
+[04:07:14] [Server thread/INFO]: <pteren> cant wait till we get mjv
+[04:07:15] [Server thread/INFO]: <LilacPeregrine> i love it
+[04:07:19] [Server thread/INFO]: <pteren> <3
+[04:07:22] [Server thread/INFO]: <LilacPeregrine> mjv?
+[04:07:26] [Server thread/INFO]: <Wyirm> when is he awakeing
+[04:07:27] [Server thread/INFO]: <pteren> mojave
+[04:07:28] [Server thread/INFO]: <LilacPeregrine> a
+[04:07:33] [Server thread/INFO]: <Wyirm> tyhey?
+[04:07:36] [Server thread/INFO]: <pteren> his laptop is in the shop </3
+[04:07:38] [Server thread/INFO]: <LilacPeregrine> flag of madeline
+[04:07:40] [Server thread/INFO]: <Wyirm> aww
+[04:07:47] [Server thread/INFO]: <LilacPeregrine> madeline celeste
+[04:07:51] [Server thread/INFO]: <Wyirm> i was playing celeste earlier actually
+[04:07:57] [Server thread/INFO]: <Wyirm> im 6 hours into drifting deep
+[04:08:01] [Server thread/INFO]: <pteren> they literally hugged their screen so hard it broke
+[04:08:05] [Server thread/INFO]: <LilacPeregrine> awwwwww
+[04:08:08] [Server thread/INFO]: <Wyirm> hugged?
+[04:08:12] [Server thread/INFO]: <pteren> he loves me <3
+[04:08:17] [Server thread/INFO]: <LilacPeregrine> that is so heartwarmingggg
+[04:08:27] [Server thread/INFO]: <Wyirm> aww wholesome
+[04:08:37] [Server thread/INFO]: <pteren> my favorite dumbass
+[04:08:38] [Server thread/INFO]: <LilacPeregrine> but also do not hug screen that hard, i am not stored in the computer yet
+[04:09:01] [Server thread/INFO]: <Wyirm> hugging a screen seems uncomfy
+[04:09:05] [Server thread/INFO]: <Wyirm> many edges
+[04:09:15] [Server thread/INFO]: <Wyirm> hostile hardware
+[04:09:15] [Server thread/INFO]: <LilacPeregrine> steam said that people like me play Celeste and Stray, two games I have downlaoded but haven't run yet
+[04:09:22] [Server thread/INFO]: <pteren> LOL
+[04:09:28] [Server thread/INFO]: <LilacPeregrine> and it's like - way to call me out
+[04:10:02] [Server thread/INFO]: <Wyirm> lol
+[04:10:20] [Server thread/INFO]: <Wyirm> i think i have 480 hours?
+[04:11:01] [Server thread/INFO]: <Wyirm> i dont play any other games actually
+[04:11:09] [Server thread/INFO]: <Wyirm> besides risk of rain and minecrafdt
+[04:11:25] [Server thread/INFO]: <pteren> u should play dont starv together with me....
+[04:11:27] [Server thread/INFO]: <LilacPeregrine> i played the exographer once
+[04:11:39] [Server thread/INFO]: <Wyirm> what is dont starve like
+[04:11:46] [Server thread/INFO]: <Wyirm> exogaoer
+[04:12:09] [Server thread/INFO]: <pteren> hmm.
+[04:12:19] [Server thread/INFO]: <LilacPeregrine> the exographer is a 2d platformer based in a world that was destroyed by an accident at the particle collider
+[04:12:31] [Server thread/INFO]: <Wyirm> wiah
+[04:12:36] [Server thread/INFO]: <Wyirm> how big is your collider
+[04:12:47] [Server thread/INFO]: <LilacPeregrine> you need to learn particle physics and gain powerups that are particle-physics related
+[04:13:07] [Server thread/INFO]: <LilacPeregrine> it ends up being a half-decent introduction to the Standard Model of Particle Physics
+[04:13:13] [Server thread/INFO]: <pteren> its like if an edgar allan poe collection was alive and hated you and also full of puns
+[04:13:22] [Server thread/INFO]: <Wyirm> like what you can change your spin or whatver
+[04:13:30] [Server thread/INFO]: <LilacPeregrine> also a butterfly muffin iirc
+[04:13:38] [Server thread/INFO]: <Wyirm> butterfly muffin
+[04:13:48] [Server thread/INFO]: <pteren> its a punishing survival game where everythings cute and creepy at the same time
+[04:13:59] [Server thread/INFO]: <pteren> also i literally cannot find the bottom of it
+[04:14:05] [Server thread/INFO]: <pteren> it just keeps getting bigger
+[04:14:12] [Server thread/INFO]: <Wyirm> haha like the void
+[04:14:14] [Server thread/INFO]: <LilacPeregrine> bottom of what
+[04:14:21] [Server thread/INFO]: <pteren> don't starv together
+[04:14:28] [Server thread/INFO]: <pteren> why wont my e work
+[04:14:28] [Server thread/INFO]: <LilacPeregrine> a
+[04:14:52] [Server thread/INFO]: <pteren> TALLER
+[04:15:10] [Server thread/INFO]: <Wyirm> toler
+[04:15:19] [Server thread/INFO]: <Wyirm> is er a vowel
+[04:16:15] [Server thread/INFO]: <LilacPeregrine> i find enderman so interesting
+[04:16:16] [Server thread/INFO]: <pteren> ok im out of deepslate
+[04:16:27] [Server thread/INFO]: <LilacPeregrine> mostly bc of that mojang book that revealed their lore
+[04:16:51] [Server thread/INFO]: <Wyirm> ow
+[04:16:55] [Server thread/INFO]: <Wyirm> someone hurt me
+[04:17:41] [Server thread/INFO]: <LilacPeregrine> i got grassblok
+[04:17:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-9, y=87, z=-11} class_2338{x=-10, y=85, z=-11}
+[04:17:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-10, y=87, z=-11} class_2338{x=-10, y=85, z=-11}
+[04:17:51] [Server thread/INFO]: <Wyirm> grass block
+[04:17:57] [Server thread/INFO]: <Wyirm> enderman?
+[04:17:58] [Server thread/INFO]: <LilacPeregrine> block o' grass
+[04:18:03] [Server thread/INFO]: <Wyirm> grass_block
+[04:18:07] [Server thread/INFO]: <LilacPeregrine> indeed, the man of ender
+[04:18:25] [Server thread/INFO]: <pteren> need more scaffold
+[04:18:28] [Server thread/INFO]: <Wyirm> chec out my pozol
+[04:18:32] [Server thread/INFO]: <LilacPeregrine> pozdol
+[04:18:34] [Server thread/INFO]: <Wyirm> i left some in the bamboo chest
+[04:18:37] [Server thread/INFO]: <Wyirm> scaffoldig
+[04:19:04] [Server thread/INFO]: <LilacPeregrine> i have 6 on me rn
+[04:20:00] [Server thread/INFO]: <LilacPeregrine> bamboo chest doesnt seem to have it
+[04:20:11] [Server thread/INFO]: <LilacPeregrine> then again, i may be blind
+[04:20:15] [Server thread/INFO]: <pteren> theres a tiny bamboo farm downstairs
+[04:20:19] [Server thread/INFO]: <Wyirm> i already took it
+[04:20:24] [Server thread/INFO]: <Wyirm> i gave to ms pteren
+[04:21:17] [Server thread/INFO]: <LilacPeregrine> i have an idea...
+[04:21:24] [Server thread/INFO]: <Wyirm> go fish
+[04:23:29] [Server thread/INFO]: <LilacPeregrine> whoa
+[04:23:38] [Server thread/INFO]: <LilacPeregrine> there was a ravine here the entire time
+[04:23:42] [Server thread/INFO]: <Wyirm> yeah
+[04:23:46] [Server thread/INFO]: <pteren> eek
+[04:24:03] [Server thread/INFO]: <LilacPeregrine> ive seen someone called eek. they're pretty cool
+[04:24:07] [Server thread/INFO]: <LilacPeregrine> they're an ant ::3
+[04:24:08] [Server thread/INFO]: <pteren> :O
+[04:24:09] [Server thread/INFO]: <Wyirm> eek
+[04:24:11] [Server thread/INFO]: <pteren> THAT IS COOL
+[04:24:29] [Server thread/INFO]: <LilacPeregrine> i'll see if i can find them
+[04:24:31] [Server thread/INFO]: <LilacPeregrine> hi
+[04:24:33] [Server thread/INFO]: <Wyirm> hi
+[04:24:38] [Server thread/INFO]: <pteren> ok so this is 24 blocks
+[04:24:53] [Server thread/INFO]: <pteren> so maybe we wanna do like
+[04:25:14] [Server thread/INFO]: <pteren> 6 dio, 6 polished, 6 calcite, and 6 wool/concrete
+[04:25:28] [Server thread/INFO]: <Wyirm> 49-25 is
+[04:25:30] [Server thread/INFO]: <Wyirm> a number
+[04:25:33] [Server thread/INFO]: <Wyirm> 24
+[04:26:03] [Server thread/INFO]: <pteren> lets carve it up first and then dither
+[04:26:09] [Server thread/INFO]: <Wyirm> yes
+[04:26:15] [Server thread/INFO]: <Wyirm> 24*24 is
+[04:26:28] [Server thread/INFO]: <LilacPeregrine> 576?
+[04:26:35] [Server thread/INFO]: <Wyirm> is it
+[04:26:39] [Server thread/INFO]: <LilacPeregrine> yes
+[04:26:43] [Server thread/INFO]: <Wyirm> wauw
+[04:26:49] [Server thread/INFO]: <LilacPeregrine> i double checked
+[04:26:57] [Server thread/INFO]: <Wyirm> 400+160+16
+[04:27:09] [Server thread/INFO]: <pteren> why r we squaring it?
+[04:27:16] [Server thread/INFO]: <Wyirm> not squaring
+[04:27:18] [Server thread/INFO]: <Wyirm> 49-25
+[04:27:20] [Server thread/INFO]: <Wyirm> is the perimeter
+[04:27:22] [Server thread/INFO]: <Wyirm> the wals
+[04:28:29] [Server thread/INFO]: <Wyirm> i am stuck
+[04:28:42] [Server thread/INFO]: <Wyirm> WHAT
+[04:28:47] [Server thread/INFO]: <pteren> L
+[04:28:58] [Server thread/INFO]: <Wyirm> ya
+[04:29:13] [Server thread/INFO]: <LilacPeregrine> thank
+[04:29:17] [Server thread/INFO]: <Wyirm> acky
+[04:29:21] [Server thread/INFO]: <LilacPeregrine> anyway let me show you idea
+[04:29:26] [Server thread/INFO]: <Wyirm> yse
+[04:29:37] [Server thread/INFO]: <Wyirm> killed
+[04:29:41] [Server thread/INFO]: <LilacPeregrine> night is dangerous
+[04:29:45] [Server thread/INFO]: <Wyirm> eep?
+[04:29:54] [Server thread/INFO]: <Wyirm> O FPOIUD
+[04:29:56] [Server thread/INFO]: <Wyirm> THE CAT
+[04:30:05] [Server thread/INFO]: <pteren> !!!!
+[04:30:21] [Server thread/INFO]: <Wyirm> kitty
+[04:30:22] [Server thread/INFO]: <Wyirm> oiver ther
+[04:30:31] [Server thread/INFO]: <Wyirm> who want it
+[04:30:56] [Server thread/INFO]: <LilacPeregrine> i have a revolutionary idea on how to live in someones walls
+[04:31:10] [Server thread/INFO]: <LilacPeregrine> god damn it theres another creeper
+[04:31:13] [Server thread/INFO]: <Wyirm> who want th e kitty
+[04:31:19] [Server thread/INFO]: <LilacPeregrine> im good on kity
+[04:31:23] [Server thread/INFO]: <pteren> where??
+[04:31:31] [Server thread/INFO]: <Wyirm> basement
+[04:32:17] [Server thread/INFO]: <Wyirm> lick it
+[04:32:19] [Server thread/INFO]: <Wyirm> click
+[04:32:22] [Server thread/INFO]: <pteren> lmAO
+[04:32:33] [Server thread/INFO]: <pteren> MINE
+[04:32:34] [Server thread/INFO]: <Wyirm> kitty!!!
+[04:32:40] [Server thread/INFO]: <Wyirm> mraauauau
+[04:32:56] [Server thread/INFO]: <Wyirm> ,rp
+[04:35:41] [Server thread/INFO]: <LilacPeregrine> i love this place
+[04:35:45] [Server thread/INFO]: <pteren> <3
+[04:35:51] [Server thread/INFO]: <Wyirm> it is really nice
+[04:35:57] [Server thread/INFO]: <Wyirm> wait
+[04:36:00] [Server thread/INFO]: <Wyirm> test test
+[04:36:02] [Server thread/INFO]: <Wyirm> damn
+[04:36:04] [Server thread/INFO]: <LilacPeregrine> ye
+[04:36:44] [Server thread/INFO]: <Wyirm> my cat is on the rooof aaa
+[04:37:40] [Server thread/INFO]: <Wyirm> jorp!
+[04:38:15] [Server thread/INFO]: <LilacPeregrine> do we have a lot of diorite or are we short
+[04:38:22] [Server thread/INFO]: <Wyirm> uhh idk
+[04:38:23] [Server thread/INFO]: <Wyirm> i can get some
+[04:38:36] [Server thread/INFO]: <LilacPeregrine> it seemed low so i was gonna go get some
+[04:38:38] [Server thread/INFO]: <pteren> i have less than a stack of each
+[04:38:45] [Server thread/INFO]: <LilacPeregrine> gyotcha
+[04:38:50] [Server thread/INFO]: <pteren> we can probably finish the tower but we need lots more for ext walls
+[04:38:52] [Server thread/INFO]: <Wyirm> o have a stack
+[04:39:01] [Server thread/INFO]: <Wyirm> diorito
+[04:39:10] [Server thread/INFO]: <LilacPeregrine> there are so many holes in the floors this place is not OSHA compliant
+[04:39:23] [Server thread/INFO]: <Wyirm> ms. p how could you
+[04:40:00] [Server thread/INFO]: <pteren> cat witch cursed me once
+[04:40:13] [Server thread/INFO]: <pteren> if i see a thing on the edge of another thing i must push it off
+[04:40:24] [Server thread/INFO]: <pteren> NO EXCEPTIONS
+[04:40:28] [Server thread/INFO]: <LilacPeregrine> people included
+[04:41:39] [Server thread/INFO]: <pteren> i also dunno what to do with the shape
+[04:41:45] [Server thread/INFO]: <Wyirm> which shape
+[04:41:47] [Server thread/INFO]: <pteren> i like that its square but it needs a bit of depth
+[04:41:49] [Server thread/INFO]: <pteren> tower
+[04:42:06] [Server thread/INFO]: <pteren> but a lot of the materials dont have slabs or walls or anything
+[04:42:08] [Server thread/INFO]: <Wyirm> ms p you missed the conrepte powder
+[04:42:19] [Server thread/INFO]: <pteren> yea im gonna add it last bc it falls and is difficult
+[04:42:37] [Server thread/INFO]: <LilacPeregrine> could make little indents out of like - diorite walls
+[04:42:41] [Server thread/INFO]: <Wyirm> okia
+[04:42:49] [Server thread/INFO]: <pteren> does smooth quartz have walls?
+[04:42:52] [Server thread/INFO]: <pteren> i forgot to smelt some
+[04:42:53] [Server thread/INFO]: <LilacPeregrine> dont think so
+[04:42:54] [Server thread/INFO]: <Wyirm> we cant indent this except the corners
+[04:42:55] [Server thread/INFO]: <Wyirm> cuz
+[04:43:07] [Server thread/INFO]: <Wyirm> staircase
+[04:43:18] [Server thread/INFO]: <pteren> EEK
+[04:43:34] [Server thread/INFO]: <Wyirm> lol
+[04:43:55] [Server thread/INFO]: <LilacPeregrine> ::3
+[04:44:04] [Server thread/INFO]: <pteren> IM SO BAD
+[04:44:09] [Server thread/INFO]: <Wyirm> lol
+[04:44:10] [Server thread/INFO]: <LilacPeregrine> you good
+[04:44:47] [Server thread/INFO]: <LilacPeregrine> theres an andesite vein down here
+[04:45:10] [Server thread/INFO]: <Wyirm> whuh
+[04:45:15] [Server thread/INFO]: <Wyirm> im eating appl
+[04:45:47] [Server thread/INFO]: <Wyirm> make it rain
+[04:46:41] [Server thread/INFO]: <pteren> OK SO
+[04:46:49] [Server thread/INFO]: <pteren> lets make the polished dio layer slightly thinner
+[04:47:07] [Server thread/INFO]: <Wyirm> oki
+[04:47:16] [Server thread/INFO]: <pteren> like, calcite bleeds down and dio bleeds up
+[04:47:19] [Server thread/INFO]: <Wyirm> yah
+[04:47:28] [Server thread/INFO]: <pteren> and then the wool/powder can bleed down a lil too
+[04:47:39] [Server thread/INFO]: <Wyirm> yesh
+[04:47:44] [Server thread/INFO]: <pteren> ok!
+[04:47:45] [Server thread/INFO]: <pteren> go team
+[04:47:50] [Server thread/INFO]: <LilacPeregrine> copper ore here!
+[04:47:53] [Server thread/INFO]: <Wyirm> i can get the uh thing
+[04:47:58] [Server thread/INFO]: <Wyirm> wait what
+[04:48:03] [Server thread/INFO]: <Wyirm> hold on
+[04:48:05] [Server thread/INFO]: <Wyirm> im having a think
+[04:49:09] [Server thread/INFO]: <Wyirm> yuki yuki
+[04:50:02] [Server thread/INFO]: <Wyirm> do bees kill water
+[04:50:08] [Server thread/INFO]: <pteren> other way around
+[04:50:33] [Server thread/INFO]: <Wyirm> yeowch
+[04:50:54] [Server thread/INFO]: <LilacPeregrine> yay a diorite
+[04:51:02] [Server thread/INFO]: <pteren> OK out of calcite
+[04:51:06] [Server thread/INFO]: <pteren> u gotta do the rest of this
+[04:51:28] [Server thread/INFO]: <LilacPeregrine> if you need an -ite, this little mine has it all
+[04:51:31] [Server thread/INFO]: <LilacPeregrine> except calc
+[04:51:35] [Server thread/INFO]: <Wyirm> dolomite
+[04:51:47] [Server thread/INFO]: <pteren> lilac if you didn't see theres XP in the smithy
+[04:51:49] [Server thread/INFO]: <LilacPeregrine> it dolomite be here
+[04:51:53] [Server thread/INFO]: <LilacPeregrine> ooo
+[04:51:59] [Server thread/INFO]: <LilacPeregrine> furnacexp farm?
+[04:52:04] [Server thread/INFO]: <pteren> better
+[04:52:07] [Server thread/INFO]: <pteren> silverfish
+[04:52:10] [Server thread/INFO]: <Wyirm> does it have endermite
+[04:52:11] [Server thread/INFO]: <LilacPeregrine> ::o
+[04:53:48] [Server thread/INFO]: <LilacPeregrine> back in a sec
+[04:53:55] [Server thread/INFO]: <Wyirm> buh bye
+[04:56:26] [Server thread/INFO]: <LilacPeregrine> beep
+[04:56:30] [Server thread/INFO]: <Wyirm> mrrp
+[04:56:30] [Server thread/INFO]: <pteren> boop
+[04:56:56] [Server thread/INFO]: <Wyirm> out of space
+[05:00:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-16, y=73, z=-2} class_2338{x=-16, y=72, z=-3}
+[05:02:06] [Server thread/INFO]: <LilacPeregrine> i wonder what resources would inspire minecraft nations to invade over
+[05:02:09] [Server thread/INFO]: <LilacPeregrine> maybe coal
+[05:02:21] [Server thread/INFO]: <Wyirm> theres just
+[05:02:24] [Server thread/INFO]: <Wyirm> so much space
+[05:02:29] [Server thread/INFO]: <Wyirm> it would have to be nonrenewables
+[05:02:33] [Server thread/INFO]: <Wyirm> coal is renewable
+[05:02:37] [Server thread/INFO]: <Wyirm> ironically...
+[05:02:42] [Server thread/INFO]: <LilacPeregrine> oh right
+[05:02:42] [Server thread/INFO]: <pteren> pfft
+[05:02:46] [Server thread/INFO]: <LilacPeregrine> prob diamonds
+[05:02:54] [Server thread/INFO]: <Wyirm> wither skeletons and charcoal
+[05:02:59] [Server thread/INFO]: <pteren> strongholds?
+[05:03:26] [Server thread/INFO]: <LilacPeregrine> strongholds arent really used up
+[05:03:34] [Server thread/INFO]: <Wyirm> diamonds are too uhh common
+[05:03:37] [Server thread/INFO]: <pteren> and theres so many
+[05:03:42] [Server thread/INFO]: <Wyirm> elder guardians
+[05:03:45] [Server thread/INFO]: <LilacPeregrine> i mean the same is true of oil
+[05:03:51] [Server thread/INFO]: <Wyirm> like
+[05:03:53] [Server thread/INFO]: <pteren> maybe regional resources like sand
+[05:03:56] [Server thread/INFO]: <pteren> terracotta
+[05:03:57] [Server thread/INFO]: <Wyirm> monuments are needed for guardian farms
+[05:03:59] [Server thread/INFO]: <LilacPeregrine> ooo sand
+[05:04:00] [Server thread/INFO]: <Wyirm> right
+[05:04:02] [Server thread/INFO]: <pteren> stuff you need lots of
+[05:04:03] [Server thread/INFO]: <Wyirm> sand duper:
+[05:05:28] [Server thread/INFO]: <LilacPeregrine> damn the entire diorite vein is gone
+[05:05:37] [Server thread/INFO]: <Wyirm> we're so good
+[05:05:39] [Server thread/INFO]: <Wyirm> i made a chest for it
+[05:05:43] [Server thread/INFO]: <LilacPeregrine> hellyeah
+[05:06:58] [Server thread/INFO]: <pteren> hows the top look?
+[05:07:07] [Server thread/INFO]: <pteren> i feel like it needs more concrete
+[05:07:18] [Server thread/INFO]: <Wyirm> i twink it looks nice
+[05:07:32] [Server thread/INFO]: <LilacPeregrine> may need a little more concrete
+[05:07:40] [Server thread/INFO]: <Wyirm> AAAA blimpy is invisible
+[05:08:09] [Server thread/INFO]: <LilacPeregrine> where was the diorite-specific chest?
+[05:08:10] [Server thread/INFO]: <Wyirm> blimpy why
+[05:08:20] [Server thread/INFO]: <pteren> out front
+[05:08:31] [Server thread/INFO]: <LilacPeregrine> a
+[05:08:34] [Server thread/INFO]: <LilacPeregrine> thank
+[05:08:36] [Server thread/INFO]: <Wyirm> yesh
+[05:09:08] [Server thread/INFO]: <pteren> better?
+[05:09:27] [Server thread/INFO]: <Wyirm> i think the top looks nice
+[05:09:33] [Server thread/INFO]: <pteren> YAY
+[05:09:36] [Server thread/INFO]: <LilacPeregrine> yeeee
+[05:09:39] [Server thread/INFO]: <LilacPeregrine> ilike
+[05:10:33] [Server thread/INFO]: <Wyirm> brb
+[05:10:38] [Server thread/INFO]: <LilacPeregrine> birb
+[05:10:38] [Server thread/INFO]: <Wyirm> i need to use the circle
+[05:12:06] [Server thread/INFO]: <Wyirm> hai
+[05:15:08] [Server thread/INFO]: <LilacPeregrine> hai
+[05:15:19] [Server thread/INFO]: <Wyirm> helko
+[05:15:24] [Server thread/INFO]: <LilacPeregrine> like my tunnel?
+[05:15:27] [Server thread/INFO]: <Wyirm> yesh
+[05:15:34] [Server thread/INFO]: <Wyirm> oit is a beautiful tunnel
+[05:15:48] [Server thread/INFO]: <LilacPeregrine> thank
+[05:15:59] [Server thread/INFO]: <Wyirm> mmrrrp
+[05:20:38] [Server thread/INFO]: <Wyirm> ms. pteren what are yo udoing with the villagers
+[05:20:45] [Server thread/INFO]: <pteren> rolling librarian trades
+[05:20:49] [Server thread/INFO]: <LilacPeregrine> mood
+[05:20:54] [Server thread/INFO]: <pteren> .-.
+[05:20:59] [Server thread/INFO]: <Wyirm> dang
+[05:21:02] [Server thread/INFO]: <Wyirm> hwat trades w e watng
+[05:21:22] [Server thread/INFO]: <pteren> got mending
+[05:21:26] [Server thread/INFO]: <LilacPeregrine> yayy
+[05:21:33] [Server thread/INFO]: <Wyirm> yippee!
+[05:21:49] [Server thread/INFO]: <pteren> lets put this fellow in witness protection
+[05:21:55] [Server thread/INFO]: <Wyirm> jail
+[05:23:01] [Server thread/INFO]: <LilacPeregrine> pteren i wanna show u something
+[05:23:19] [Server thread/INFO]: <pteren> one moment
+[05:23:28] [Server thread/INFO]: <LilacPeregrine> ::3
+[05:23:30] [Server thread/INFO]: <LilacPeregrine> ok
+[05:23:47] [Server thread/INFO]: <pteren> oh
+[05:23:49] [Server thread/INFO]: <pteren> the carpet
+[05:24:43] [Server thread/INFO]: <pteren> where should we home these two?
+[05:24:59] [Server thread/INFO]: <LilacPeregrine> whoa
+[05:25:03] [Server thread/INFO]: <LilacPeregrine> this place is dense
+[05:25:08] [Server thread/INFO]: <pteren> :)
+[05:25:23] [Server thread/INFO]: <LilacPeregrine> im not sure
+[05:25:27] [Server thread/INFO]: <pteren> maybe they can just. stand on the shelvs
+[05:25:36] [Server thread/INFO]: <pteren> lol
+[05:25:50] [Server thread/INFO]: <LilacPeregrine> i worry they're gonna hurt themselves
+[05:26:00] [Server thread/INFO]: <Wyirm> who hurty themself
+[05:26:58] [Server thread/INFO]: <Wyirm> vilalger
+[05:27:01] [Server thread/INFO]: <Wyirm> he need a bed
+[05:27:19] [Server thread/INFO]: <Wyirm> oh um
+[05:27:20] [Server thread/INFO]: <Wyirm> sure
+[05:27:31] [Server thread/INFO]: <Wyirm> wait i need a mending
+[05:27:36] [Server thread/INFO]: <Wyirm> WAIT
+[05:27:36] [Server thread/INFO]: <pteren> very humane
+[05:27:37] [Server thread/INFO]: <Wyirm> WHAT
+[05:27:40] [Server thread/INFO]: <Wyirm> who did this to me
+[05:27:44] [Server thread/INFO]: <LilacPeregrine> ?
+[05:27:48] [Server thread/INFO]: <Wyirm> i hvae one billio0n pickaxes
+[05:27:51] [Server thread/INFO]: <pteren> lol
+[05:27:58] [Server thread/INFO]: <pteren> get toolsmith'd
+[05:28:06] [Server thread/INFO]: <pteren> um where is the other librarian
+[05:28:28] [Server thread/INFO]: <LilacPeregrine> here
+[05:28:43] [Server thread/INFO]: <LilacPeregrine> outside, of all placed
+[05:28:45] [Server thread/INFO]: <LilacPeregrine> places
+[05:28:54] [Server thread/INFO]: <Wyirm> where is he going
+[05:29:22] [Server thread/INFO]: <Wyirm> i can lure him with bread
+[05:29:32] [Server thread/INFO]: <Wyirm> lmoa
+[05:29:39] [Server thread/INFO]: <LilacPeregrine> yay
+[05:29:42] [Server thread/INFO]: <Wyirm> stay
+[05:29:50] [Server thread/INFO]: <pteren> lmao
+[05:29:50] [Server thread/INFO]: <LilacPeregrine> the amazon worjers are in their cells!
+[05:29:56] [Server thread/INFO]: <LilacPeregrine> cubicles
+[05:29:59] [Server thread/INFO]: <Wyirm> he leaved
+[05:29:59] [Server thread/INFO]: <LilacPeregrine> damn
+[05:30:02] [Server thread/INFO]: <Wyirm> lkeft
+[05:30:23] [Server thread/INFO]: <Wyirm> meow,,
+[05:30:54] [Server thread/INFO]: <Wyirm> mrawr
+[05:31:06] [Server thread/INFO]: <Wyirm> 32 emerald,
+[05:31:08] [Server thread/INFO]: <Wyirm> dang
+[05:31:18] [Server thread/INFO]: <pteren> its ok we can always traumatize him
+[05:31:28] [Server thread/INFO]: <LilacPeregrine> tis the amazon way
+[05:31:28] [Server thread/INFO]: <pteren> or u can sell iron to the toolsmiths
+[05:31:37] [Server thread/INFO]: <LilacPeregrine> i like trauma
+[05:32:02] [Server thread/INFO]: <Wyirm> trauma is sad
+[05:32:26] [Server thread/INFO]: <LilacPeregrine> do you notice anything different?
+[05:32:43] [Server thread/INFO]: <pteren> beds
+[05:32:51] [Server thread/INFO]: <pteren> slumber party
+[05:32:55] [Server thread/INFO]: <LilacPeregrine> huh, *I* didnt notice that
+[05:33:18] [Server thread/INFO]: <Wyirm> why is he hiking his prices up for me wtf
+[05:33:19] [Server thread/INFO]: <pteren> hm...
+[05:33:20] [Server thread/INFO]: <LilacPeregrine> made a small addition
+[05:33:34] [Server thread/INFO]: <pteren> :O
+[05:33:52] [Server thread/INFO]: <pteren> CORRECT
+[05:33:53] [Server thread/INFO]: <LilacPeregrine> fits within a 2 block wide space
+[05:34:00] [Server thread/INFO]: <pteren> omg
+[05:34:07] [Server thread/INFO]: <pteren> you can put them everywhere
+[05:34:19] [Server thread/INFO]: <LilacPeregrine> i want to make it bigger and connect it everywhere but idk how
+[05:34:36] [Server thread/INFO]: <pteren> lets get a ceiling on the workshop first
+[05:34:40] [Server thread/INFO]: <pteren> picka block
+[05:34:53] [Server thread/INFO]: <LilacPeregrine> ::3
+[05:35:00] [Server thread/INFO]: <Wyirm> :<
+[05:35:01] [Server thread/INFO]: <Wyirm> gup
+[05:35:04] [Server thread/INFO]: <LilacPeregrine> hug?
+[05:35:24] [Server thread/INFO]: <LilacPeregrine> yay hug
+[05:35:29] [Server thread/INFO]: <LilacPeregrine> i think
+[05:35:32] [Server thread/INFO]: <Wyirm> yeh]
+[05:35:37] [Server thread/INFO]: <LilacPeregrine> ::3
+[05:37:35] [Server thread/INFO]: Wyirm has made the advancement [What a Deal!]
+[05:39:17] [Server thread/INFO]: <pteren> ...
+[05:39:25] [Server thread/INFO]: <pteren> why are there so many workstations in this house
+[05:41:17] [Server thread/INFO]: <Wyirm> ater
+[05:41:33] [Server thread/INFO]: <Wyirm> acky is mending now
+[05:41:38] [Server thread/INFO]: <LilacPeregrine> yay
+[05:41:38] [Server thread/INFO]: <pteren> <3
+[05:41:49] [Server thread/INFO]: <Wyirm> i love acky
+[05:41:56] [Server thread/INFO]: <Wyirm> like a daughter
+[05:42:54] [Server thread/INFO]: <Wyirm> meow meow meow meow meow meow meow meow
+[05:42:58] [Server thread/INFO]: <LilacPeregrine> beep
+[05:43:36] [Server thread/INFO]: <LilacPeregrine> hi
+[05:43:39] [Server thread/INFO]: <Wyirm> i can see you in the hopprs
+[05:43:42] [Server thread/INFO]: <LilacPeregrine> ::3
+[05:43:59] [Server thread/INFO]: <LilacPeregrine> sadly i can't extend the tunnel anymore
+[05:44:34] [Server thread/INFO]: <LilacPeregrine> ih
+[05:44:40] [Server thread/INFO]: <Wyirm> windfowo
+[05:44:58] [Server thread/INFO]: <LilacPeregrine> hello
+[05:47:10] [Server thread/INFO]: <Wyirm> meow meow meow meow
+[05:47:13] [Server thread/INFO]: <pteren> i have the eepy
+[05:47:16] [Server thread/INFO]: <LilacPeregrine> a
+[05:49:13] [Server thread/INFO]: <LilacPeregrine> what's the plan for the diorite external bit of the house? i want to build more corridors but ive run out of space
+[05:49:39] [Server thread/INFO]: <Wyirm> mmm
+[05:49:42] [Server thread/INFO]: <Wyirm> food
+[05:49:52] [Server thread/INFO]: <pteren> good question...
+[05:50:04] [Server thread/INFO]: <Wyirm> oh my god i didnt even see the question
+[05:50:05] [Server thread/INFO]: <Wyirm> aa
+[05:50:12] [Server thread/INFO]: <pteren> when i first started building this i expected it to be a lot smaller
+[05:50:18] [Server thread/INFO]: <pteren> and mostly diorite
+[05:50:28] [Server thread/INFO]: <pteren> but then i started making interior walls and had a lot of run w it
+[05:50:57] [Server thread/INFO]: <pteren> so now every room has its own walls. except the antechamber and dining hall since those were built first
+[05:51:20] [Server thread/INFO]: <LilacPeregrine> i could make the tunnel cut across here - the mud bricks are no problem bc it has a stair variant but i would need to take out a few crafting tables
+[05:51:39] [Server thread/INFO]: <LilacPeregrine> 6 to be precise
+[05:52:12] [Server thread/INFO]: <LilacPeregrine> it's like a house *in* a house
+[05:52:24] [Server thread/INFO]: <Wyirm> house in a house?
+[05:52:33] [Server thread/INFO]: <LilacPeregrine> houseception
+[05:53:19] [Server thread/INFO]: <Wyirm> what house...
+[05:53:24] [Server thread/INFO]: <Wyirm> theres nly one
+[05:53:31] [Server thread/INFO]: <LilacPeregrine> ye, this house
+[05:53:31] [Server thread/INFO]: <pteren> i still dunno what i want this crafting wall to look like
+[05:54:04] [Server thread/INFO]: <LilacPeregrine> ooo
+[05:54:07] [Server thread/INFO]: <LilacPeregrine> ::3
+[05:56:08] [Server thread/INFO]: <Wyirm> woah the vector rotates depending on where its facing
+[05:56:20] [Server thread/INFO]: <Wyirm> wait isnt there like a theorem that says you cant do that
+[05:56:28] [Server thread/INFO]: <LilacPeregrine> wym
+[05:56:33] [Server thread/INFO]: <Wyirm> hairy ball
+[05:56:44] [Server thread/INFO]: <LilacPeregrine> ye but im not sure what you mean
+[05:57:15] [Server thread/INFO]: <Wyirm> f3+b and then f5 view yourself
+[05:57:36] [Server thread/INFO]: <LilacPeregrine> whoa
+[05:58:09] [Server thread/INFO]: <LilacPeregrine> ye you correct
+[05:58:11] [Server thread/INFO]: <LilacPeregrine> hairy balls
+[05:58:15] [Server thread/INFO]: <Wyirm> hairy balls
+[05:58:22] [Server thread/INFO]: <pteren> hairy balls
+[05:58:34] [Server thread/INFO]: <Wyirm> ms. p are you just saying that
+[05:58:54] [Server thread/INFO]: <pteren> no
+[05:59:36] [Server thread/INFO]: <Wyirm> why are there so many iron axes
+[06:02:54] [Server thread/INFO]: <Wyirm> im losing my brain
+[06:03:10] [Server thread/INFO]: <LilacPeregrine> oh no! i hope you find it ::<
+[06:03:32] [Server thread/INFO]: Wyirm has made the advancement [Tactical Fishing]
+[06:03:39] [Server thread/INFO]: <Wyirm> pfuferfish
+[06:04:05] [Server thread/INFO]: <Wyirm> i found a nother cat
+[06:05:22] [Server thread/INFO]: <pteren> need books
+[06:05:23] [Server thread/INFO]: <Wyirm> why are there iron blocks here
+[06:05:23] [Server thread/INFO]: <Wyirm> wtf
+[06:05:28] [Server thread/INFO]: <pteren> i found unbr 3
+[06:05:30] [Server thread/INFO]: <LilacPeregrine> sometimes i forget i need to breathe
+[06:05:40] [Server thread/INFO]: <LilacPeregrine> i am special that way ::3
+[06:05:44] [Server thread/INFO]: <Wyirm> yeah i do that and get dizzy sometims
+[06:05:55] [Server thread/INFO]: <LilacPeregrine> special friends!
+[06:07:14] [Server thread/INFO]: <Wyirm> i got another kitty
+[06:07:28] [Server thread/INFO]: <Wyirm> mew meow
+[06:08:31] [Server thread/INFO]: <Wyirm> wait
+[06:08:32] [Server thread/INFO]: <Wyirm> fuck
+[06:08:37] [Server thread/INFO]: <Wyirm> i got the
+[06:08:40] [Server thread/INFO]: <Wyirm> fish for the cat
+[06:08:43] [Server thread/INFO]: <Wyirm> and i ate hte fish
+[06:08:51] [Server thread/INFO]: <LilacPeregrine> you are the cat
+[06:10:59] [Server thread/INFO]: <pteren> do not
+[06:11:32] [Server thread/INFO]: <pteren> ...i should probably idiot proof these enclosures
+[06:11:40] [Server thread/INFO]: <Wyirm> sowwy
+[06:11:57] [Server thread/INFO]: <pteren> s ok :)
+[06:12:13] [Server thread/INFO]: <Wyirm> my cats love me
+[06:14:57] [Server thread/INFO]: <Wyirm> cat baby
+[06:16:13] [Server thread/INFO]: <pteren> :)
+[06:16:40] [Server thread/INFO]: <Wyirm> whers my babyt kitty ,,
+[06:17:52] [Server thread/INFO]: <Wyirm> my baby kitty is jumpy
+[06:17:58] [Server thread/INFO]: <Wyirm> NO
+[06:18:03] [Server thread/INFO]: <Wyirm> IT WENT IN THE IRON FARM
+[06:19:47] [Server thread/INFO]: <Wyirm> he;lp
+[06:20:09] [Server thread/INFO]: <Wyirm> my cats
+[06:20:25] [Server thread/INFO]: <Wyirm> nooooosAaa
+[06:20:28] [Server thread/INFO]: <LilacPeregrine> >::|
+[06:20:35] [Server thread/INFO]: <Wyirm> my baby kitty
+[06:20:54] [Server thread/INFO]: <Wyirm> they safed
+[06:20:56] [Server thread/INFO]: <LilacPeregrine> yay
+[06:21:01] [Server thread/INFO]: <pteren> ...why did we not think of that first
+[06:21:15] [Server thread/INFO]: <LilacPeregrine> i have a fishing rod so i think it first
+[06:23:08] [Server thread/INFO]: <Wyirm> meoww
+[06:23:18] [Server thread/INFO]: <Wyirm> i dont hvae any food,...
+[06:23:22] [Server thread/INFO]: <Wyirm> in my dorm
+[06:23:26] [Server thread/INFO]: <pteren> :(
+[06:23:33] [Server thread/INFO]: <LilacPeregrine> oh
+[06:23:40] [Server thread/INFO]: <LilacPeregrine> sorry to hear that ::<
+[06:26:28] [Server thread/INFO]: <Wyirm> hmm
+[06:30:29] [Server thread/INFO]: <pteren> ?????
+[06:30:48] [Server thread/INFO]: <Wyirm> i have poison for a whole minute
+[06:30:50] [Server thread/INFO]: <Wyirm> frick
+[06:31:28] [Server thread/INFO]: Wyirm was killed by pteren using magic
+[06:31:38] [Server thread/INFO]: <pteren> hehe
+[06:32:04] [Server thread/INFO]: <LilacPeregrine> hi
+[06:32:12] [Server thread/INFO]: <pteren> pff
+[06:32:33] [Server thread/INFO]: <LilacPeregrine> oi
+[06:32:39] [Server thread/INFO]: <Wyirm> revenge
+[06:32:42] [Server thread/INFO]: <LilacPeregrine> for?
+[06:32:46] [Server thread/INFO]: <Wyirm> kill ign me
+[06:32:48] [Server thread/INFO]: <Wyirm> wait
+[06:32:55] [Server thread/INFO]: <LilacPeregrine> ...
+[06:33:13] [Server thread/INFO]: <Wyirm> yiy broke m y helmet
+[06:33:18] [Server thread/INFO]: <pteren> l
+[06:33:32] [Server thread/INFO]: Wyirm was burned to a crisp while fighting pteren
+[06:34:02] [Server thread/INFO]: pteren was slain by Wyirm
+[06:34:07] [Server thread/INFO]: <pteren> eek
+[06:34:12] [Server thread/INFO]: <Wyirm> revenge
+[06:34:28] [Server thread/INFO]: <LilacPeregrine> so we back in the mine
+[06:35:39] [Server thread/INFO]: <pteren> what if the roof in here is just.
+[06:35:43] [Server thread/INFO]: <Wyirm> girll the cats are sitting on the chest \
+[06:35:43] [Server thread/INFO]: <pteren> smooth stone
+[06:35:52] [Server thread/INFO]: <pteren> lol
+[06:35:58] [Server thread/INFO]: <Wyirm> ju cant open it
+[06:36:09] [Server thread/INFO]: <Wyirm> oh the villagers are having sex
+[06:36:35] [Server thread/INFO]: <pteren> theres mending on the shelves if anyone needs it
+[06:36:41] [Server thread/INFO]: <Wyirm> yayayay
+[06:36:45] [Server thread/INFO]: <LilacPeregrine> yay!
+[06:37:52] [Server thread/INFO]: <Wyirm> ms. p this is not an autosmelter
+[06:38:05] [Server thread/INFO]: <pteren> ~ was gonna build it
+[06:38:16] [Server thread/INFO]: <pteren> but it hasnt logged on since
+[06:38:19] [Server thread/INFO]: <pteren> so we gotta do it
+[06:38:33] [Server thread/INFO]: <Wyirm> lezduit
+[06:39:38] [Server thread/INFO]: <LilacPeregrine> now i somehow need to connect the two conduits together
+[06:39:49] [Server thread/INFO]: <Wyirm> confdistuiots
+[06:40:38] [Server thread/INFO]: <LilacPeregrine> what u think?
+[06:40:42] [Server thread/INFO]: <pteren> wow
+[06:40:45] [Server thread/INFO]: <LilacPeregrine> ::3
+[06:40:50] [Server thread/INFO]: <pteren> this is gonna be so much fun
+[06:40:54] [Server thread/INFO]: <LilacPeregrine> i am in your walls
+[06:41:00] [Server thread/INFO]: <LilacPeregrine> literally
+[06:41:20] [Server thread/INFO]: <LilacPeregrine> the other one is over here
+[06:41:40] [Server thread/INFO]: <pteren> OOH
+[06:41:46] [Server thread/INFO]: <pteren> a whole 1.5m
+[06:41:48] [Server thread/INFO]: <pteren> spacious
+[06:41:50] [Server thread/INFO]: <LilacPeregrine> yeah!
+[06:42:03] [Server thread/INFO]: <LilacPeregrine> havent figured this part out yet
+[06:42:12] [Server thread/INFO]: <LilacPeregrine> it's like a pillow fort!
+[06:43:00] [Server thread/INFO]: <Wyirm> i cant feed them fish
+[06:45:24] [Server thread/INFO]: <LilacPeregrine> yay you swapped the torch out!
+[06:45:54] [Server thread/INFO]: <pteren> mhm :)
+[06:50:29] [Server thread/INFO]: <Wyirm> cat baby
+[06:50:47] [Server thread/INFO]: <LilacPeregrine> i think i need to go to be
+[06:50:48] [Server thread/INFO]: <LilacPeregrine> bed
+[06:50:52] [Server thread/INFO]: <LilacPeregrine> irl
+[06:50:59] [Server thread/INFO]: <pteren> phantoms are coming for you
+[06:51:03] [Server thread/INFO]: <LilacPeregrine> yeahh
+[06:51:06] [Server thread/INFO]: <Wyirm> cats
+[06:51:15] [Server thread/INFO]: <pteren> pff
+[06:51:27] [Server thread/INFO]: <LilacPeregrine> i hope the secret secret tunnel works out!
+[06:51:34] [Server thread/INFO]: <Wyirm> eepy sleepy?
+[06:51:36] [Server thread/INFO]: <LilacPeregrine> they're connected now
+[06:51:43] [Server thread/INFO]: <pteren> thanks lilac you're amazing
+[06:51:43] [Server thread/INFO]: <LilacPeregrine> ye
+[06:51:47] [Server thread/INFO]: <LilacPeregrine> thanku!
+[06:51:49] [Server thread/INFO]: <pteren> play with us again soon
+[06:52:50] [Server thread/INFO]: LilacPeregrine lost connection: Disconnected
+[06:52:50] [Server thread/INFO]: LilacPeregrine left the game
+[06:52:53] [Server thread/INFO]: <Wyirm> bye bye
+[06:52:58] [Server thread/INFO]: <Wyirm> she leavey
+[06:53:30] [Server thread/INFO]: <Wyirm> is there anything you wann a work on
+[06:53:56] [Server thread/INFO]: <pteren> reaaaaaally wanna finish the workshop
+[06:54:29] [Server thread/INFO]: <Wyirm> billager
+[06:54:50] [Server thread/INFO]: <pteren> lol it sells blast prot 4 and 1
+[06:54:52] [Server thread/INFO]: <Wyirm> ms. p look
+[06:55:00] [Server thread/INFO]: <pteren> KITTEN
+[06:55:02] [Server thread/INFO]: <Wyirm> baby kitty
+[06:55:31] [Server thread/INFO]: <Wyirm> wwhich part ar eyou working on
+[06:55:41] [Server thread/WARN]: Wyirm moved wrongly!
+[06:55:50] [Server thread/INFO]: <pteren> theres two main things
+[06:55:52] [Server thread/INFO]: <pteren> ceiling
+[06:56:00] [Server thread/INFO]: <pteren> and the crafting table wall thingy
+[06:56:08] [Server thread/INFO]: <pteren> i think i want a nice window here?
+[06:56:12] [Server thread/INFO]: <pteren> maybe a balcony???
+[06:57:24] [Server thread/INFO]: <Wyirm> does the room go iup,..
+[06:57:26] [Server thread/INFO]: <Wyirm> how tall
+[06:57:37] [Server thread/INFO]: <pteren> no that is 2nd floor rooms
+[06:57:43] [Server thread/INFO]: <pteren> this room is only 4-5 blocks high
+[06:57:53] [Server thread/INFO]: <Wyirm> it is infinitely high
+[06:57:57] [Server thread/INFO]: <Wyirm> there is no ceiling
+[06:58:19] [Server thread/INFO]: <Wyirm> hmm
+[06:58:22] [Server thread/INFO]: <Wyirm> maybe 4
+[06:58:35] [Server thread/INFO]: <Wyirm> the pillars are 4
+[06:58:54] [Server thread/INFO]: <pteren> yeah...
+[06:58:58] [Server thread/INFO]: <pteren> but the smelter is 5
+[06:59:06] [Server thread/INFO]: <pteren> which is awkward
+[06:59:24] [Server thread/INFO]: <Wyirm> you'r eblue
+[06:59:49] [Server thread/INFO]: <Wyirm> smoove
+[07:00:19] [Server thread/INFO]: <Wyirm> wrong
+[07:00:38] [Server thread/INFO]: <pteren> ?
+[07:01:24] [Server thread/INFO]: <Wyirm> how do yoiu wanna
+[07:01:25] [Server thread/INFO]: <Wyirm> do this
+[07:02:07] [Server thread/INFO]: <Wyirm> mmm
+[07:02:10] [Server thread/INFO]: <pteren> goofy
+[07:02:19] [Server thread/INFO]: <Wyirm> idkk,,
+[07:02:55] [Server thread/INFO]: <Wyirm> gay
+[07:03:38] [Server thread/INFO]: <Wyirm> mow
+[07:04:18] [Server thread/INFO]: <Wyirm> jeel
+[07:06:10] [Server thread/INFO]: <pteren> gosh...
+[07:07:00] [Server thread/INFO]: <Wyirm> im tweaking
+[07:07:27] [Server thread/INFO]: <pteren> eh?
+[07:07:35] [Server thread/INFO]: <Wyirm> brainy
+[07:07:44] [Server thread/INFO]: <pteren> that looks goofy
+[07:07:49] [Server thread/INFO]: <pteren> its top heavy
+[07:08:02] [Server thread/INFO]: <pteren> eaugh
+[07:08:04] [Server thread/INFO]: <Wyirm> im top heavy
+[07:08:14] [Server thread/INFO]: <Wyirm> my natural state is lkaying down
+[07:08:19] [Server thread/INFO]: <pteren> pfft
+[07:08:27] [Server thread/INFO]: <pteren> u should go to sleep
+[07:08:35] [Server thread/INFO]: <Wyirm> cant,
+[07:08:42] [Server thread/INFO]: <pteren> hunger?
+[07:08:55] [Server thread/INFO]: <Wyirm> that and im doing a thing rn with friends
+[07:09:08] [Server thread/INFO]: <pteren> o yeah?
+[07:09:25] [Server thread/INFO]: <Wyirm> theres this visual novel called the somnium files and so my friend is playing in in vc with screenshare
+[07:09:45] [Server thread/INFO]: <pteren> huh!
+[07:09:57] [Server thread/INFO]: <pteren> more like the insomnium files
+[07:10:11] [Server thread/INFO]: <Wyirm> they go into the peoples dreams and like look at them
+[07:10:26] [Server thread/INFO]: <pteren> sick
+[07:10:47] [Server thread/INFO]: <Wyirm> i think im broken lol
+[07:10:59] [Server thread/INFO]: <pteren> maybe.
+[07:11:06] [Server thread/INFO]: <Wyirm> are you mad
+[07:11:11] [Server thread/INFO]: <pteren> youre still really cool tho
+[07:11:24] [Server thread/INFO]: <pteren> no! not mad
+[07:11:40] [Server thread/INFO]: <pteren> im very eepy myself
+[07:11:42] [Server thread/INFO]: <Wyirm> hm,
+[07:11:48] [Server thread/INFO]: <Wyirm> it may be bed time
+[07:12:16] [Server thread/INFO]: <pteren> mmmmmm
+[07:12:20] [Server thread/INFO]: <Wyirm> geep
+[07:12:21] [Server thread/INFO]: <pteren> yes
+[07:12:28] [Server thread/INFO]: <pteren> i shall geep
+[07:12:40] [Server thread/INFO]: <Wyirm> gooodnight ms. pteren
+[07:12:40] [Server thread/INFO]: <pteren> no server crashes today
+[07:12:45] [Server thread/INFO]: <pteren> <3
+[07:12:46] [Server thread/INFO]: <Wyirm> yes much better
+[07:12:57] [Server thread/INFO]: <pteren> i uninstalld lithium
+[07:13:02] [Server thread/INFO]: <Wyirm> lol
+[07:13:05] [Server thread/INFO]: <pteren> so it must be that
+[07:13:25] [Server thread/INFO]: <pteren> goodnight enjoy ur novel with frens :)
+[07:13:29] [Server thread/INFO]: <Wyirm> ty
+[07:13:33] [Server thread/INFO]: <Wyirm> nini
+[07:13:40] [Server thread/INFO]: <pteren> and tll me ab your book later
+[07:13:44] [Server thread/INFO]: <pteren> byee
+[07:13:45] [Server thread/INFO]: <Wyirm> oh okie
+[07:13:45] [Server thread/INFO]: pteren lost connection: Disconnected
+[07:13:45] [Server thread/INFO]: pteren left the game
+[07:13:48] [Server thread/INFO]: Wyirm lost connection: Disconnected
+[07:13:48] [Server thread/INFO]: Wyirm left the game
+[07:14:23] [Server thread/INFO]: Stopping the server
+[07:14:23] [Server thread/INFO]: Stopping server
+[07:14:23] [Server thread/INFO]: Saving players
+[07:14:23] [Server thread/INFO]: Saving worlds
+[07:14:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:14:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07:14:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07:14:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:14:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:14:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:14:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
