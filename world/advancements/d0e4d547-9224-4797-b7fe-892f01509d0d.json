@@ -19,6 +19,7 @@
       "minecraft:sunflower_plains": "2026-02-15 22:20:14 +0000",
       "minecraft:birch_forest": "2026-02-11 00:44:49 +0000",
       "minecraft:windswept_hills": "2026-02-11 00:57:06 +0000",
+      "minecraft:old_growth_spruce_taiga": "2026-03-18 01:02:43 +0000",
       "minecraft:bamboo_jungle": "2026-02-09 00:11:59 +0000",
       "minecraft:windswept_savanna": "2026-02-11 01:13:53 +0000",
       "minecraft:deep_lukewarm_ocean": "2026-02-15 22:36:01 +0000",
@@ -46,16 +47,17 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2026-02-07 00:12:49 +0000",
-      "minecraft:piglin": "2026-02-11 05:35:32 +0000",
       "minecraft:phantom": "2026-02-09 03:06:51 +0000",
       "minecraft:zombified_piglin": "2026-03-06 00:25:13 +0000",
+      "minecraft:bogged": "2026-02-07 20:55:57 +0000",
+      "minecraft:piglin": "2026-02-11 05:35:32 +0000",
       "minecraft:silverfish": "2026-02-07 21:21:37 +0000",
+      "minecraft:enderman": "2026-03-18 03:21:57 +0000",
       "minecraft:spider": "2026-02-06 22:47:00 +0000",
       "minecraft:zombie": "2026-02-06 22:53:12 +0000",
       "minecraft:creeper": "2026-02-07 20:10:51 +0000",
       "minecraft:drowned": "2026-02-09 00:16:00 +0000",
       "minecraft:zombie_villager": "2026-02-11 01:02:38 +0000",
-      "minecraft:bogged": "2026-02-07 20:55:57 +0000",
       "minecraft:slime": "2026-02-07 20:54:54 +0000"
     },
     "done": false
@@ -187,6 +189,7 @@
       "bread": "2026-02-09 01:02:37 +0000",
       "honey_bottle": "2026-02-10 23:55:57 +0000",
       "rotten_flesh": "2026-02-07 00:14:01 +0000",
+      "suspicious_stew": "2026-03-18 02:42:44 +0000",
       "cooked_beef": "2026-02-11 01:09:29 +0000",
       "beef": "2026-02-06 23:51:45 +0000",
       "baked_potato": "2026-02-07 19:45:28 +0000",
@@ -4159,6 +4162,187 @@
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
       "has_black_wool": "2026-03-05 22:36:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2026-03-18 00:28:12 +0000",
+      "ocean_ruin_warm": "2026-03-18 00:14:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2026-03-18 00:14:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-03-18 00:21:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2026-03-18 00:21:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2026-03-18 00:27:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2026-03-18 00:27:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2026-03-18 01:08:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2026-03-18 02:04:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2026-03-18 02:04:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2026-03-18 02:04:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2026-03-18 02:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2026-03-18 02:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2026-03-18 02:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2026-03-18 02:21:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2026-03-18 02:21:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2026-03-18 02:21:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2026-03-18 02:22:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-03-18 02:22:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_copper_bulb": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-03-18 03:14:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2026-03-18 03:14:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-03-18 03:14:22 +0000"
     },
     "done": true
   },
