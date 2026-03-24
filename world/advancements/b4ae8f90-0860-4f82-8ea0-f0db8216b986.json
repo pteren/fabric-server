@@ -5741,6 +5741,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_weathered_chiseled_copper_from_honeycomb": {
+    "criteria": {
+      "has_weathered_chiseled_copper": "2026-03-18 03:15:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_copper_grate": {
     "criteria": {
       "has_waxed_copper_block": "2026-03-18 03:25:00 +0000"
@@ -5756,12 +5762,6 @@
   "minecraft:recipes/building_blocks/waxed_cut_copper": {
     "criteria": {
       "has_waxed_copper_block": "2026-03-18 03:25:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_weathered_chiseled_copper_from_honeycomb": {
-    "criteria": {
-      "has_weathered_chiseled_copper": "2026-03-18 03:15:06 +0000"
     },
     "done": true
   },
@@ -5798,6 +5798,12 @@
   "minecraft:recipes/building_blocks/waxed_copper_grate_from_waxed_copper_block_stonecutting": {
     "criteria": {
       "has_waxed_copper_block": "2026-03-18 03:25:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_sandstone_slab": "2026-03-24 20:23:07 +0000"
     },
     "done": true
   },

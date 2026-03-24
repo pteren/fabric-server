@@ -1,8 +1,8 @@
-[02:09:15] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
-[02:09:15] [main/WARN]: Warnings were found!
+[18:49:06] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[18:49:06] [main/WARN]: Warnings were found!
  - Mod 'Quick Leaf Decay' (quickleafdecay) 0.4.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[02:09:15] [main/INFO]: Loading 42 mods:
+[18:49:06] [main/INFO]: Loading 42 mods:
 	- fabric-api 0.141.1+1.21.11
 	   |-- fabric-api-base 1.0.5+4ebb5c083e
 	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
@@ -53,239 +53,331 @@
 	- minecraft 1.21.11
 	- quickleafdecay 0.4.1
 	   \-- mixinextras 0.5.0
-[02:09:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/root/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:09:15] [main/INFO]: Compatibility level set to JAVA_21
-[02:09:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[02:09:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[02:09:32] [main/INFO]: Loaded 1470 recipes
-[02:09:32] [main/INFO]: Loaded 1584 advancements
-[02:09:32] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 6.862 ms
-[02:09:32] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[02:09:32] [Server thread/INFO]: Loading properties
-[02:09:32] [Server thread/INFO]: Default game type: SURVIVAL
-[02:09:32] [Server thread/INFO]: Generating keypair
-[02:09:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:09:32] [Server thread/INFO]: Preparing level "world"
-[02:09:33] [Server thread/INFO]: Loading 0 persistent chunks...
-[02:09:33] [Server thread/INFO]: Preparing spawn area: 100%
-[02:09:33] [Server thread/INFO]: Time elapsed: 67 ms
-[02:09:33] [Server thread/INFO]: Done (0.983s)! For help, type "help"
-[02:10:15] [User Authenticator #1/INFO]: UUID of player Wyirm is d0e4d547-9224-4797-b7fe-892f01509d0d
-[02:10:17] [Server thread/INFO]: Wyirm[/165.91.10.36:37399] logged in with entity id 208 at (-7.510900339940121, 74.0, -16.870570563327828)
-[02:10:17] [Server thread/INFO]: Wyirm joined the game
-[02:10:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[02:10:34] [User Authenticator #2/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
-[02:10:35] [Server thread/INFO]: pteren[/68.52.60.17:49770] logged in with entity id 483 at (-8.523546263486088, 74.0, -15.484252203107587)
-[02:10:35] [Server thread/INFO]: pteren joined the game
-[02:10:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4981ms or 99 ticks behind
-[02:10:49] [Server thread/INFO]: <pteren> push slab w piston?
-[02:10:50] [Server thread/INFO]: <Wyirm> dingus
-[02:11:41] [Server thread/INFO]: <Wyirm> i am mad at him
-[02:12:14] [Server thread/INFO]: <pteren> ok tahts a good start
-[02:12:41] [Server thread/INFO]: <Wyirm> bros trying to escap
-[02:12:56] [Server thread/INFO]: <pteren> ehh hes fiiiiiiiiine
-[02:13:05] [Server thread/INFO]: <Wyirm> mewo meow meow meow meow, meow meow meow meow meow meow meow meow
-[02:13:16] [Server thread/INFO]: <Wyirm> meow meow meow meow meow meow meow meow meow meow meow meow meow
-[02:13:28] [Server thread/INFO]: <Wyirm> thats my rendition of fly me to the moon
-[02:13:45] [Server thread/INFO]: <pteren> hmm
-[02:13:57] [Server thread/INFO]: <Wyirm> ./give debug_stick
-[02:14:30] [Server thread/INFO]: <Wyirm> ca n you soft power it through a block
-[02:14:32] [Server thread/INFO]: <Wyirm> or smth
-[02:14:48] [Server thread/INFO]: <pteren> u have the comb
-[02:15:14] [Server thread/INFO]: <pteren> or maybe that
-[02:15:41] [Server thread/INFO]: <Wyirm> h m
-[02:15:55] [Server thread/INFO]: <Wyirm> !
-[02:16:02] [Server thread/INFO]: <pteren> oo!
-[02:16:27] [Server thread/INFO]: <pteren> idk why i thought that would work
-[02:16:44] [Server thread/INFO]: <Wyirm> meowowow
-[02:16:49] [Server thread/INFO]: <Wyirm> can ciomposters be powered
-[02:16:55] [Server thread/INFO]: <Wyirm> or do they count as transparent
-[02:16:59] [Server thread/INFO]: <pteren> very transparent
-[02:17:37] [Server thread/INFO]: <pteren> what block can we put on the top?
-[02:17:46] [Server thread/INFO]: <pteren> it needs to be transparent
-[02:17:49] [Server thread/INFO]: <pteren> and look like a fridge
-[02:17:50] [Server thread/INFO]: <Wyirm> redstone
-[02:18:09] [Server thread/INFO]: <Wyirm> tyhis is a tall ass bridge btw
-[02:18:16] [Server thread/INFO]: <pteren> and it cant just be a bottom slab. bc he will jump out of it
-[02:18:28] [Server thread/INFO]: <pteren> wait
-[02:18:30] [Server thread/INFO]: <pteren> im stupid
-[02:18:37] [Server thread/INFO]: <pteren> lets just put the composter in the floor
-[02:18:42] [Server thread/INFO]: <Wyirm> true
-[02:18:47] [Server thread/INFO]: <pteren> and him in the minecart
-[02:19:14] [Server thread/INFO]: <Wyirm> im a roomba
-[02:19:29] [Server thread/INFO]: <pteren> LOL
-[02:19:51] [Server thread/INFO]: <Wyirm> my freeping brain
-[02:21:13] [Server thread/INFO]: <pteren> ROOMBA THIS
-[02:22:27] [Server thread/INFO]: <Wyirm> atch me frink this
-[02:23:21] [Server thread/INFO]: <Wyirm> meowowow
-[02:23:22] [Server thread/INFO]: <pteren> ok so. how open himmm
-[02:23:30] [Server thread/INFO]: <Wyirm> presure plant
-[02:23:56] [Server thread/INFO]: <Wyirm> johnman
-[02:24:04] [Server thread/INFO]: <pteren> LOL
-[02:24:12] [Server thread/INFO]: <pteren> WAIT
-[02:24:29] [Server thread/INFO]: <pteren> IT WORKS
-[02:24:39] [Server thread/INFO]: <pteren> :>
-[02:24:46] [Server thread/INFO]: <Wyirm> pretty
-[02:24:53] [Server thread/INFO]: <Wyirm> iceman
-[02:25:37] [Server thread/INFO]: <Wyirm> huh
-[02:25:37] [Server thread/INFO]: <Wyirm> did
-[02:25:44] [Server thread/INFO]: <Wyirm> you just spoend like 100 emerals
-[02:25:51] [Server thread/INFO]: <pteren> mhm
-[02:26:04] [Server thread/INFO]: <Wyirm> i nened mending :pleading_face:
-[02:26:12] [Server thread/INFO]: <pteren> theres mending books on the top right shelf
-[02:26:15] [Server thread/INFO]: <Wyirm> oh
-[02:26:23] [Server thread/INFO]: <pteren> also emerald blocks in furnace chest
-[02:26:34] [Server thread/INFO]: <Wyirm> aeglebeeper
-[02:27:23] [Server thread/INFO]: <Wyirm> can we kill this copper golem
-[02:27:51] [Server thread/INFO]: <pteren> sure
-[02:28:18] [Server thread/INFO]: <pteren> but if we wait itll turn into a statchoo
-[02:28:33] [Server thread/INFO]: <Wyirm> lets do that
-[02:32:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-16, y=69, z=-14} class_2338{x=-17, y=67, z=-12}
-[02:32:42] [Server thread/INFO]: <Wyirm> hmm
-[02:36:01] [Server thread/INFO]: Wyirm lost connection: Disconnected
-[02:36:01] [Server thread/INFO]: Wyirm left the game
-[02:38:18] [User Authenticator #3/INFO]: UUID of player Wyirm is d0e4d547-9224-4797-b7fe-892f01509d0d
-[02:38:18] [Server thread/INFO]: Wyirm[/165.91.10.36:18667] logged in with entity id 7170 at (-10.300000011920929, 49.710394758345736, -12.37376628541174)
-[02:38:18] [Server thread/INFO]: Wyirm joined the game
-[02:39:52] [Server thread/INFO]: <Wyirm> the hole
-[02:40:06] [Server thread/WARN]: pteren moved wrongly!
-[02:41:04] [Server thread/INFO]: <Wyirm> you should fill the whole walls with crafting tables
-[02:41:29] [Server thread/INFO]: <pteren> u can shift place water on tables
-[02:42:10] [Server thread/INFO]: <pteren> oh you can on stairs too
-[02:42:59] [Server thread/INFO]: <Wyirm> fill the entire thing with doors
-[02:43:04] [Server thread/INFO]: <Wyirm> sinze its 2 wide
-[02:43:13] [Server thread/INFO]: <pteren> could open a door to land on it
-[02:43:16] [Server thread/INFO]: <pteren> gonna do banners
-[02:45:04] [Server thread/INFO]: <pteren> banners have a huge hitbox
-[02:45:19] [Server thread/INFO]: <pteren> and cant be waterlogged
-[02:45:40] [Server thread/INFO]: Wyirm fell from a high place
-[02:48:52] [Server thread/INFO]: <Wyirm> meowful
-[02:49:44] [Server thread/INFO]: <pteren> OW
-[02:49:57] [Server thread/INFO]: <Wyirm> ur fault <3
-[02:50:12] [Server thread/INFO]: <pteren> i cant get out without breaking the banner tower </3
-[02:50:19] [Server thread/INFO]: <pteren> wait nvm
-[02:50:58] [Server thread/INFO]: <Wyirm> bim
-[02:51:14] [Server thread/INFO]: <Wyirm> did i tell you about phil
-[02:51:17] [Server thread/INFO]: <pteren> no!
-[02:51:20] [Server thread/INFO]: <Wyirm> hes like
-[02:51:23] [Server thread/INFO]: <Wyirm> a little mushroom guy
-[02:51:26] [Server thread/INFO]: <Wyirm> and hes magic
-[02:51:31] [Server thread/INFO]: <Wyirm> he like sandwhiches
-[02:51:45] [Server thread/INFO]: <pteren> i see...
-[02:51:53] [Server thread/INFO]: <Wyirm> and hes a druglord
-[02:52:13] [Server thread/INFO]: <Wyirm> i wonder if i still havea picture
-[02:53:25] [Server thread/INFO]: <Wyirm> i dont have the originalk
-[02:54:06] [Server thread/INFO]: <Wyirm> theres also 40 bajillion of him
-[02:54:10] [Server thread/INFO]: <Wyirm> with variants
-[02:54:19] [Server thread/INFO]: <Wyirm> one of them is called the inbimerator
-[02:54:23] [Server thread/INFO]: <Wyirm> because
-[02:54:24] [Server thread/INFO]: <Wyirm> bim
-[02:54:25] [Server thread/INFO]: <Wyirm> i guess
-[02:54:34] [Server thread/INFO]: <Wyirm> and its an atm machine but its a bim machine
-[02:54:52] [Server thread/INFO]: <Wyirm> i just tried to f3+n through a wall
-[02:54:55] [Server thread/INFO]: <pteren> what does this meannnn
-[02:56:07] [Server thread/INFO]: <Wyirm> what aer you n confuse
-[02:56:29] [Server thread/INFO]: <pteren> who is phill
-[02:56:35] [Server thread/INFO]: <pteren> also what is a bim machine
-[02:56:36] [Server thread/INFO]: <Wyirm> wdym i just told you
-[02:56:40] [Server thread/INFO]: <pteren> also the m stands for machine
-[02:56:48] [Server thread/INFO]: <Wyirm> bim doesnt stand for anything
-[02:56:49] [Server thread/INFO]: <pteren> also, what is magic
-[02:56:56] [Server thread/INFO]: <pteren> also.
-[02:56:58] [Server thread/INFO]: <pteren> what
-[02:57:02] [Server thread/INFO]: <pteren> ??????
-[02:57:05] [Server thread/INFO]: <Wyirm> he says poof a white cloud appears and then stuff appears
-[02:57:16] [Server thread/INFO]: <Wyirm> i made him when i was in 4th grade
-[02:57:33] [Server thread/INFO]: <pteren> OHHH!!
-[02:57:37] [Server thread/INFO]: <Wyirm> LMAO
-[02:57:45] [Server thread/INFO]: <Wyirm> didd you think it was like
-[02:57:46] [Server thread/INFO]: <Wyirm> serious
-[02:58:40] [Server thread/INFO]: <pteren> hims an art
-[03:00:07] [Server thread/INFO]: <Wyirm> let me draw him rq
-[03:00:10] [Server thread/INFO]: <Wyirm> you'll understand
-[03:00:19] [Server thread/INFO]: <pteren> :O
-[03:03:37] [Server thread/INFO]: <Wyirm> omg i still have to tell you about vostok
-[03:04:11] [Server thread/INFO]: <pteren> yay im learning about so many people
-[03:04:51] [Server thread/INFO]: <Wyirm> ok ok i dont think you'll end up reading the final thing so likespoilers are fine maybe
-[03:05:01] [Server thread/INFO]: <Wyirm> it will take
-[03:05:04] [Server thread/INFO]: <Wyirm> years
-[03:05:05] [Server thread/INFO]: <pteren> is vostok the underwater mystery?
-[03:05:07] [Server thread/INFO]: <Wyirm> yes
-[03:05:14] [Server thread/INFO]: <Wyirm> its spooky and mysterious
-[03:05:19] [Server thread/INFO]: <Wyirm> and it has dangerous women
-[03:05:30] [Server thread/INFO]: <pteren> I WANNA READ
-[03:05:45] [Server thread/INFO]: <Wyirm> i can forward you the thingys
-[03:05:48] [Server thread/INFO]: <Wyirm> that i have so far
-[03:05:49] [Server thread/INFO]: <pteren> yess
-[03:06:01] [Server thread/INFO]: <Wyirm> its a rough draft and subject to change
-[03:06:48] [Server thread/INFO]: <Wyirm> uhhh im gonna have to do them all 1 by 1
-[03:07:39] [Server thread/INFO]: <Wyirm> the final twist is like crazy though i need to finish this rough draft
-[03:13:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-10, y=66, z=-10} class_2338{x=-13, y=65, z=-9}
-[03:14:27] [Server thread/INFO]: <Wyirm> im in a leag
-[03:15:33] [Server thread/INFO]: <Wyirm> meow moew
-[03:15:36] [Server thread/INFO]: <pteren> what do you think of the roof in here
-[03:15:40] [Server thread/INFO]: <pteren> can you salvage it ;-;
-[03:15:49] [Server thread/INFO]: <pteren> with your epic dome design powers
-[03:15:58] [Server thread/INFO]: <Wyirm> oh this one
-[03:16:01] [Server thread/INFO]: <pteren> its like.
-[03:16:07] [Server thread/INFO]: <pteren> how does it connect to the banister
-[03:16:21] [Server thread/INFO]: <Wyirm> raise the roof
-[03:16:35] [Server thread/INFO]: <Wyirm> oh yeah baby oh yeah baby oh yeah baby oh yeah baby
-[03:16:39] [Server thread/INFO]: <Wyirm> what am ithinbking of
-[03:16:46] [Server thread/INFO]: <Wyirm> helpy flappy bird
-[03:16:48] [Server thread/INFO]: <Wyirm> ok
-[03:16:56] [Server thread/INFO]: <Wyirm> move the dome up
-[03:17:01] [Server thread/INFO]: <Wyirm> also make it wider
-[03:17:09] [Server thread/INFO]: <pteren> wont it be awfully tall in here?
-[03:18:30] [Server thread/INFO]: <Wyirm> sorry io was fixing something
-[03:18:51] [Server thread/INFO]: <Wyirm> well of course its gonna be tall silly you put a walkway all the way up there
-[03:19:48] [Server thread/INFO]: <Wyirm> meow meowww
-[03:19:54] [Server thread/INFO]: <pteren> gbglrbgldsbgls
-[03:20:04] [Server thread/INFO]: <Wyirm> hold on
-[03:20:05] [Server thread/INFO]: <Wyirm> watch this
-[03:20:37] [Server thread/INFO]: <pteren> horrifying
-[03:21:21] [Server thread/INFO]: <pteren> WAIT theres no door
-[03:21:49] [Server thread/INFO]: <pteren> ok there
-[03:22:08] [Server thread/INFO]: <pteren> ok well what if...
-[03:22:10] [Server thread/INFO]: <pteren> uhhh
-[03:22:15] [Server thread/INFO]: <Wyirm> the ceiling now would just
-[03:22:19] [Server thread/INFO]: <Wyirm> hitthe balcony thing
-[03:22:30] [Server thread/INFO]: <pteren> yea what if theres just an A frame in here
-[03:23:37] [Server thread/INFO]: <pteren> thats not so bad
-[03:23:38] [Server thread/INFO]: <Wyirm> so like not a dome
-[03:23:45] [Server thread/INFO]: <pteren> yea more like a
-[03:23:51] [Server thread/INFO]: <pteren> triangle thingy
-[03:23:51] [Server thread/INFO]: <Wyirm> an excursion
-[03:25:19] [Server thread/INFO]: <Wyirm> meep
-[03:26:22] [Server thread/INFO]: <pteren> ehh?
-[03:26:31] [Server thread/INFO]: <Wyirm> orangm
-[03:26:34] [Server thread/INFO]: <Wyirm> GREEB
-[03:26:36] [Server thread/INFO]: <Wyirm> GREB
-[03:26:40] [Server thread/INFO]: <Wyirm> mmmemmemlelvelmsdlfalkf
-[03:26:43] [Server thread/INFO]: <pteren> GREEB
-[03:27:08] [Server thread/INFO]: <Wyirm> do you know who gleebskeeb is
-[03:27:17] [Server thread/INFO]: <pteren> not a clue
-[03:27:30] [Server thread/INFO]: <Wyirm> hes the boss of alexa solves the universe requiem
-[03:28:23] [Server thread/INFO]: <Wyirm> mmrp
-[03:28:31] [Server thread/INFO]: <pteren> ...that wasn't a clue
-[03:28:44] [Server thread/INFO]: <Wyirm> you didnt ask for a cklue
-[03:29:00] [Server thread/INFO]: <pteren> true
-[03:29:52] [Server thread/INFO]: <pteren> i made a tragic number of cut copper slabs :(
-[03:29:55] [Server thread/INFO]: <pteren> i need stairsss
-[03:30:00] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.base/java.io.FileInputStream.readBytes(Native Method)
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:287)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
-	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188)
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
-	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370)
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347)
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436)
-	at knot//net.minecraft.class_3176$1.run(class_3176.java:186)
+[18:49:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/root/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:49:06] [main/INFO]: Compatibility level set to JAVA_21
+[18:49:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[18:49:20] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:49:24] [main/INFO]: Loaded 1470 recipes
+[18:49:24] [main/INFO]: Loaded 1584 advancements
+[18:49:25] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 13.45 ms
+[18:49:25] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[18:49:25] [Server thread/INFO]: Loading properties
+[18:49:25] [Server thread/INFO]: Default game type: SURVIVAL
+[18:49:25] [Server thread/INFO]: Generating keypair
+[18:49:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:49:25] [Server thread/INFO]: Preparing level "world"
+[18:49:26] [Server thread/INFO]: Loading 0 persistent chunks...
+[18:49:26] [Server thread/INFO]: Preparing spawn area: 100%
+[18:49:26] [Server thread/INFO]: Time elapsed: 71 ms
+[18:49:26] [Server thread/INFO]: Done (0.724s)! For help, type "help"
+[18:50:26] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:06:15] [User Authenticator #1/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
+[19:06:18] [Server thread/INFO]: pteren[/68.52.60.17:48920] logged in with entity id 208 at (-18.202939069527442, 75.0, -16.310818175683696)
+[19:06:18] [Server thread/INFO]: pteren joined the game
+[19:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2170ms or 43 ticks behind
+[19:06:41] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[19:06:41] [Server thread/INFO]: <--[HERE]
+[19:06:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7461ms or 149 ticks behind
+[19:19:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-7, y=75, z=-24} class_2338{x=1, y=71, z=-26}
+[19:28:34] [Server thread/INFO]: pteren lost connection: Disconnected
+[19:28:34] [Server thread/INFO]: pteren left the game
+[19:28:36] [User Authenticator #2/INFO]: UUID of player MayhemFirefly is 9cbedc52-cb5a-4399-8a2e-1fdabb1b2320
+[19:28:39] [Server thread/INFO]: MayhemFirefly[/105.178.104.132:14425] logged in with entity id 5269 at (50.86084719027952, 63.0, -21.255192397938767)
+[19:28:39] [Server thread/INFO]: MayhemFirefly joined the game
+[19:28:52] [User Authenticator #3/INFO]: UUID of player pteren is b4ae8f90-0860-4f82-8ea0-f0db8216b986
+[19:28:53] [Server thread/INFO]: pteren[/68.52.60.17:36278] logged in with entity id 5733 at (-20.31295124204131, 72.0, 13.476337687644037)
+[19:28:53] [Server thread/INFO]: pteren joined the game
+[19:28:56] [Server thread/INFO]: <pteren> yay
+[19:29:06] [Server thread/INFO]: <MayhemFirefly> it didn't even lag
+[19:29:15] [Server thread/INFO]: <pteren> my friend
+[19:29:18] [Server thread/INFO]: <pteren> :DDD
+[19:29:21] [Server thread/INFO]: <pteren> A GIFT
+[19:29:29] [Server thread/INFO]: <MayhemFirefly> oops
+[19:29:31] [Server thread/INFO]: <MayhemFirefly> XD
+[19:29:48] [Server thread/INFO]: <pteren> NOT for stabbing
+[19:29:54] [Server thread/INFO]: <pteren> for zooming!
+[19:30:31] [Server thread/INFO]: <pteren> ...
+[19:30:34] [Server thread/INFO]: <pteren> are you starving
+[19:30:42] [Server thread/INFO]: <MayhemFirefly> no i hav 25 pi
+[19:30:50] [Server thread/INFO]: <pteren> jump and attack
+[19:31:14] [Server thread/INFO]: <pteren> not at me
+[19:31:21] [Server thread/INFO]: <pteren> its not a weapon. its a mobility tool
+[19:31:22] [Server thread/INFO]: <MayhemFirefly> oh ok
+[19:31:43] [Server thread/INFO]: <pteren> thats why its iron. lower cooldown than diamond
+[19:31:54] [Server thread/INFO]: <pteren> COME SEE THE HOUSE!
+[19:31:59] [Server thread/INFO]: <MayhemFirefly> mobility tool how?
+[19:32:10] [Server thread/INFO]: <pteren> mojave
+[19:32:11] [Server thread/INFO]: <pteren> look
+[19:32:41] [Server thread/INFO]: <MayhemFirefly> WOAH SICK
+[19:34:01] [Server thread/INFO]: <pteren> <3
+[19:34:10] [Server thread/INFO]: <MayhemFirefly> ily
+[19:34:13] [Server thread/INFO]: <pteren> ILY!!!
+[19:34:39] [Server thread/INFO]: <MayhemFirefly> days since pteren blew up floor
+[19:34:41] [Server thread/INFO]: <MayhemFirefly> 0
+[19:34:43] [Server thread/INFO]: <pteren> o yeah
+[19:34:48] [Server thread/INFO]: <pteren> I CAN CHANGE THAT TO 1
+[19:36:05] [Server thread/INFO]: <MayhemFirefly> do we have mangrove saps?
+[19:36:07] [Server thread/INFO]: <pteren> yes
+[19:36:17] [Server thread/INFO]: <MayhemFirefly> o i think i may hav my own too
+[19:36:18] [Server thread/INFO]: <pteren> if you need food theres plenty in the frige
+[19:36:28] [Server thread/INFO]: <MayhemFirefly> it's so PRETTY
+[19:36:33] [Server thread/INFO]: <pteren> thanks
+[19:36:38] [Server thread/INFO]: <pteren> what do you wanna do??
+[19:36:44] [Server thread/INFO]: <MayhemFirefly> buld
+[19:36:48] [Server thread/INFO]: <pteren> OK
+[19:36:52] [Server thread/INFO]: <pteren> lets check the todo list
+[19:37:00] [Server thread/INFO]: <MayhemFirefly> i hav ideas for my base
+[19:37:17] [Server thread/INFO]: <pteren> FUCK
+[19:37:20] [Server thread/INFO]: <pteren> i forgot that word again
+[19:37:27] [Server thread/INFO]: <pteren> for the plant thingy
+[19:37:28] [Server thread/INFO]: <MayhemFirefly> flamboyance
+[19:37:31] [Server thread/INFO]: <pteren> no. ew
+[19:37:36] [Server thread/INFO]: <pteren> PERGOLD
+[19:37:38] [Server thread/INFO]: <pteren> A
+[19:37:40] [Server thread/INFO]: <pteren> ok
+[19:37:41] [Server thread/INFO]: <pteren> got it
+[19:37:57] [Server thread/INFO]: <pteren> ok! mjv base ideas
+[19:38:01] [Server thread/INFO]: <pteren> do you want your own todo list?
+[19:38:13] [Server thread/INFO]: <MayhemFirefly> huh
+[19:38:16] [Server thread/INFO]: <MayhemFirefly> no
+[19:38:28] [Server thread/INFO]: <MayhemFirefly> why is the guy burning!!!
+[19:38:32] [Server thread/INFO]: <MayhemFirefly> ):
+[19:38:38] [Server thread/INFO]: <pteren> so we can have iron
+[19:38:42] [Server thread/INFO]: <pteren> need to melt him
+[19:38:44] [Server thread/INFO]: <pteren> its ok they dont feel pain
+[19:38:46] [Server thread/INFO]: <pteren> probably
+[19:38:57] [Server thread/INFO]: <MayhemFirefly> only mental anguish
+[19:39:13] [Server thread/INFO]: <pteren> i like to imagine they die with a sense of noble sacrifice
+[19:40:59] [Server thread/INFO]: <MayhemFirefly> we don't have propagules? ):
+[19:41:06] [Server thread/INFO]: <pteren> yeah
+[19:41:07] [Server thread/INFO]: <pteren> in here
+[19:41:11] [Server thread/INFO]: <pteren> next to the saplings
+[19:41:21] [Server thread/INFO]: <MayhemFirefly> ty
+[19:45:47] [Server thread/INFO]: <pteren> WOAH
+[19:45:48] [Server thread/INFO]: <pteren> its tall
+[19:45:56] [Server thread/INFO]: <MayhemFirefly> YAYYY
+[19:46:04] [Server thread/INFO]: <MayhemFirefly> noooooo
+[19:46:07] [Server thread/INFO]: <MayhemFirefly> ):
+[19:47:04] [Server thread/INFO]: <pteren> POKING U WITH MY TOES
+[19:47:58] [Server thread/INFO]: <MayhemFirefly> aaa
+[19:48:52] [Server thread/INFO]: <MayhemFirefly> brb
+[19:53:36] [Server thread/INFO]: <MayhemFirefly> b
+[19:53:43] [Server thread/INFO]: <pteren> HI!!!!
+[19:53:47] [Server thread/INFO]: <pteren> i love you
+[19:53:49] [Server thread/INFO]: <MayhemFirefly> did you know i adore you
+[19:54:25] [Server thread/INFO]: <MayhemFirefly> wanna do questions?
+[19:54:28] [Server thread/INFO]: <pteren> YA
+[19:56:22] [Server thread/INFO]: <MayhemFirefly> what do you want to be to the world? like, what do you wanna be known for in your circle?
+[19:56:38] [Server thread/INFO]: <MayhemFirefly> what do you want to remind people of you?
+[19:57:34] [Server thread/INFO]: <pteren> woah..
+[20:01:43] [Server thread/INFO]: <pteren> never ignoring someone who is hurt or hurting
+[20:01:58] [Server thread/INFO]: <pteren> being as eager to learn as i am to teach
+[20:02:30] [Server thread/INFO]: <pteren> and organizing really fun things
+[20:03:01] [Server thread/INFO]: <MayhemFirefly> you're already very much that to me (:
+[20:03:28] [Server thread/INFO]: <MayhemFirefly> licking
+[20:03:30] [Server thread/INFO]: <pteren> ASDFGIKASHDGFA
+[20:04:03] [Server thread/INFO]: <pteren> what are the 4 fanciest things i can put on this display case
+[20:04:35] [Server thread/INFO]: <pteren> sniffer pot gets a spot for srue
+[20:04:43] [Server thread/INFO]: <pteren> then maybe. copper golem statue?
+[20:04:54] [Server thread/INFO]: <pteren> coral fan dish
+[20:05:01] [Server thread/INFO]: <MayhemFirefly> eye of ender
+[20:05:09] [Server thread/INFO]: <pteren> not a block
+[20:05:24] [Server thread/INFO]: <pteren> oh ive got a dried ghast
+[20:05:30] [Server thread/INFO]: <MayhemFirefly> what
+[20:05:39] [Server thread/INFO]: <pteren> yeah check it
+[20:07:32] [Server thread/INFO]: <pteren> youre not wrong tho i could put more fancy items on shelves in front
+[20:08:42] [Server thread/INFO]: <MayhemFirefly> i wanna be bright and joyful and kind and approachable and interesting
+[20:10:38] [Server thread/INFO]: <pteren> you are that to me :)
+[20:12:12] [Server thread/INFO]: <MayhemFirefly> what do you respect/enjoy most about what another person is to the world and to you?
+[20:12:29] [Server thread/INFO]: <pteren> i respect how selfless you are
+[20:12:43] [Server thread/INFO]: <pteren> even tho sometimes it is obviously to everyones detriment
+[20:12:54] [Server thread/INFO]: <pteren> other times it is real.
+[20:13:11] [Server thread/INFO]: <pteren> and its clear that its hard to make the choices you make.
+[20:13:27] [Server thread/INFO]: <pteren> and they aren't choices i would ever make
+[20:13:40] [Server thread/INFO]: <pteren> but when i find myself faced by choices like that now, i think of you
+[20:14:22] [Server thread/INFO]: <MayhemFirefly> can I bridge this horrible gouge?
+[20:14:33] [Server thread/INFO]: <pteren> you can cover it up entirely if you want
+[20:14:34] [Server thread/INFO]: <pteren> ill help
+[20:14:37] [Server thread/INFO]: <MayhemFirefly> i have hated it since it was there
+[20:16:00] [Server thread/INFO]: <MayhemFirefly> well somebody has to make those choices (:
+[20:16:10] [Server thread/INFO]: <pteren> yeah
+[20:16:23] [Server thread/INFO]: <MayhemFirefly> it's ok that it's not you, because we'll live together and it'll balance out >:)
+[20:16:32] [Server thread/INFO]: <pteren> no.
+[20:16:41] [Server thread/INFO]: <pteren> i want it to be me
+[20:16:42] [Server thread/INFO]: <MayhemFirefly> mm?
+[20:16:45] [Server thread/INFO]: <MayhemFirefly> oh
+[20:17:38] [Server thread/INFO]: <pteren> and im gonna get there
+[20:17:41] [Server thread/INFO]: <pteren> because i want to.
+[20:17:45] [Server thread/INFO]: <pteren> and because of you
+[20:17:52] [Server thread/INFO]: <MayhemFirefly> (: i believe in you
+[20:17:57] [Server thread/INFO]: <pteren> now. take some soil and come seal up this gorge w me
+[20:18:22] [Server thread/INFO]: <pteren> slabs to put underneath in case it gets blown up
+[20:21:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=41, y=69, z=-17} class_2338{x=41, y=67, z=-17}
+[20:21:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=41, y=69, z=-17} class_2338{x=41, y=67, z=-17}
+[20:21:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=40, y=70, z=-17} class_2338{x=40, y=68, z=-17}
+[20:21:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=42, y=70, z=-19} class_2338{x=42, y=67, z=-19}
+[20:24:13] [Server thread/INFO]: <pteren> oh i was gonna put sand here
+[20:24:18] [Server thread/INFO]: <pteren> just do the slabs
+[20:24:33] [Server thread/INFO]: <MayhemFirefly> aye
+[20:24:39] [Server thread/INFO]: <pteren> got a shovel?
+[20:25:17] [Server thread/INFO]: <MayhemFirefly> no. no need
+[20:25:30] [Server thread/INFO]: <pteren> *i* need one
+[20:25:31] [Server thread/INFO]: <pteren> broke mine
+[20:29:45] [Server thread/INFO]: <pteren> ack
+[20:29:46] [Server thread/INFO]: <pteren> so much sand
+[20:29:56] [Server thread/INFO]: <pteren> we dont have a desert :(
+[20:30:07] [Server thread/INFO]: <MayhemFirefly> ack is such a sand reaction
+[20:30:57] [Server thread/INFO]: <pteren> BEAUTIFUL
+[20:31:07] [Server thread/INFO]: <MayhemFirefly> THANK YOU SO MUCH
+[20:31:13] [Server thread/INFO]: <pteren> np dude!
+[20:31:16] [Server thread/INFO]: <pteren> high five
+[20:32:51] [Server thread/INFO]: <pteren> we could add some dirt patches
+[20:32:57] [Server thread/INFO]: <pteren> or structures, gardens
+[20:33:02] [Server thread/INFO]: <pteren> just to get more sand ;-;
+[20:33:47] [Server thread/INFO]: <MayhemFirefly> tru
+[20:36:44] [Server thread/INFO]: <pteren> watcha think?
+[20:36:50] [Server thread/INFO]: <MayhemFirefly> WAY BETTER
+[20:36:55] [Server thread/INFO]: <pteren> :)
+[20:37:36] [Server thread/INFO]: <MayhemFirefly> should i keep thinking of questions?
+[20:37:52] [Server thread/INFO]: <pteren> ohh shoot sorry
+[20:38:04] [Server thread/INFO]: <pteren> YES but its MY TURN
+[20:38:12] [Server thread/INFO]: <MayhemFirefly> only if you want
+[20:38:33] [Server thread/INFO]: <MayhemFirefly> you don't have a road trip to turn into a throwaway question
+[20:38:47] [Server thread/INFO]: <pteren> sdlkagsdhfa
+[20:38:51] [Server thread/INFO]: <pteren> whats that supposed to mean
+[20:39:21] [Server thread/INFO]: <MayhemFirefly> nothin
+[20:39:26] [Server thread/INFO]: <pteren> hehe
+[20:39:41] [Server thread/INFO]: <pteren> if you could come into *my* dreams what would you do?
+[20:39:55] [Server thread/INFO]: <MayhemFirefly> well you don't have a lot of em.
+[20:40:07] [Server thread/INFO]: <MayhemFirefly> Can I affect the environment at all?
+[20:40:25] [Server thread/INFO]: <pteren> only as much as i can
+[20:40:33] [Server thread/INFO]: <MayhemFirefly> which is?
+[20:40:38] [Server thread/INFO]: <pteren> well uhh
+[20:40:55] [Server thread/INFO]: <pteren> kinda depends?
+[20:41:09] [Server thread/INFO]: <pteren> sometimes i say something and your just like "no lol"
+[20:41:18] [Server thread/INFO]: <pteren> which i gotta say is not very yes and of you
+[20:41:19] [Server thread/INFO]: <MayhemFirefly> OH
+[20:41:26] [Server thread/INFO]: <MayhemFirefly> sorry
+[20:41:33] [Server thread/INFO]: <pteren> no its fine hehe
+[20:41:35] [Server thread/INFO]: <pteren> its your dream!
+[20:42:08] [Server thread/INFO]: <pteren> im only a little miffed that u always say i come first >:(
+[20:42:11] [Server thread/INFO]: <pteren> gonna get you
+[20:42:16] [Server thread/INFO]: <MayhemFirefly> these trees are pretty but you really gotta work for em lol
+[20:42:26] [Server thread/INFO]: <pteren> like meeeeeee
+[20:42:27] [Server thread/INFO]: <MayhemFirefly> well
+[20:42:31] [Server thread/INFO]: <MayhemFirefly> wouldn't you?
+[20:42:33] [Server thread/INFO]: <pteren> askdjfgaisdf
+[20:42:35] [Server thread/INFO]: <pteren> thats beside the piont
+[20:42:56] [Server thread/INFO]: <MayhemFirefly> i see i see
+[20:43:12] [Server thread/INFO]: <MayhemFirefly> git gud
+[20:43:30] [Server thread/INFO]: <MayhemFirefly> sorry i'm.
+[20:43:36] [Server thread/INFO]: <MayhemFirefly> you can go for 2 hours
+[20:43:41] [Server thread/INFO]: <MayhemFirefly> this is inaccurate
+[20:43:45] [Server thread/INFO]: <MayhemFirefly> you're right
+[20:43:48] [Server thread/INFO]: <pteren> no!
+[20:43:51] [Server thread/INFO]: <pteren> stop apologizing
+[20:44:02] [Server thread/INFO]: <MayhemFirefly> it was a laughingly one
+[20:44:12] [Server thread/INFO]: <pteren> ok.
+[20:44:15] [Server thread/INFO]: <pteren> still
+[20:44:20] [Server thread/INFO]: <MayhemFirefly> alr
+[20:44:26] [Server thread/INFO]: <pteren> u are extrapolating from single data points
+[20:45:00] [Server thread/INFO]: <pteren> PLEASE keep talking big it will only make it sting more when i destroy you :)
+[20:45:06] [Server thread/INFO]: <MayhemFirefly> ugh
+[20:46:11] [Server thread/INFO]: <MayhemFirefly> gnawing on u
+[20:46:29] [Server thread/INFO]: <MayhemFirefly> ohhh i didn't answer the question.
+[20:46:37] [Server thread/INFO]: <pteren> OW gentle
+[20:47:03] [Server thread/INFO]: <MayhemFirefly> I'd probably try to fight aliens or smthn with you.
+[20:47:06] [Server thread/INFO]: <pteren> lol
+[20:47:11] [Server thread/INFO]: <pteren> i love you so much
+[20:47:23] [Server thread/INFO]: <MayhemFirefly> curious what your renditions would turn out as
+[20:47:36] [Server thread/INFO]: <pteren> i dont think ive ever dreamed about fighting aliens
+[20:49:37] [Server thread/INFO]: <MayhemFirefly> thx
+[20:49:39] [Server thread/INFO]: <pteren> :)
+[20:50:12] [Server thread/INFO]: KittyScan (/51.15.59.186:41772) lost connection: Disconnected
+[20:50:26] [Server thread/INFO]: <pteren> im still cackling about your answer btw
+[20:50:34] [Server thread/INFO]: <MayhemFirefly> WHY IS IT FUNNY
+[20:50:43] [Server thread/INFO]: <MayhemFirefly> oh because you just rail me in dreams
+[20:50:45] [Server thread/INFO]: <pteren> because it makes me sound so boring!!!!
+[20:50:47] [Server thread/INFO]: <pteren> YES
+[20:50:49] [Server thread/INFO]: <MayhemFirefly> am i being innocent again
+[20:50:55] [Server thread/INFO]: <pteren> no you're being RIGHT
+[20:50:56] [Server thread/INFO]: <MayhemFirefly> git gud
+[20:51:22] [Server thread/INFO]: <pteren> "i can fuck pteren anytime! this is my one chance to fight aliens"
+[20:51:22] [Server thread/INFO]: <MayhemFirefly> pppffff
+[20:51:32] [Server thread/INFO]: <MayhemFirefly> tru
+[20:51:34] [Server thread/INFO]: <MayhemFirefly> lol
+[20:51:49] [Server thread/INFO]: <pteren> BUT I DONT """JUST""" RAIL YOU
+[20:51:49] [Server thread/INFO]: <MayhemFirefly> this ones pretty i wanna leave it there
+[20:52:00] [Server thread/INFO]: <MayhemFirefly> I know (:
+[20:52:09] [Server thread/INFO]: <pteren> WE WENT ON A WHOLE ROMANTIC NATURE HIKE AND LOOKED AT THE STARS AND TOOK PICTURES OF BUGS :(((
+[20:52:22] [Server thread/INFO]: <MayhemFirefly> YEAH
+[20:52:33] [Server thread/INFO]: <pteren> WOA secret cave!!
+[20:52:45] [Server thread/INFO]: <MayhemFirefly> AND THE RAILING PART WAS MORE CREATIVE THAN JUST GETTING UR DUCK WET
+[20:52:53] [Server thread/INFO]: <MayhemFirefly> yea i like that cave
+[20:53:00] [Server thread/INFO]: <pteren> plus YOU STARTED IT
+[20:53:09] [Server thread/INFO]: <MayhemFirefly> i did?
+[20:53:21] [Server thread/INFO]: <pteren> YEA you were feeling me up on the hilltop before we even got back to the van lmao
+[20:53:33] [Server thread/INFO]: <MayhemFirefly> can you blame me
+[20:53:39] [Server thread/INFO]: <pteren> OBVIOUSLY NOT
+[20:54:04] [Server thread/INFO]: <MayhemFirefly> i'd also definitely feel you up nonsexually btw
+[20:54:11] [Server thread/INFO]: <pteren> i know :)
+[20:54:12] [Server thread/INFO]: <MayhemFirefly> cuddling-ly
+[20:54:15] [Server thread/INFO]: <MayhemFirefly> (:
+[20:54:16] [Server thread/INFO]: <pteren> PLS
+[20:54:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=84, y=62, z=-13} class_2338{x=3, y=74, z=-12}
+[20:55:05] [Server thread/INFO]: <MayhemFirefly> there i multiplied ur propagules for u
+[20:55:10] [Server thread/INFO]: <pteren> THX
+[20:55:34] [Server thread/INFO]: <MayhemFirefly> ur so CUTE
+[20:55:38] [Server thread/INFO]: <pteren> eek
+[20:56:43] [Server thread/INFO]: <pteren> i love you
+[20:57:01] [Server thread/INFO]: <MayhemFirefly> I love you too!
+[20:57:05] [Server thread/INFO]: <MayhemFirefly> My turn?
+[20:57:12] [Server thread/INFO]: <pteren> sure :)
+[20:57:20] [Server thread/INFO]: <MayhemFirefly> Do you actually think I could embarrass you in public? >:)
+[20:57:38] [Server thread/INFO]: <pteren> i think you can do anything you put you mind to, babe
+[20:57:47] [Server thread/INFO]: <MayhemFirefly> or i mean. *Do you really think I can't embarrass you in public? >:)
+[20:58:11] [Server thread/INFO]: <pteren> but i dont think you can do it without me first embarrassing YOU several times while you're trying
+[20:58:26] [Server thread/INFO]: <MayhemFirefly> mmmm depends on my mindset tbh
+[20:59:09] [Server thread/INFO]: <MayhemFirefly> agh i need deepslate but i don't feel like mining it
+[20:59:17] [Server thread/INFO]: <pteren> theres plenty in the workshop
+[20:59:19] [Server thread/INFO]: <pteren> help yourself
+[20:59:28] [Server thread/INFO]: <MayhemFirefly> will do
+[20:59:53] [Server thread/INFO]: <MayhemFirefly> is this a spaceship
+[21:00:01] [Server thread/INFO]: <pteren> its a lightning rod
+[21:00:08] [Server thread/INFO]: <pteren> jules designed it
+[21:00:17] [Server thread/INFO]: <MayhemFirefly> 8========D
+[21:00:31] [Server thread/INFO]: <pteren> sigh
+[21:00:34] [Server thread/INFO]: <pteren> ok teenage boy
+[21:00:41] [Server thread/INFO]: <MayhemFirefly> sorry
+[21:00:47] [Server thread/INFO]: <pteren> NO
+[21:00:56] [Server thread/INFO]: <pteren> squirting u with the squirt bottle
+[21:01:10] [Server thread/INFO]: <MayhemFirefly> you should squirt me with something else
+[21:01:36] [Server thread/INFO]: <pteren> u should help me make a bedroom :3
+[21:02:01] [Server thread/INFO]: <MayhemFirefly> im sleepy
+[21:02:06] [Server thread/INFO]: <pteren> irl?
+[21:02:11] [Server thread/INFO]: <MayhemFirefly> yea
+[21:02:26] [Server thread/INFO]: <pteren> wanna log off and call me and make out for a bit and go to sleep?
+[21:02:42] [Server thread/INFO]: <MayhemFirefly> i don't feel like calling but can we text?
+[21:02:47] [Server thread/INFO]: <pteren> ofc <3
+[21:02:59] [Server thread/INFO]: <pteren> FIRST you have to tell me what you think of the workshop
+[21:03:18] [Server thread/INFO]: <MayhemFirefly> i love it
+[21:03:35] [Server thread/INFO]: <MayhemFirefly> i really do
+[21:03:40] [Server thread/INFO]: <pteren> yay :)
+[21:03:49] [Server thread/INFO]: <MayhemFirefly> this corner is perfect
+[21:03:58] [Server thread/INFO]: <pteren> :)
+[21:05:00] [Server thread/INFO]: <pteren> text meeee
+[21:05:02] [Server thread/INFO]: pteren lost connection: Disconnected
+[21:05:02] [Server thread/INFO]: pteren left the game
+[21:05:07] [Server thread/INFO]: MayhemFirefly lost connection: Disconnected
+[21:05:07] [Server thread/INFO]: MayhemFirefly left the game
+[21:05:11] [Server thread/INFO]: Stopping the server
+[21:05:11] [Server thread/INFO]: Stopping server
+[21:05:11] [Server thread/INFO]: Saving players
+[21:05:11] [Server thread/INFO]: Saving worlds
+[21:05:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:05:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:05:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:05:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:05:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:05:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:05:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
