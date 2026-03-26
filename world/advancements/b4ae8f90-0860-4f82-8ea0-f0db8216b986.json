@@ -3359,6 +3359,7 @@
       "minecraft:cow": "2026-02-05 18:33:21 +0000",
       "minecraft:chicken": "2026-02-05 21:37:37 +0000",
       "minecraft:armadillo": "2026-02-06 23:24:03 +0000",
+      "minecraft:horse": "2026-03-26 23:06:26 +0000",
       "minecraft:sheep": "2026-02-05 18:01:24 +0000",
       "minecraft:bee": "2026-02-14 03:53:14 +0000"
     },
@@ -5804,6 +5805,120 @@
   "minecraft:recipes/building_blocks/chiseled_sandstone": {
     "criteria": {
       "has_sandstone_slab": "2026-03-24 20:23:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_chest_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_chest": "2026-03-26 18:56:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed": {
+    "criteria": {
+      "has_purple_wool": "2026-03-26 17:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2026-03-26 19:10:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_lantern_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_lantern": "2026-03-26 20:51:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2026-03-26 17:35:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet": {
+    "criteria": {
+      "has_purple_wool": "2026-03-26 17:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-03-26 21:09:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper_slab": "2026-03-26 18:36:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_carpet": {
+    "criteria": {
+      "has_cyan_wool": "2026-03-26 17:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_banner": {
+    "criteria": {
+      "has_purple_wool": "2026-03-26 17:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper_stairs": "2026-03-26 17:34:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed": {
+    "criteria": {
+      "has_cyan_wool": "2026-03-26 17:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2026-03-26 17:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_banner": {
+    "criteria": {
+      "has_cyan_wool": "2026-03-26 17:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2026-03-26 17:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_chiseled_copper": {
+    "criteria": {
+      "has_oxidized_cut_copper_slab": "2026-03-26 18:36:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2026-03-26 18:30:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2026-03-26 21:53:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2026-03-26 17:15:15 +0000"
     },
     "done": true
   },

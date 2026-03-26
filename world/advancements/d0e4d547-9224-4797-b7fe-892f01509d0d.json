@@ -49,6 +49,7 @@
       "minecraft:skeleton": "2026-02-07 00:12:49 +0000",
       "minecraft:phantom": "2026-02-09 03:06:51 +0000",
       "minecraft:zombified_piglin": "2026-03-06 00:25:13 +0000",
+      "minecraft:witch": "2026-03-26 21:47:57 +0000",
       "minecraft:bogged": "2026-02-07 20:55:57 +0000",
       "minecraft:piglin": "2026-02-11 05:35:32 +0000",
       "minecraft:silverfish": "2026-02-07 21:21:37 +0000",
@@ -4274,6 +4275,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-03-18 03:14:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2026-03-18 03:14:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-03-18 03:14:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_copper_grate": {
     "criteria": {
       "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
@@ -4298,12 +4317,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2026-03-18 03:14:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
     "criteria": {
       "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
@@ -4322,12 +4335,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/moss_carpet": {
-    "criteria": {
-      "has_moss_block": "2026-03-18 03:14:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
     "criteria": {
       "has_waxed_copper_block": "2026-03-18 03:26:12 +0000"
@@ -4340,9 +4347,165 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+  "minecraft:recipes/misc/brown_dye": {
     "criteria": {
-      "has_moss_block": "2026-03-18 03:14:22 +0000"
+      "has_cocoa_beans": "2026-03-26 19:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2026-03-26 19:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_shelf": {
+    "criteria": {
+      "has_stripped_jungle_log": "2026-03-26 19:35:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-03-26 19:35:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2026-03-26 19:35:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_mosaic_slab": {
+    "criteria": {
+      "has_bamboo_mosaic": "2026-03-26 19:57:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_mosaic_stairs": {
+    "criteria": {
+      "has_bamboo_mosaic": "2026-03-26 19:57:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-03-26 21:15:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-03-26 20:55:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_nautilus_armor_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2026-03-26 20:55:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-03-26 21:50:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-03-26 21:09:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-03-26 20:55:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_horse_armor_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_spear_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-03-26 21:50:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-03-26 21:13:52 +0000"
     },
     "done": true
   },
