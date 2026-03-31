@@ -1,0 +1,62 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 64345,
+      "minecraft:walk_one_cm": 12588,
+      "minecraft:leave_game": 1,
+      "minecraft:horse_one_cm": 175,
+      "minecraft:walk_under_water_one_cm": 2038,
+      "minecraft:play_time": 64345,
+      "minecraft:jump": 78,
+      "minecraft:time_since_death": 64345,
+      "minecraft:sprint_one_cm": 4555,
+      "minecraft:total_world_time": 64345,
+      "minecraft:swim_one_cm": 2099,
+      "minecraft:fly_one_cm": 1707051,
+      "minecraft:walk_on_water_one_cm": 903,
+      "minecraft:crouch_one_cm": 684,
+      "minecraft:sneak_time": 7862
+    },
+    "minecraft:used": {
+      "minecraft:oxidized_copper_bulb": 4,
+      "minecraft:prismarine_wall": 1,
+      "minecraft:smooth_quartz_slab": 15,
+      "minecraft:pale_oak_trapdoor": 18,
+      "minecraft:diorite_stairs": 36,
+      "minecraft:pale_oak_shelf": 12,
+      "minecraft:water_bucket": 7,
+      "minecraft:oxidized_chiseled_copper": 1,
+      "minecraft:polished_blackstone_button": 8,
+      "minecraft:glass": 78,
+      "minecraft:dirt": 1,
+      "minecraft:stripped_pale_oak_wood": 33,
+      "minecraft:chiseled_stone_bricks": 77,
+      "minecraft:hay_block": 7,
+      "minecraft:diorite_slab": 2,
+      "minecraft:pale_oak_sign": 3,
+      "minecraft:pale_oak_slab": 1,
+      "minecraft:diorite": 3,
+      "minecraft:debug_stick": 5,
+      "minecraft:stripped_pale_oak_log": 8,
+      "minecraft:gray_wool": 4,
+      "minecraft:pale_oak_fence": 1,
+      "minecraft:oxidized_cut_copper": 1,
+      "minecraft:smooth_quartz_stairs": 76,
+      "minecraft:diorite_wall": 3,
+      "minecraft:pale_oak_button": 5,
+      "minecraft:amethyst_block": 3,
+      "minecraft:pale_oak_stairs": 33,
+      "minecraft:enchanted_golden_apple": 2,
+      "minecraft:end_rod": 9,
+      "minecraft:oxidized_cut_copper_stairs": 19,
+      "minecraft:calcite": 96,
+      "minecraft:yellow_wool": 7,
+      "minecraft:pointed_dripstone": 9
+    },
+    "minecraft:picked_up": {
+      "minecraft:pointed_dripstone": 17,
+      "minecraft:lead": 1
+    }
+  },
+  "DataVersion": 4671
+}
